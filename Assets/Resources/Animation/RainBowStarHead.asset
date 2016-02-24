@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: RainBowStarHead
+  m_EditorClassIdentifier: 
+  wrapMode: 1
+  stopAction: 0
+  length: .833333373
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: 92203cb96c8485b4f855793b95a99951
+    length: .166666672
+    atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
+    index: 33
+  - textureGUID: 4c6f4da00317ce44685078f884ff52be
+    length: .166666672
+    atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
+    index: 34
+  - textureGUID: 79e442c84319c5e4d89eddd45a31c52d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
+    index: 35
+  - textureGUID: 53dd72bd8a0d7014d99e4067af32f795
+    length: .166666672
+    atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
+    index: 36
+  - textureGUID: b90357e57bc0982439a1379a2662f075
+    length: .166666672
+    atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
+    index: 37
+  eventInfos: []
+  speed: 1
+  editorPreviewSize: 256
+  editorScale: 1
+  editorOffset: 0
+  editorSpeed: 1
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

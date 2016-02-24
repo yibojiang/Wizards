@@ -1,0 +1,965 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -997644103, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: GoldenFont01
+  m_EditorClassIdentifier: 
+  lineHeight: 47
+  size: 32
+  pageInfos:
+  - texture: {fileID: 2800000, guid: 498375452e6d6435ea910a9d9fcebee5, type: 3}
+    material: {fileID: 2100000, guid: 38c4fadfdf885446796f6d87ff07e394, type: 2}
+  charInfos:
+  - id: 32
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+    xoffset: 0
+    yoffset: 32
+    xadvance: 16
+    page: 0
+    uv0: {x: 0, y: 1}
+  - id: 125
+    x: 0
+    y: 0
+    width: 12
+    height: 48
+    xoffset: 0
+    yoffset: -3
+    xadvance: 10
+    page: 0
+    uv0: {x: 0, y: .8125}
+  - id: 123
+    x: 12
+    y: 0
+    width: 12
+    height: 48
+    xoffset: 0
+    yoffset: -4
+    xadvance: 10
+    page: 0
+    uv0: {x: .046875, y: .8125}
+  - id: 40
+    x: 24
+    y: 0
+    width: 13
+    height: 48
+    xoffset: 0
+    yoffset: -3
+    xadvance: 11
+    page: 0
+    uv0: {x: .09375, y: .8125}
+  - id: 93
+    x: 37
+    y: 0
+    width: 12
+    height: 47
+    xoffset: 0
+    yoffset: -3
+    xadvance: 11
+    page: 0
+    uv0: {x: .14453125, y: .81640625}
+  - id: 91
+    x: 49
+    y: 0
+    width: 13
+    height: 47
+    xoffset: 0
+    yoffset: -3
+    xadvance: 11
+    page: 0
+    uv0: {x: .19140625, y: .81640625}
+  - id: 41
+    x: 62
+    y: 0
+    width: 13
+    height: 47
+    xoffset: 0
+    yoffset: -3
+    xadvance: 11
+    page: 0
+    uv0: {x: .2421875, y: .81640625}
+  - id: 74
+    x: 75
+    y: 0
+    width: 25
+    height: 42
+    xoffset: 0
+    yoffset: 0
+    xadvance: 24
+    page: 0
+    uv0: {x: .29296875, y: .8359375}
+  - id: 102
+    x: 100
+    y: 0
+    width: 19
+    height: 40
+    xoffset: 0
+    yoffset: 5
+    xadvance: 11
+    page: 0
+    uv0: {x: .390625, y: .84375}
+  - id: 106
+    x: 119
+    y: 0
+    width: 21
+    height: 36
+    xoffset: 0
+    yoffset: 12
+    xadvance: 15
+    page: 0
+    uv0: {x: .46484375, y: .859375}
+  - id: 92
+    x: 140
+    y: 0
+    width: 21
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 20
+    page: 0
+    uv0: {x: .546875, y: .87109375}
+  - id: 64
+    x: 161
+    y: 0
+    width: 33
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 32
+    page: 0
+    uv0: {x: .62890625, y: .87109375}
+  - id: 47
+    x: 194
+    y: 0
+    width: 17
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 15
+    page: 0
+    uv0: {x: .7578125, y: .87109375}
+  - id: 90
+    x: 211
+    y: 0
+    width: 26
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 25
+    page: 0
+    uv0: {x: .82421875, y: .87109375}
+  - id: 89
+    x: 0
+    y: 48
+    width: 29
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 28
+    page: 0
+    uv0: {x: 0, y: .68359375}
+  - id: 88
+    x: 29
+    y: 48
+    width: 41
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 40
+    page: 0
+    uv0: {x: .11328125, y: .68359375}
+  - id: 87
+    x: 70
+    y: 48
+    width: 39
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 37
+    page: 0
+    uv0: {x: .2734375, y: .68359375}
+  - id: 86
+    x: 109
+    y: 48
+    width: 32
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 31
+    page: 0
+    uv0: {x: .42578125, y: .68359375}
+  - id: 85
+    x: 141
+    y: 48
+    width: 40
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 39
+    page: 0
+    uv0: {x: .55078125, y: .68359375}
+  - id: 84
+    x: 181
+    y: 48
+    width: 25
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 23
+    page: 0
+    uv0: {x: .70703125, y: .68359375}
+  - id: 83
+    x: 206
+    y: 48
+    width: 24
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 23
+    page: 0
+    uv0: {x: .8046875, y: .68359375}
+  - id: 82
+    x: 0
+    y: 81
+    width: 36
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 34
+    page: 0
+    uv0: {x: 0, y: .5546875}
+  - id: 81
+    x: 36
+    y: 81
+    width: 31
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 30
+    page: 0
+    uv0: {x: .140625, y: .5546875}
+  - id: 80
+    x: 67
+    y: 81
+    width: 27
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 26
+    page: 0
+    uv0: {x: .26171875, y: .5546875}
+  - id: 79
+    x: 94
+    y: 81
+    width: 24
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 22
+    page: 0
+    uv0: {x: .3671875, y: .5546875}
+  - id: 78
+    x: 118
+    y: 81
+    width: 42
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 40
+    page: 0
+    uv0: {x: .4609375, y: .5546875}
+  - id: 77
+    x: 160
+    y: 81
+    width: 45
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 44
+    page: 0
+    uv0: {x: .625, y: .5546875}
+  - id: 76
+    x: 205
+    y: 81
+    width: 31
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 30
+    page: 0
+    uv0: {x: .80078125, y: .5546875}
+  - id: 75
+    x: 0
+    y: 114
+    width: 36
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 34
+    page: 0
+    uv0: {x: 0, y: .42578125}
+  - id: 73
+    x: 36
+    y: 114
+    width: 21
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 20
+    page: 0
+    uv0: {x: .140625, y: .42578125}
+  - id: 72
+    x: 57
+    y: 114
+    width: 40
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 38
+    page: 0
+    uv0: {x: .22265625, y: .42578125}
+  - id: 71
+    x: 97
+    y: 114
+    width: 23
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 22
+    page: 0
+    uv0: {x: .37890625, y: .42578125}
+  - id: 70
+    x: 120
+    y: 114
+    width: 25
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 23
+    page: 0
+    uv0: {x: .46875, y: .42578125}
+  - id: 69
+    x: 145
+    y: 114
+    width: 23
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 22
+    page: 0
+    uv0: {x: .56640625, y: .42578125}
+  - id: 68
+    x: 168
+    y: 114
+    width: 28
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 27
+    page: 0
+    uv0: {x: .65625, y: .42578125}
+  - id: 67
+    x: 196
+    y: 114
+    width: 24
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 23
+    page: 0
+    uv0: {x: .765625, y: .42578125}
+  - id: 66
+    x: 220
+    y: 114
+    width: 30
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 28
+    page: 0
+    uv0: {x: .859375, y: .42578125}
+  - id: 65
+    x: 0
+    y: 147
+    width: 30
+    height: 33
+    xoffset: 0
+    yoffset: 0
+    xadvance: 28
+    page: 0
+    uv0: {x: 0, y: .296875}
+  - id: 36
+    x: 30
+    y: 147
+    width: 13
+    height: 31
+    xoffset: 0
+    yoffset: 7
+    xadvance: 12
+    page: 0
+    uv0: {x: .1171875, y: .3046875}
+  - id: 37
+    x: 43
+    y: 147
+    width: 24
+    height: 29
+    xoffset: 0
+    yoffset: 6
+    xadvance: 23
+    page: 0
+    uv0: {x: .16796875, y: .3125}
+  - id: 107
+    x: 67
+    y: 147
+    width: 21
+    height: 29
+    xoffset: 0
+    yoffset: 4
+    xadvance: 15
+    page: 0
+    uv0: {x: .26171875, y: .3125}
+  - id: 104
+    x: 88
+    y: 147
+    width: 21
+    height: 29
+    xoffset: 0
+    yoffset: 4
+    xadvance: 15
+    page: 0
+    uv0: {x: .34375, y: .3125}
+  - id: 124
+    x: 109
+    y: 147
+    width: 3
+    height: 28
+    xoffset: 0
+    yoffset: 5
+    xadvance: 2
+    page: 0
+    uv0: {x: .42578125, y: .31640625}
+  - id: 108
+    x: 112
+    y: 147
+    width: 16
+    height: 28
+    xoffset: 0
+    yoffset: 5
+    xadvance: 8
+    page: 0
+    uv0: {x: .4375, y: .31640625}
+  - id: 98
+    x: 128
+    y: 147
+    width: 20
+    height: 28
+    xoffset: 0
+    yoffset: 5
+    xadvance: 14
+    page: 0
+    uv0: {x: .5, y: .31640625}
+  - id: 122
+    x: 148
+    y: 147
+    width: 21
+    height: 27
+    xoffset: 0
+    yoffset: 21
+    xadvance: 13
+    page: 0
+    uv0: {x: .578125, y: .3203125}
+  - id: 121
+    x: 169
+    y: 147
+    width: 24
+    height: 27
+    xoffset: 0
+    yoffset: 21
+    xadvance: 16
+    page: 0
+    uv0: {x: .66015625, y: .3203125}
+  - id: 103
+    x: 193
+    y: 147
+    width: 22
+    height: 27
+    xoffset: 0
+    yoffset: 21
+    xadvance: 16
+    page: 0
+    uv0: {x: .75390625, y: .3203125}
+  - id: 38
+    x: 215
+    y: 147
+    width: 20
+    height: 25
+    xoffset: 0
+    yoffset: 8
+    xadvance: 19
+    page: 0
+    uv0: {x: .83984375, y: .328125}
+  - id: 112
+    x: 0
+    y: 180
+    width: 23
+    height: 25
+    xoffset: 0
+    yoffset: 21
+    xadvance: 15
+    page: 0
+    uv0: {x: 0, y: .19921875}
+  - id: 113
+    x: 23
+    y: 180
+    width: 23
+    height: 23
+    xoffset: 0
+    yoffset: 21
+    xadvance: 15
+    page: 0
+    uv0: {x: .08984375, y: .20703125}
+  - id: 63
+    x: 46
+    y: 180
+    width: 12
+    height: 22
+    xoffset: 0
+    yoffset: 11
+    xadvance: 10
+    page: 0
+    uv0: {x: .1796875, y: .2109375}
+  - id: 33
+    x: 58
+    y: 180
+    width: 5
+    height: 22
+    xoffset: 0
+    yoffset: 11
+    xadvance: 3
+    page: 0
+    uv0: {x: .2265625, y: .2109375}
+  - id: 116
+    x: 63
+    y: 180
+    width: 19
+    height: 22
+    xoffset: 0
+    yoffset: 11
+    xadvance: 11
+    page: 0
+    uv0: {x: .24609375, y: .2109375}
+  - id: 100
+    x: 82
+    y: 180
+    width: 23
+    height: 22
+    xoffset: 0
+    yoffset: 11
+    xadvance: 15
+    page: 0
+    uv0: {x: .3203125, y: .2109375}
+  - id: 55
+    x: 105
+    y: 180
+    width: 12
+    height: 21
+    xoffset: 0
+    yoffset: 12
+    xadvance: 11
+    page: 0
+    uv0: {x: .41015625, y: .21484375}
+  - id: 53
+    x: 117
+    y: 180
+    width: 13
+    height: 21
+    xoffset: 0
+    yoffset: 12
+    xadvance: 12
+    page: 0
+    uv0: {x: .45703125, y: .21484375}
+  - id: 52
+    x: 130
+    y: 180
+    width: 15
+    height: 21
+    xoffset: 0
+    yoffset: 12
+    xadvance: 14
+    page: 0
+    uv0: {x: .5078125, y: .21484375}
+  - id: 49
+    x: 145
+    y: 180
+    width: 10
+    height: 21
+    xoffset: 0
+    yoffset: 12
+    xadvance: 8
+    page: 0
+    uv0: {x: .56640625, y: .21484375}
+  - id: 35
+    x: 155
+    y: 180
+    width: 15
+    height: 20
+    xoffset: 0
+    yoffset: 13
+    xadvance: 13
+    page: 0
+    uv0: {x: .60546875, y: .21875}
+  - id: 48
+    x: 170
+    y: 180
+    width: 13
+    height: 20
+    xoffset: 0
+    yoffset: 13
+    xadvance: 12
+    page: 0
+    uv0: {x: .6640625, y: .21875}
+  - id: 57
+    x: 183
+    y: 180
+    width: 13
+    height: 20
+    xoffset: 0
+    yoffset: 13
+    xadvance: 11
+    page: 0
+    uv0: {x: .71484375, y: .21875}
+  - id: 56
+    x: 196
+    y: 180
+    width: 13
+    height: 20
+    xoffset: 0
+    yoffset: 13
+    xadvance: 12
+    page: 0
+    uv0: {x: .765625, y: .21875}
+  - id: 54
+    x: 209
+    y: 180
+    width: 13
+    height: 20
+    xoffset: 0
+    yoffset: 13
+    xadvance: 11
+    page: 0
+    uv0: {x: .81640625, y: .21875}
+  - id: 51
+    x: 222
+    y: 180
+    width: 14
+    height: 20
+    xoffset: 0
+    yoffset: 13
+    xadvance: 12
+    page: 0
+    uv0: {x: .8671875, y: .21875}
+  - id: 50
+    x: 236
+    y: 180
+    width: 14
+    height: 20
+    xoffset: 0
+    yoffset: 13
+    xadvance: 13
+    page: 0
+    uv0: {x: .921875, y: .21875}
+  - id: 105
+    x: 0
+    y: 205
+    width: 15
+    height: 20
+    xoffset: 0
+    yoffset: 13
+    xadvance: 9
+    page: 0
+    uv0: {x: 0, y: .12109375}
+  - id: 119
+    x: 15
+    y: 205
+    width: 26
+    height: 19
+    xoffset: 0
+    yoffset: 14
+    xadvance: 20
+    page: 0
+    uv0: {x: .05859375, y: .125}
+  - id: 118
+    x: 41
+    y: 205
+    width: 20
+    height: 19
+    xoffset: 0
+    yoffset: 14
+    xadvance: 14
+    page: 0
+    uv0: {x: .16015625, y: .125}
+  - id: 59
+    x: 61
+    y: 205
+    width: 6
+    height: 18
+    xoffset: 0
+    yoffset: 21
+    xadvance: 5
+    page: 0
+    uv0: {x: .23828125, y: .12890625}
+  - id: 42
+    x: 67
+    y: 205
+    width: 14
+    height: 16
+    xoffset: 0
+    yoffset: 0
+    xadvance: 12
+    page: 0
+    uv0: {x: .26171875, y: .13671875}
+  - id: 43
+    x: 81
+    y: 205
+    width: 14
+    height: 14
+    xoffset: 0
+    yoffset: 19
+    xadvance: 13
+    page: 0
+    uv0: {x: .31640625, y: .14453125}
+  - id: 62
+    x: 95
+    y: 205
+    width: 14
+    height: 14
+    xoffset: 0
+    yoffset: 19
+    xadvance: 13
+    page: 0
+    uv0: {x: .37109375, y: .14453125}
+  - id: 60
+    x: 109
+    y: 205
+    width: 14
+    height: 14
+    xoffset: 0
+    yoffset: 19
+    xadvance: 13
+    page: 0
+    uv0: {x: .42578125, y: .14453125}
+  - id: 39
+    x: 123
+    y: 205
+    width: 4
+    height: 14
+    xoffset: 0
+    yoffset: 0
+    xadvance: 3
+    page: 0
+    uv0: {x: .48046875, y: .14453125}
+  - id: 96
+    x: 127
+    y: 205
+    width: 4
+    height: 14
+    xoffset: 0
+    yoffset: 0
+    xadvance: 3
+    page: 0
+    uv0: {x: .49609375, y: .14453125}
+  - id: 34
+    x: 131
+    y: 205
+    width: 9
+    height: 14
+    xoffset: 0
+    yoffset: 0
+    xadvance: 8
+    page: 0
+    uv0: {x: .51171875, y: .14453125}
+  - id: 115
+    x: 140
+    y: 205
+    width: 23
+    height: 14
+    xoffset: -2
+    yoffset: 19
+    xadvance: 14
+    page: 0
+    uv0: {x: .546875, y: .14453125}
+  - id: 94
+    x: 163
+    y: 205
+    width: 14
+    height: 13
+    xoffset: 0
+    yoffset: 0
+    xadvance: 12
+    page: 0
+    uv0: {x: .63671875, y: .1484375}
+  - id: 120
+    x: 177
+    y: 205
+    width: 22
+    height: 13
+    xoffset: 0
+    yoffset: 21
+    xadvance: 16
+    page: 0
+    uv0: {x: .69140625, y: .1484375}
+  - id: 114
+    x: 199
+    y: 205
+    width: 23
+    height: 13
+    xoffset: -2
+    yoffset: 20
+    xadvance: 14
+    page: 0
+    uv0: {x: .77734375, y: .1484375}
+  - id: 110
+    x: 222
+    y: 205
+    width: 23
+    height: 13
+    xoffset: 0
+    yoffset: 20
+    xadvance: 15
+    page: 0
+    uv0: {x: .8671875, y: .1484375}
+  - id: 109
+    x: 0
+    y: 225
+    width: 31
+    height: 13
+    xoffset: 0
+    yoffset: 20
+    xadvance: 23
+    page: 0
+    uv0: {x: 0, y: .0703125}
+  - id: 58
+    x: 31
+    y: 225
+    width: 5
+    height: 12
+    xoffset: 0
+    yoffset: 21
+    xadvance: 3
+    page: 0
+    uv0: {x: .12109375, y: .07421875}
+  - id: 117
+    x: 36
+    y: 225
+    width: 21
+    height: 12
+    xoffset: 0
+    yoffset: 21
+    xadvance: 15
+    page: 0
+    uv0: {x: .140625, y: .07421875}
+  - id: 111
+    x: 57
+    y: 225
+    width: 22
+    height: 12
+    xoffset: 0
+    yoffset: 21
+    xadvance: 15
+    page: 0
+    uv0: {x: .22265625, y: .07421875}
+  - id: 101
+    x: 79
+    y: 225
+    width: 20
+    height: 12
+    xoffset: 0
+    yoffset: 21
+    xadvance: 12
+    page: 0
+    uv0: {x: .30859375, y: .07421875}
+  - id: 99
+    x: 99
+    y: 225
+    width: 20
+    height: 12
+    xoffset: 0
+    yoffset: 21
+    xadvance: 12
+    page: 0
+    uv0: {x: .38671875, y: .07421875}
+  - id: 97
+    x: 119
+    y: 225
+    width: 22
+    height: 12
+    xoffset: 0
+    yoffset: 21
+    xadvance: 15
+    page: 0
+    uv0: {x: .46484375, y: .07421875}
+  - id: 44
+    x: 141
+    y: 225
+    width: 6
+    height: 10
+    xoffset: 0
+    yoffset: 27
+    xadvance: 5
+    page: 0
+    uv0: {x: .55078125, y: .08203125}
+  - id: 61
+    x: 147
+    y: 225
+    width: 14
+    height: 9
+    xoffset: 0
+    yoffset: 22
+    xadvance: 13
+    page: 0
+    uv0: {x: .57421875, y: .0859375}
+  - id: 46
+    x: 161
+    y: 225
+    width: 5
+    height: 5
+    xoffset: 0
+    yoffset: 28
+    xadvance: 3
+    page: 0
+    uv0: {x: .62890625, y: .1015625}
+  - id: 95
+    x: 166
+    y: 225
+    width: 26
+    height: 4
+    xoffset: 0
+    yoffset: 29
+    xadvance: 24
+    page: 0
+    uv0: {x: .6484375, y: .10546875}
+  - id: 45
+    x: 192
+    y: 225
+    width: 14
+    height: 4
+    xoffset: 0
+    yoffset: 24
+    xadvance: 13
+    page: 0
+    uv0: {x: .75, y: .10546875}
+  kernings: []
+  inAtlas: 0
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

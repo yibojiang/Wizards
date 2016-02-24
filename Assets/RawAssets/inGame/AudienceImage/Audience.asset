@@ -1,0 +1,467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Audience
+  m_EditorClassIdentifier: 
+  elements:
+  - name: 1.Fat Beer Guy
+    originalWidth: 118
+    originalHeight: 128
+    trimRect:
+      serializedVersion: 2
+      x: 24
+      y: 13
+      width: 64
+      height: 99
+    coords:
+      serializedVersion: 2
+      x: .00390625
+      y: .060546875
+      width: .125
+      height: .193359375
+    rotated: 0
+  - name: 10. Skellet Warrior body
+    originalWidth: 142
+    originalHeight: 157
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 24
+      width: 91
+      height: 119
+    coords:
+      serializedVersion: 2
+      x: .00390625
+      y: .484375
+      width: .177734375
+      height: .232421875
+    rotated: 0
+  - name: 10. Skellet Warrior hand
+    originalWidth: 142
+    originalHeight: 157
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 24
+      width: 91
+      height: 118
+    coords:
+      serializedVersion: 2
+      x: .185546875
+      y: .486328125
+      width: .177734375
+      height: .23046875
+    rotated: 0
+  - name: 11.Tower Guard
+    originalWidth: 91
+    originalHeight: 159
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 10
+      width: 72
+      height: 141
+    coords:
+      serializedVersion: 2
+      x: .00390625
+      y: .720703125
+      width: .140625
+      height: .275390625
+    rotated: 0
+  - name: 12.Wave lady body
+    originalWidth: 71
+    originalHeight: 137
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 17
+      width: 43
+      height: 106
+    coords:
+      serializedVersion: 2
+      x: .91015625
+      y: .509765625
+      width: .083984375
+      height: .20703125
+    rotated: 0
+  - name: 12.Wave lady hand
+    originalWidth: 71
+    originalHeight: 137
+    trimRect:
+      serializedVersion: 2
+      x: 49
+      y: 23
+      width: 15
+      height: 27
+    coords:
+      serializedVersion: 2
+      x: .865234375
+      y: .201171875
+      width: .029296875
+      height: .052734375
+    rotated: 0
+  - name: 14. Waving Guard body
+    originalWidth: 180
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 71
+      y: 27
+      width: 72
+      height: 125
+    coords:
+      serializedVersion: 2
+      x: .734375
+      y: .751953125
+      width: .140625
+      height: .244140625
+    rotated: 0
+  - name: 14. Waving Guard left
+    originalWidth: 180
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 108
+      y: 52
+      width: 72
+      height: 68
+    coords:
+      serializedVersion: 2
+      x: .423828125
+      y: .12109375
+      width: .140625
+      height: .1328125
+    rotated: 0
+  - name: 14. Waving Guard right
+    originalWidth: 180
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 16
+      y: 30
+      width: 139
+      height: 115
+    coords:
+      serializedVersion: 2
+      x: .634765625
+      y: .4921875
+      width: .271484375
+      height: .224609375
+    rotated: 0
+  - name: 15. Waving Guard 2 1
+    originalWidth: 170
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 32
+      width: 136
+      height: 110
+    coords:
+      serializedVersion: 2
+      x: .578125
+      y: .265625
+      width: .265625
+      height: .21484375
+    rotated: 0
+  - name: 15. Waving Guard 2 2
+    originalWidth: 170
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 24
+      width: 135
+      height: 118
+    coords:
+      serializedVersion: 2
+      x: .3671875
+      y: .486328125
+      width: .263671875
+      height: .23046875
+    rotated: 0
+  - name: 17. Waving Soldier
+    originalWidth: 145
+    originalHeight: 167
+    trimRect:
+      serializedVersion: 2
+      x: 58
+      y: 18
+      width: 53
+      height: 136
+    coords:
+      serializedVersion: 2
+      x: .1484375
+      y: .73046875
+      width: .103515625
+      height: .265625
+    rotated: 0
+  - name: 17. Waving Soldier arm
+    originalWidth: 145
+    originalHeight: 167
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 61
+      width: 48
+      height: 14
+    coords:
+      serializedVersion: 2
+      x: .87890625
+      y: .755859375
+      width: .09375
+      height: .02734375
+    rotated: 0
+  - name: 17. Waving Soldier hand
+    originalWidth: 145
+    originalHeight: 167
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 29
+      width: 40
+      height: 47
+    coords:
+      serializedVersion: 2
+      x: .646484375
+      y: .162109375
+      width: .078125
+      height: .091796875
+    rotated: 0
+  - name: 18. Waving wizard
+    originalWidth: 150
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 35
+      y: 23
+      width: 51
+      height: 107
+    coords:
+      serializedVersion: 2
+      x: .87890625
+      y: .787109375
+      width: .099609375
+      height: .208984375
+    rotated: 0
+  - name: 18. Waving wizard hand
+    originalWidth: 150
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 91
+      y: 23
+      width: 28
+      height: 58
+    coords:
+      serializedVersion: 2
+      x: .587890625
+      y: .140625
+      width: .0546875
+      height: .11328125
+    rotated: 0
+  - name: 3.beer beer dudes
+    originalWidth: 109
+    originalHeight: 118
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 0
+      width: 90
+      height: 113
+    coords:
+      serializedVersion: 2
+      x: .3984375
+      y: .259765625
+      width: .17578125
+      height: .220703125
+    rotated: 0
+  - name: 4.Mister Pee
+    originalWidth: 60
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 8
+      y: 4
+      width: 41
+      height: 95
+    coords:
+      serializedVersion: 2
+      x: .1328125
+      y: .068359375
+      width: .080078125
+      height: .185546875
+    rotated: 0
+  - name: 5.Sheppard Group man
+    originalWidth: 99
+    originalHeight: 140
+    trimRect:
+      serializedVersion: 2
+      x: 16
+      y: 6
+      width: 73
+      height: 126
+    coords:
+      serializedVersion: 2
+      x: .587890625
+      y: .75
+      width: .142578125
+      height: .24609375
+    rotated: 0
+  - name: 6.Sheppard Group sheep
+    originalWidth: 50
+    originalHeight: 53
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 5
+      width: 34
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .794921875
+      y: .171875
+      width: .06640625
+      height: .08203125
+    rotated: 0
+  - name: 7.Sheppard Group dog
+    originalWidth: 48
+    originalHeight: 54
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 3
+      width: 32
+      height: 44
+    coords:
+      serializedVersion: 2
+      x: .728515625
+      y: .16796875
+      width: .0625
+      height: .0859375
+    rotated: 0
+  - name: 8.Gorilla Lolipop 1
+    originalWidth: 113
+    originalHeight: 170
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 37
+      width: 99
+      height: 113
+    coords:
+      serializedVersion: 2
+      x: .201171875
+      y: .259765625
+      width: .193359375
+      height: .220703125
+    rotated: 0
+  - name: 8.Gorilla Lolipop 2
+    originalWidth: 113
+    originalHeight: 170
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 41
+      width: 99
+      height: 114
+    coords:
+      serializedVersion: 2
+      x: .00390625
+      y: .2578125
+      width: .193359375
+      height: .22265625
+    rotated: 0
+  - name: 9.Death
+    originalWidth: 221
+    originalHeight: 157
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 19
+      width: 87
+      height: 129
+    coords:
+      serializedVersion: 2
+      x: .255859375
+      y: .744140625
+      width: .169921875
+      height: .251953125
+    rotated: 0
+  - name: 9.Death wing
+    originalWidth: 221
+    originalHeight: 157
+    trimRect:
+      serializedVersion: 2
+      x: 99
+      y: 76
+      width: 104
+      height: 76
+    coords:
+      serializedVersion: 2
+      x: .216796875
+      y: .10546875
+      width: .203125
+      height: .1484375
+    rotated: 0
+  - name: Special Audience Belmondo anime1
+    originalWidth: 12
+    originalHeight: 65
+    trimRect:
+      serializedVersion: 2
+      x: 2
+      y: 0
+      width: 8
+      height: 61
+    coords:
+      serializedVersion: 2
+      x: .568359375
+      y: .134765625
+      width: .015625
+      height: .119140625
+    rotated: 0
+  - name: Special Audience Belmondo anime2
+    originalWidth: 124
+    originalHeight: 157
+    trimRect:
+      serializedVersion: 2
+      x: 21
+      y: 22
+      width: 79
+      height: 127
+    coords:
+      serializedVersion: 2
+      x: .4296875
+      y: .748046875
+      width: .154296875
+      height: .248046875
+    rotated: 0
+  - name: Special Audience Hellboy
+    originalWidth: 108
+    originalHeight: 135
+    trimRect:
+      serializedVersion: 2
+      x: 15
+      y: 13
+      width: 69
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .84765625
+      y: .267578125
+      width: .134765625
+      height: .212890625
+    rotated: 0
+  material: {fileID: 2100000, guid: 12a3b95999d004e7d84bb9a7a58ee09b, type: 2}
+  texture: {fileID: 2800000, guid: 16facef885e2b407db1707d36042f19a, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

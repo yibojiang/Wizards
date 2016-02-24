@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: usersignfairy
+  m_EditorClassIdentifier: 
+  wrapMode: 4
+  stopAction: 0
+  length: .5
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: 76dc43174bef443e49d7c9cb802d9e5f
+    length: .166666672
+    atlas: {fileID: 11400000, guid: b85f72d1f0ce940d8aef3b554f900400, type: 2}
+    index: 17
+  - textureGUID: 643b6b624a88d4884b2ddafbf7f7c43b
+    length: .166666672
+    atlas: {fileID: 11400000, guid: b85f72d1f0ce940d8aef3b554f900400, type: 2}
+    index: 18
+  - textureGUID: 6cff758c4b83f462689bea362cb733cd
+    length: .166666672
+    atlas: {fileID: 11400000, guid: b85f72d1f0ce940d8aef3b554f900400, type: 2}
+    index: 19
+  eventInfos: []
+  speed: 5
+  editorPreviewSize: 256
+  editorScale: 1
+  editorOffset: 0
+  editorSpeed: 5
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

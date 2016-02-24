@@ -1,0 +1,4842 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: StageManager_original
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.81037521, y: 10.9085865, z: -1.48168945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edeacd48727ab44aabcad439f094826e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageInfo:
+  - title: Stage 2
+    subTitle: The Magical Concert
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .100000001
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage0&1&2_Background_0
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: background0
+      atlasIndex: 3
+      layerType: 0
+      objType: 0
+    - name: Stage0&1&2_Background_1
+      position: {x: 0, y: 30, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: background0
+      atlasIndex: 3
+      layerType: 0
+      objType: 0
+    - name: Stage0&1&2_BgCloud_2
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 1
+      objType: 0
+    - name: Stage0&1&2_BgCloud_3
+      position: {x: 0, y: -9.81251144, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 1
+      objType: 0
+    - name: Stage0&1&2_Castle01_4
+      position: {x: 0, y: 48, z: 0}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 18
+      layerType: 2
+      objType: 0
+    - name: Stage0&1&2_Castle01_5
+      position: {x: 1.01849604, y: 2.49411011, z: -1}
+      scale: {x: 1.20000005, y: 1}
+      eulerAngles: 350
+      atlas: Area01
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage0&1&2_Castle01_6
+      position: {x: .825496078, y: -5.99790382, z: -1}
+      scale: {x: 1.20000005, y: 1}
+      eulerAngles: 20
+      atlas: Area01
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage0&1&2_Castle01_7
+      position: {x: -8.13055229, y: 4.92749023, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage0&1&2_Castle01_8
+      position: {x: -8.13055229, y: 40.3535385, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage0&1&2_Castle02_9
+      position: {x: -9, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage0&1&2_Castle02_10
+      position: {x: -9, y: 30, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage0&1&2_Castle02_11
+      position: {x: -9, y: 60, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage0&1&2_Castle02_12
+      position: {x: 9, y: 0, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage0&1&2_Castle02_13
+      position: {x: 9, y: -30, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage0&1&2_Castle02_14
+      position: {x: -9, y: -30, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage0&1&2_Castle02_15
+      position: {x: 9, y: 30, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage0&1&2_Castle02_16
+      position: {x: 9, y: 60, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage0&1&2_Castle03_17
+      position: {x: 9.62651825, y: -7.34536219, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 13
+      layerType: 4
+      objType: 0
+    - name: Stage0&1&2_Platform_18
+      position: {x: 0, y: -15.2009401, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 10
+      layerType: 5
+      objType: 0
+    - name: Stage0&1&2_Castle04_19
+      position: {x: -3.053725, y: 84.0446167, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 1
+      layerType: 6
+      objType: 0
+    - name: Stage0&1&2_Castle04_20
+      position: {x: .0386578999, y: 56.1399612, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 2
+      layerType: 6
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage0&1&2_BgCloud_2
+      position: {x: 1.97432399, y: 3.80142403, z: 2}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage0&1&2_BgCloud_2
+      position: {x: -.528946877, y: 8.08526897, z: 5}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Star
+    - parentName: Stage0&1&2_Castle01_4
+      position: {x: 0, y: -7.59499502, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 335.000092
+      objType: 0
+      prefabName: Clockpart
+    - parentName: Stage0&1&2_Castle01_7
+      position: {x: 15.5451403, y: 17.1684093, z: 1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect05
+    - parentName: Stage0&1&2_Castle01_7
+      position: {x: .381949395, y: -.0673480034, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 350
+      objType: 0
+      prefabName: smallBridge01
+    - parentName: Stage0&1&2_Castle01_7
+      position: {x: 18.2634392, y: -9.94749832, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 10
+      objType: 0
+      prefabName: smallBridge02
+    - parentName: Stage0&1&2_Castle01_7
+      position: {x: 14.7382698, y: 16.8720894, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 10
+      objType: 0
+      prefabName: tower01
+    - parentName: Stage0&1&2_Castle01_8
+      position: {x: -2.36961198, y: -7.60860395, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 350
+      objType: 0
+      prefabName: smallBridge01
+    - parentName: Stage0&1&2_Castle01_8
+      position: {x: 21.5867691, y: 8.50597382, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 10
+      objType: 0
+      prefabName: smallBridge02
+    - parentName: Stage0&1&2_Castle01_8
+      position: {x: 1.61221099, y: 20.1794395, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 350
+      objType: 0
+      prefabName: tower01
+    - parentName: Stage0&1&2_Castle02_9
+      position: {x: 0, y: 12.2329597, z: -1}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows01
+    - parentName: Stage0&1&2_Castle02_9
+      position: {x: .724246025, y: 3.77734494, z: -1}
+      scale: {x: .5, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows01
+    - parentName: Stage0&1&2_Castle02_9
+      position: {x: 19.4285793, y: 1.30365598, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows01
+    - parentName: Stage0&1&2_Castle02_9
+      position: {x: -1.43423104, y: -1.07771897, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows02
+    - parentName: Stage0&1&2_Castle02_9
+      position: {x: 17.1394501, y: .524454474, z: -1}
+      scale: {x: .600000024, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows02
+    - parentName: Stage0&1&2_Castle02_9
+      position: {x: 17.7188492, y: 8.3463192, z: -1}
+      scale: {x: -.600000024, y: .800000012}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows02
+    - parentName: Stage0&1&2_Castle02_10
+      position: {x: .2297602, y: 9.4137764, z: -1}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows01
+    - parentName: Stage0&1&2_Castle02_10
+      position: {x: 18.3603096, y: 2.551018, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows01
+    - parentName: Stage0&1&2_Castle02_16
+      position: {x: 3.23765802, y: -56.2388687, z: 11}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect09
+    - parentName: Stage0&1&2_Castle03_17
+      position: {x: 1.02216101, y: -2.62776899, z: 5}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect03
+    startHeight: 60
+    endHeight: 60
+  - title: Stage 3
+    subTitle: Multi Tap, Oh Multi Tap !
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .00999999978
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage3_Castle01_0
+      position: {x: -.1180062, y: 96.4031067, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 10
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_1
+      position: {x: 1.090415, y: 110.890404, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 356
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_2
+      position: {x: .207238197, y: 188.495895, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 21
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_3
+      position: {x: .0415475406, y: 137.571106, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 356
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_4
+      position: {x: -.326983511, y: 131.748398, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 10
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_5
+      position: {x: 1.91568005, y: 159.012207, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 356
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_6
+      position: {x: -.1237102, y: 165.457596, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 10
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_7
+      position: {x: .581062317, y: 212.515503, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 356
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_8
+      position: {x: .550125718, y: 223.903397, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 10
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_9
+      position: {x: -.900744915, y: 236.119705, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_10
+      position: {x: .450909108, y: 245.1595, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 10
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_11
+      position: {x: -.240964904, y: 262.502502, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 350
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_12
+      position: {x: 0, y: 278.95639, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 15
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle01_13
+      position: {x: -5.10865402, y: 288, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 16
+      layerType: 2
+      objType: 0
+    - name: Stage3_Castle02_14
+      position: {x: .361381501, y: 153.726807, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_15
+      position: {x: -9, y: 90, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_16
+      position: {x: -9, y: 150, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_17
+      position: {x: -9, y: 120, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_18
+      position: {x: -9, y: 180, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_19
+      position: {x: -9, y: 240, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_20
+      position: {x: -9, y: 210, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_21
+      position: {x: -9, y: 270, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_22
+      position: {x: -9, y: 300, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_23
+      position: {x: -9, y: 360, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_24
+      position: {x: -9, y: 330, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_25
+      position: {x: 9, y: 270, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_26
+      position: {x: 9, y: 90, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_27
+      position: {x: 9, y: 120, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_28
+      position: {x: 9, y: 150, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_29
+      position: {x: 9, y: 180, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_30
+      position: {x: 9, y: 240, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_31
+      position: {x: 9, y: 210, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_32
+      position: {x: 9, y: 300, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_33
+      position: {x: 9, y: 330, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle02_34
+      position: {x: 9, y: 360, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage3_Castle03_35
+      position: {x: 0, y: 113.018204, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 5.00000095
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_36
+      position: {x: .418018788, y: 149.155594, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 352
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_37
+      position: {x: .284363687, y: 172.594299, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 350
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_38
+      position: {x: 1.23335302, y: 196.639099, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 5.00000095
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_39
+      position: {x: -.359847993, y: 208.869202, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 350
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_40
+      position: {x: .388406307, y: 235.537704, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 16
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_41
+      position: {x: .913009584, y: 302.814911, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 10
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_42
+      position: {x: .144842505, y: 319.296906, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_43
+      position: {x: .443727493, y: 346.681885, z: 0}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 350
+      atlas: Area01
+      atlasIndex: 16
+      layerType: 4
+      objType: 0
+    - name: Stage3_Castle03_44
+      position: {x: 8.79787254, y: 388.582306, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage3_Castle01_12
+      position: {x: -3.59010005, y: 3.79776001, z: -.100000001}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 5.Sheppard Group man
+    - parentName: Stage3_Castle01_12
+      position: {x: -5.43209887, y: 2.65164208, z: -.100000001}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 6.Sheppard Group sheep
+    - parentName: Stage3_Castle01_12
+      position: {x: -6.44229507, y: 2.65164208, z: -.100000001}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 6.Sheppard Group sheep
+    - parentName: Stage3_Castle01_12
+      position: {x: -1.72773802, y: 2.65164208, z: -.100000001}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 7.Sheppard Group dog
+    - parentName: Stage3_Castle01_12
+      position: {x: 4.51951599, y: 4.1723628, z: -.0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 21.Special Audience Belmondo
+    - parentName: Stage3_Castle02_19
+      position: {x: -.253372192, y: 0, z: -1}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows01
+    - parentName: Stage3_Castle02_19
+      position: {x: -.913536072, y: -9.64852905, z: -1}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows01
+    - parentName: Stage3_Castle02_19
+      position: {x: -.28315261, y: 11.3692904, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows02
+    - parentName: Stage3_Castle02_30
+      position: {x: .206071898, y: -6.34771681, z: -1}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows01
+    - parentName: Stage3_Castle02_30
+      position: {x: -.295938492, y: 6.86248779, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Windows02
+    - parentName: Stage3_Castle03_35
+      position: {x: -3.68386793, y: 1.76938295, z: 5}
+      scale: {x: -.666666687, y: .666666687}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect01
+    startHeight: 360
+    endHeight: 360
+  - title: Stage 4
+    subTitle: Test
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .00999999978
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage4_Castle01_0
+      position: {x: 6.70014286, y: 303.969086, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_1
+      position: {x: -5.98152304, y: 373.041412, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_2
+      position: {x: 7.95222807, y: 374.304901, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_3
+      position: {x: -7.26676893, y: 380.421814, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_4
+      position: {x: 7.01706982, y: 380.060608, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_5
+      position: {x: 7.34416819, y: 392.352112, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_6
+      position: {x: -7.45513201, y: 387.590607, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_7
+      position: {x: 4.96935797, y: 383.483612, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_8
+      position: {x: 7.44362593, y: 384.797089, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 35.3905792
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_9
+      position: {x: 7.67677212, y: 388.029999, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 22.7703609
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_10
+      position: {x: -8.23755455, y: 394.760498, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 321.61319
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_11
+      position: {x: -6.3170619, y: 402.101013, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_12
+      position: {x: -7.02835703, y: 409.953705, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_13
+      position: {x: 6.69960308, y: 405.458313, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_14
+      position: {x: 6.75860691, y: 397.471802, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_15
+      position: {x: 6.99169779, y: 413.309998, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_16
+      position: {x: -4.32544518, y: 407.620605, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_17
+      position: {x: -8.45141411, y: 419.337891, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_18
+      position: {x: -8.36978054, y: 429.478394, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_19
+      position: {x: -8.52711487, y: 437.262512, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_20
+      position: {x: -6.89417124, y: 433.277008, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 335.715393
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_21
+      position: {x: -7.90610123, y: 426.053497, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 319.862
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_22
+      position: {x: 6.99169779, y: 419.350311, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle01_23
+      position: {x: -9.12298489, y: 413.105804, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 335.928986
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage4_Castle02_24
+      position: {x: -9, y: 420, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_25
+      position: {x: -9, y: 450, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_26
+      position: {x: -9, y: 480, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_27
+      position: {x: -9, y: 510, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_28
+      position: {x: 9, y: 390, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_29
+      position: {x: -9, y: 390, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_30
+      position: {x: 9, y: 420, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_31
+      position: {x: 9, y: 450, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_32
+      position: {x: 9, y: 480, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_33
+      position: {x: 9, y: 510, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_34
+      position: {x: -.0524189509, y: 496.26651, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 12
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_35
+      position: {x: .264462709, y: 475.790894, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 12
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_36
+      position: {x: -.461426705, y: 467.196503, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 8
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_37
+      position: {x: .298226506, y: 446.688812, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 11
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_38
+      position: {x: -2.95789599, y: 420.568787, z: 0}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 5
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_39
+      position: {x: 5.49506617, y: 402.298309, z: 10}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 24
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_40
+      position: {x: -5.71493292, y: 385.281311, z: 10}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 24
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_41
+      position: {x: -5.86717081, y: 483.178894, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 5
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_42
+      position: {x: 5.92066288, y: 483.178894, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 5
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_43
+      position: {x: -4.38250685, y: 434.949585, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 31
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_44
+      position: {x: -5.87170315, y: 436.281708, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 19
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_45
+      position: {x: 5.54845619, y: 441.815002, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 34
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_46
+      position: {x: -7.42226887, y: 456.412292, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_47
+      position: {x: 6.08130217, y: 444.026001, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_48
+      position: {x: -4.33186197, y: 437.96579, z: .5}
+      scale: {x: 1, y: 1}
+      eulerAngles: 345
+      atlas: ReuseTexture
+      atlasIndex: 21
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_49
+      position: {x: -6.91518784, y: 467.107086, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_50
+      position: {x: -7.19953585, y: 470.59491, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_51
+      position: {x: 7.43122387, y: 468.249512, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_52
+      position: {x: -5.2505722, y: 455.332611, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 30
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_53
+      position: {x: 7.38055611, y: 473.538788, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_54
+      position: {x: 9.20477104, y: 478.389404, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 19
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_55
+      position: {x: 7.23630524, y: 476.726288, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 38.7885513
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_56
+      position: {x: -6.85248995, y: 473.306213, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_57
+      position: {x: -7.32078505, y: 475.526886, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_58
+      position: {x: -7.2906642, y: 480.219604, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_59
+      position: {x: 7.56087303, y: 483.6492, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_60
+      position: {x: 7.95964098, y: 493.731293, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_61
+      position: {x: 7.05850506, y: 489.510406, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_62
+      position: {x: 7.29931688, y: 485.959808, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_63
+      position: {x: -7.23079491, y: 482.382507, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_64
+      position: {x: -7.07800913, y: 493.813202, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_65
+      position: {x: -6.53029919, y: 491.178009, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_66
+      position: {x: -6.22698021, y: 449.502411, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_67
+      position: {x: -6.76972103, y: 445.56131, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_68
+      position: {x: 5.36097908, y: 428.852997, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 30
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_69
+      position: {x: 6.85243511, y: 496.747498, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_70
+      position: {x: 7.07777882, y: 480.421387, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_71
+      position: {x: -7.1568532, y: 488.972107, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_72
+      position: {x: -6.99765301, y: 485.490997, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 302.109314
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_73
+      position: {x: -4.36079788, y: 411.786987, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_74
+      position: {x: -5.84037685, y: 413.353485, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 34
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_75
+      position: {x: -5.01407385, y: 402.89859, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 30
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_76
+      position: {x: 4.5380578, y: 397.366486, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 31
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_77
+      position: {x: -7.07800913, y: 496.942902, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 339.8237
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_78
+      position: {x: -7.00687885, y: 500.214813, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 301.9776
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_79
+      position: {x: -6.22445822, y: 501.708496, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 339.8237
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_80
+      position: {x: -7.2202692, y: 504.482605, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 339.8237
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_81
+      position: {x: 7.50350189, y: 500.072601, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 339.8237
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_82
+      position: {x: 7.50350189, y: 504.055786, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 25.530899
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_83
+      position: {x: 7.93027687, y: 507.683502, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 25.530899
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_84
+      position: {x: 9.42399311, y: 504.980591, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 25.530899
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_85
+      position: {x: 8.42818546, y: 498.650085, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 25.530899
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_86
+      position: {x: 9.28173923, y: 492.248413, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 25.530899
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_87
+      position: {x: -7.14913702, y: 507.967987, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 258.821503
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_88
+      position: {x: -7.00688124, y: 511.737915, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 221.570404
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_89
+      position: {x: -5.79768085, y: 509.177185, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 221.570404
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_90
+      position: {x: 8.14366245, y: 510.742004, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 25.530899
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_91
+      position: {x: -8.85624123, y: 510.528687, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 258.821503
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_92
+      position: {x: -7.93156099, y: 515.365479, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 258.821503
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_93
+      position: {x: 8.57044029, y: 513.587219, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 25.530899
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_94
+      position: {x: 7.36123896, y: 516.361328, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_95
+      position: {x: -7.53854704, y: 520.658691, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 258.821503
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_96
+      position: {x: 7.08060312, y: 523.539917, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 115.948303
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_97
+      position: {x: 7.81447601, y: 520.28302, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 90.0000076
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_98
+      position: {x: 9.31911087, y: 525.005127, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 115.948303
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_99
+      position: {x: -9.33900928, y: 533.393799, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_100
+      position: {x: -9.65557098, y: 523.893005, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 258.821503
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_101
+      position: {x: -8.94989586, y: 518.659302, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 258.821503
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_102
+      position: {x: -6.71407223, y: 541.662415, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_103
+      position: {x: -8.94526768, y: 536.871826, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_104
+      position: {x: -9.79837227, y: 540.415527, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_105
+      position: {x: -12.2264404, y: 546.91217, z: -2}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_106
+      position: {x: -10.8483496, y: 543.63092, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_107
+      position: {x: -11.8983202, y: 549.930725, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_108
+      position: {x: -9.91488266, y: 552.98938, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 242.543503
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_109
+      position: {x: 7.78812122, y: 465.67981, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_110
+      position: {x: 9.35845375, y: 460.183685, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_111
+      position: {x: 7.78812122, y: 456.186493, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_112
+      position: {x: 7.85949898, y: 463.609894, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_113
+      position: {x: 10.9287901, y: 467.535706, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_114
+      position: {x: 11.3570604, y: 456.400604, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_115
+      position: {x: .0427951813, y: 514.437073, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area01
+      atlasIndex: 11
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_116
+      position: {x: 3.38715005, y: 408.344208, z: 10}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 32
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle02_117
+      position: {x: -5.97189379, y: 389.158508, z: 10}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 3
+      objType: 0
+    - name: Stage4_Castle03_118
+      position: {x: -10.3620005, y: 536.215027, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 4
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_119
+      position: {x: 11.2789001, y: 533.997925, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 90.0000076
+      atlas: ReuseTexture
+      atlasIndex: 4
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_120
+      position: {x: -11.4238796, y: 522.028381, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_121
+      position: {x: 12.1649504, y: 540.60022, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 44.3558502
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_122
+      position: {x: -11.2418604, y: 531.259399, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_123
+      position: {x: -10.8251104, y: 526.655029, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 300
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_124
+      position: {x: 12.1238098, y: 530.067871, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 60.0000191
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_125
+      position: {x: 12.0928802, y: 544.130615, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_126
+      position: {x: -11.6547403, y: 517.880493, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_127
+      position: {x: 11.8139496, y: 523.526611, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 90.0000076
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_128
+      position: {x: 11.7614202, y: 517.157471, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 90.0000076
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_129
+      position: {x: -11.8385696, y: 540.916626, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 252.409607
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_130
+      position: {x: -10.7763395, y: 546.101624, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 252.409607
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_131
+      position: {x: 12.76089, y: 549.545227, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_132
+      position: {x: 11.9338398, y: 564.948181, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 44.4468689
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_133
+      position: {x: -11.6299, y: 551.343811, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 252.409607
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_134
+      position: {x: -11.4165096, y: 557.838013, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 279.391693
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_135
+      position: {x: -11.5154896, y: 563.281982, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 245.812698
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_136
+      position: {x: 11.3318701, y: 559.777527, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 57.9045906
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_137
+      position: {x: 12.4639502, y: 555.860291, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 76.8613663
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_138
+      position: {x: -11.4376497, y: 568.67627, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_139
+      position: {x: -11.9046898, y: 574.241882, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_140
+      position: {x: 11.70298, y: 569.642883, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 107.333099
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_141
+      position: {x: 11.6411304, y: 575.221924, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 57.9045906
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_142
+      position: {x: -11.9046898, y: 580.474487, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 237.319107
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_143
+      position: {x: -12.1145401, y: 590.746582, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 266.194885
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_144
+      position: {x: -12.5342398, y: 586.014526, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 266.194885
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_145
+      position: {x: -13.0588598, y: 598.710388, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 293.396912
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_146
+      position: {x: -13.0588598, y: 607.713013, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 243.2229
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_147
+      position: {x: 12.4032497, y: 495.569092, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 90.0000076
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_148
+      position: {x: 12.2610798, y: 507.5, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 60.9179001
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_149
+      position: {x: -13.2162199, y: 535.708984, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage4_Castle03_150
+      position: {x: 13.5623503, y: 536.434509, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 90.0000076
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage4_Castle02_38
+      position: {x: -4.33504581, y: 2.02327704, z: -.100000001}
+      scale: {x: -1.25, y: 1.25}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 8.Gorilla Lolipop
+    - parentName: Stage4_Castle02_38
+      position: {x: 2.47627711, y: 6.54666901, z: 11}
+      scale: {x: 1.25, y: 1.25}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect07
+    - parentName: Stage4_Castle02_39
+      position: {x: 2.50187206, y: 4.40210009, z: -.0999984667}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 4.Mister Pee
+    - parentName: Stage4_Castle02_40
+      position: {x: 3.472404, y: 5.20770311, z: -.0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 17. Waving Soldier
+    - parentName: Stage4_Castle02_42
+      position: {x: -12.6920795, y: 2.19433594, z: -.0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 1.Fat Beer Guy
+    - parentName: Stage4_Castle02_42
+      position: {x: .245925397, y: 2.17449999, z: -.0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 3.beer beer dudes
+    - parentName: Stage4_Castle02_42
+      position: {x: -5.49920988, y: 2.58157301, z: -.100000001}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 18. Waving wizard
+    - parentName: Stage4_Castle03_123
+      position: {x: -.253858298, y: 2.32092595, z: 1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 1.70754702e-05
+      objType: 0
+      prefabName: Secrect02
+    startHeight: 510
+    endHeight: 510
+  - title: Stage 5
+    subTitle: Test
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .00999999978
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage5_Background_0
+      position: {x: 0, y: 60, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: background0
+      atlasIndex: 0
+      layerType: 0
+      objType: 0
+    - name: Stage5_Background_1
+      position: {x: 0, y: 90, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: background0
+      atlasIndex: 1
+      layerType: 0
+      objType: 0
+    - name: Stage5_Castle01_2
+      position: {x: -4.3299942, y: 466.234589, z: -9}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 13
+      layerType: 2
+      objType: 1
+    - name: Stage5_Castle01_3
+      position: {x: -7.675313, y: 442.467194, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage5_Castle01_4
+      position: {x: -8.5946064, y: 457.421112, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage5_Castle01_5
+      position: {x: -5.68286991, y: 468.700012, z: .508544922}
+      scale: {x: 1, y: 1}
+      eulerAngles: 336.492706
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage5_Castle01_6
+      position: {x: -7.675313, y: 514.822571, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage5_Castle01_7
+      position: {x: -8.96595097, y: 508.400391, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 35
+      layerType: 2
+      objType: 0
+    - name: Stage5_Castle02_8
+      position: {x: -9, y: 570, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_9
+      position: {x: -9, y: 600, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_10
+      position: {x: -4.85965395, y: 601.908325, z: .3203125}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 23
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_11
+      position: {x: -1.23782802, y: 595.31897, z: .3203125}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 23
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_12
+      position: {x: -8.9785862, y: 609.552795, z: .3203125}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 23
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_13
+      position: {x: -10.4041996, y: 587.586914, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 15
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_14
+      position: {x: -10.4041996, y: 578.650879, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 15
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_15
+      position: {x: -10.4041996, y: 563.793884, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 15
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_16
+      position: {x: -10.4041996, y: 640.032776, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 15
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_17
+      position: {x: -10.4041996, y: 654.256287, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 8
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_18
+      position: {x: -10.4041996, y: 547.248718, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 15
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_19
+      position: {x: -10.4041996, y: 615.337219, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 15
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_20
+      position: {x: -9, y: 630, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_21
+      position: {x: -9, y: 540, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_22
+      position: {x: -9, y: 660, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_23
+      position: {x: -5.28817606, y: 597.665588, z: .388915986}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_24
+      position: {x: 4.190341, y: 597.665588, z: .388915986}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_25
+      position: {x: -.682904482, y: 597.665588, z: .388915986}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_26
+      position: {x: -.3460913, y: 604.15918, z: .388915986}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_27
+      position: {x: -5.28816605, y: 611.566223, z: .388915986}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_28
+      position: {x: -10.0233498, y: 670.734985, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 6
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_29
+      position: {x: 4.15844917, y: 566.580872, z: 1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 13
+      layerType: 3
+      objType: 1
+    - name: Stage5_Castle02_30
+      position: {x: -7.45477676, y: 629.620728, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_31
+      position: {x: 7.8456459, y: 557.001404, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 17
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_32
+      position: {x: -5.48760509, y: 604.15918, z: .388915986}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_33
+      position: {x: -8.11777115, y: 559.038574, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_34
+      position: {x: -8.87882614, y: 566.268677, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_35
+      position: {x: -10.9087095, y: 569.469604, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_36
+      position: {x: -8.54849243, y: 634.708984, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_37
+      position: {x: -7.9742012, y: 624.557129, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_38
+      position: {x: -5.05651188, y: 640.283813, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 36
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_39
+      position: {x: -1.20253098, y: 660.816772, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 5
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_40
+      position: {x: -5.05651188, y: 618.252014, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 36
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_41
+      position: {x: -7.9742012, y: 610.311829, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_42
+      position: {x: -7.9742012, y: 604.286987, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle02_43
+      position: {x: -8.08101273, y: 592.329895, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 18
+      layerType: 3
+      objType: 0
+    - name: Stage5_Castle03_44
+      position: {x: -12.4145699, y: 622.95697, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage5_Castle03_45
+      position: {x: -12.6747303, y: 634.499512, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage5_Castle03_46
+      position: {x: -10.7690001, y: 694.542603, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage5_Castle03_47
+      position: {x: -11.0291595, y: 689.669617, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage5_Castle03_48
+      position: {x: -11.0291595, y: 682.403076, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage5_Castle03_49
+      position: {x: -11.1392603, y: 668.112305, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    - name: Stage5_Castle03_50
+      position: {x: -11.1392603, y: 655.516785, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 270
+      atlas: ReuseTexture
+      atlasIndex: 17
+      layerType: 4
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage5_Castle01_2
+      position: {x: -2.00797796, y: 1.17810094, z: .0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 15. Waving Guard 2
+    - parentName: Stage5_Castle02_17
+      position: {x: -8.33793354, y: -10.8653603, z: 2}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect08
+    - parentName: Stage5_Castle02_23
+      position: {x: .3059645, y: 1.04815698, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan
+    - parentName: Stage5_Castle02_24
+      position: {x: .3059645, y: 1.04815698, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan
+    - parentName: Stage5_Castle02_25
+      position: {x: .3059645, y: 1.04815698, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan
+    - parentName: Stage5_Castle02_26
+      position: {x: .3059645, y: 1.04815698, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan
+    - parentName: Stage5_Castle02_27
+      position: {x: .3059645, y: 1.04815698, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan
+    - parentName: Stage5_Castle02_29
+      position: {x: -1.34719396, y: 1.52032495, z: .0999984667}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 14. Waving Guard
+    - parentName: Stage5_Castle02_31
+      position: {x: -1.29492998, y: -2.03253198, z: -.100000001}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 11.Tower Guard
+    - parentName: Stage5_Castle02_32
+      position: {x: .3059645, y: 1.04815698, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan
+    - parentName: Stage5_Castle02_39
+      position: {x: -4.11413288, y: 2.38842797, z: -.0999984667}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 12.Wave lady
+    startHeight: 660
+    endHeight: 660
+  - title: Stage 6
+    subTitle: Test
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .00999999978
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage6_Castle01_0
+      position: {x: -1.832569, y: 569.274475, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 10
+      layerType: 2
+      objType: 1
+    - name: Stage6_Castle01_1
+      position: {x: 2.20553493, y: 566.266479, z: 10}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 10
+      layerType: 2
+      objType: 1
+    - name: Stage6_Castle02_2
+      position: {x: -9, y: 690, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_3
+      position: {x: -10.1944399, y: 759.646729, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 10
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_4
+      position: {x: -10.1032801, y: 739.833191, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 8
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_5
+      position: {x: -10.0233498, y: 722.354126, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 8
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_6
+      position: {x: -10.0233498, y: 705.903381, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 9
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_7
+      position: {x: -10.0233498, y: 688.465881, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 8
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_8
+      position: {x: -10.1944399, y: 784.27301, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 10
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_9
+      position: {x: -4.32108116, y: 745.731873, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 22
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_10
+      position: {x: 1.76614201, y: 690, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 13
+      layerType: 3
+      objType: 1
+    - name: Stage6_Castle02_11
+      position: {x: -9, y: 720, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_12
+      position: {x: -9, y: 750, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage6_Castle02_13
+      position: {x: 5.10956001, y: 717.909729, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 10
+      layerType: 3
+      objType: 1
+    - name: Stage6_Castle02_14
+      position: {x: -4.32108116, y: 753.518188, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 6
+      layerType: 3
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage6_Castle01_0
+      position: {x: 0, y: -2.63592505, z: 1}
+      scale: {x: 1.20000005, y: 1.20000005}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan2
+    - parentName: Stage6_Castle01_0
+      position: {x: -.428971291, y: -2.50708008, z: 1}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect06
+    - parentName: Stage6_Castle01_1
+      position: {x: 0, y: -2.63592505, z: 1}
+      scale: {x: 1.20000005, y: 1.20000005}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan2
+    - parentName: Stage6_Castle02_9
+      position: {x: 0, y: 2.48913598, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Hydoranboardman
+    - parentName: Stage6_Castle02_9
+      position: {x: -.00785970688, y: -.399963409, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 355
+      objType: 0
+      prefabName: pumkin
+    - parentName: Stage6_Castle02_10
+      position: {x: -2.87150788, y: 1.69573998, z: .0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 14. Waving Guard
+    - parentName: Stage6_Castle02_12
+      position: {x: 4.87543011, y: 3.86853004, z: 5}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect04
+    - parentName: Stage6_Castle02_13
+      position: {x: 0, y: -2.63592505, z: 1}
+      scale: {x: 1.20000005, y: 1.20000005}
+      eulerAngles: 0
+      objType: 3
+      prefabName: fan2
+    - parentName: Stage6_Castle02_14
+      position: {x: -.0610923804, y: -.0982055664, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: blueglow
+    startHeight: 750
+    endHeight: 750
+  - title: Stage 7
+    subTitle: Test
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .00999999978
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage7_Castle01_0
+      position: {x: 0, y: 659.067871, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage7_Castle01_1
+      position: {x: -3.55111909, y: 665.52002, z: 1}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 13
+      layerType: 2
+      objType: 1
+    - name: Stage7_Castle01_2
+      position: {x: 5.70068693, y: 666.234192, z: 1}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 13
+      layerType: 2
+      objType: 1
+    - name: Stage7_Castle02_3
+      position: {x: -9, y: 780, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage7_Castle02_4
+      position: {x: 4.20218515, y: 793.355896, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 19
+      layerType: 3
+      objType: 0
+    - name: Stage7_Castle02_5
+      position: {x: -9, y: 810, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 29
+      layerType: 3
+      objType: 0
+    - name: Stage7_Castle02_6
+      position: {x: -8, y: 850, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 17
+      layerType: 3
+      objType: 0
+    - name: Stage7_Castle02_7
+      position: {x: -7.21140909, y: 784.754822, z: 1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area02
+      atlasIndex: 12
+      layerType: 3
+      objType: 0
+    - name: Stage7_Castle03_8
+      position: {x: 7.75561714, y: 856.908691, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 4
+      objType: 0
+    - name: Stage7_Castle03_9
+      position: {x: -7.99341202, y: 887.993225, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage7_Castle04_10
+      position: {x: -5.76941395, y: 1713.646, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage7_Castle01_0
+      position: {x: 1.97432399, y: 1.98492396, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage7_Castle02_6
+      position: {x: -1.45107603, y: -2.23498511, z: -50}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 10. Skellet Warrior
+    - parentName: Stage7_Castle04_10
+      position: {x: 0, y: 4.57934618, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    startHeight: 850
+    endHeight: 850
+  - title: Stage 8
+    subTitle: Test
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .00999999978
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage8_Castle01_0
+      position: {x: 10.1683798, y: 766.537781, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_1
+      position: {x: -5.89666224, y: 796.483521, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_2
+      position: {x: -5.79939795, y: 763.91687, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_3
+      position: {x: 0, y: 852.447205, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_4
+      position: {x: 12.05548, y: 824.997009, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_5
+      position: {x: -9.13801479, y: 843.588928, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_6
+      position: {x: 0, y: 818.30188, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_7
+      position: {x: 0, y: 785.73291, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_8
+      position: {x: 0, y: 752.937012, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_9
+      position: {x: 0, y: 884.947876, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_10
+      position: {x: 0, y: 918.496887, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_11
+      position: {x: 0, y: 952.395325, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_12
+      position: {x: 0, y: 984.549011, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_13
+      position: {x: 0, y: 1020.96399, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_14
+      position: {x: 0, y: 1059.10803, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_15
+      position: {x: -9.45130253, y: 906.349976, z: 0}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_16
+      position: {x: -4.59513283, y: 968.70752, z: 0}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_17
+      position: {x: 8.46978092, y: 1002.39001, z: 0}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_18
+      position: {x: -10.0697899, y: 1141.11597, z: 0}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_19
+      position: {x: 9.95709229, y: 808.647583, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_20
+      position: {x: -5.46485376, y: 809.795227, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_21
+      position: {x: -9.73022079, y: 835.475586, z: 0}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_22
+      position: {x: 7.33540106, y: 971.293396, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_23
+      position: {x: 7.48971605, y: 993.004395, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_24
+      position: {x: 10.1363001, y: 1068.44897, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_25
+      position: {x: -7.54136992, y: 1077.53198, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_26
+      position: {x: -9.68232536, y: 1168.91101, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_27
+      position: {x: -7.34860086, y: 727.077026, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_28
+      position: {x: 8.02456284, y: 721.269226, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_29
+      position: {x: 7.59752512, y: 711.874573, z: 0}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_30
+      position: {x: -11.2961798, y: 900.766296, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_31
+      position: {x: 9.67267799, y: 907.743286, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_32
+      position: {x: 12.3678799, y: 1097.76404, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_33
+      position: {x: 7.59900093, y: 1121, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_34
+      position: {x: 2.88789701, y: 1145.22595, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_35
+      position: {x: -.995291173, y: 1159.28198, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_36
+      position: {x: 1.29564595, y: 1176.92896, z: 0}
+      scale: {x: -.400000006, y: .400000006}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_37
+      position: {x: -1.11075401, y: 1134.79004, z: 0}
+      scale: {x: .400000006, y: .400000006}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_38
+      position: {x: -7.73887396, y: 942.209412, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_39
+      position: {x: 0, y: 1085.771, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_40
+      position: {x: 0, y: 1108.79895, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_41
+      position: {x: 5.23288584, y: 1029.34399, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_42
+      position: {x: 7.07639217, y: 890.035828, z: 0}
+      scale: {x: -.300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_43
+      position: {x: -9.68232536, y: 1197.76099, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage8_Castle01_44
+      position: {x: 6.09099007, y: 1170.56995, z: 0}
+      scale: {x: -.300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 0
+      layerType: 2
+      objType: 1
+    - name: Stage8_Castle01_45
+      position: {x: -7.94582701, y: 1146.27905, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 0
+      layerType: 2
+      objType: 1
+    - name: Stage8_Castle01_46
+      position: {x: 5.5046978, y: 1113.63501, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: Area03_2
+      atlasIndex: 1
+      layerType: 2
+      objType: 1
+    - name: Stage8_Castle01_47
+      position: {x: -6.34556818, y: 1190.56396, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03_2
+      atlasIndex: 7
+      layerType: 2
+      objType: 1
+    - name: Stage8_Castle02_48
+      position: {x: -4.93313789, y: 966.590515, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_49
+      position: {x: -3.05556607, y: 1039.40405, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_50
+      position: {x: 10.1793699, y: 1054.05896, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_51
+      position: {x: -5.48220301, y: 1077.47302, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_52
+      position: {x: 8.13920784, y: 1124.87097, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_53
+      position: {x: 10.7032003, y: 1174.88306, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_54
+      position: {x: 9.60207939, y: 1295.92297, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_55
+      position: {x: -7.76869011, y: 1337.53699, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_56
+      position: {x: 5.12380409, y: 1477.19897, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_57
+      position: {x: -7.31705189, y: 1163.755, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_58
+      position: {x: 2.54716706, y: 1203.06006, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_59
+      position: {x: -1.93541098, y: 1220.37097, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_60
+      position: {x: -7.77210379, y: 1247.51196, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_61
+      position: {x: -6.5907259, y: 1281.74597, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_62
+      position: {x: -3.09917688, y: 1311.26099, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_63
+      position: {x: 6.22311783, y: 1424.86401, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_64
+      position: {x: -9.0237112, y: 1442.26001, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_65
+      position: {x: 20.8928108, y: 1490, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle02_66
+      position: {x: 2.50680089, y: 1493.21997, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 8
+      layerType: 3
+      objType: 0
+    - name: Stage8_Castle03_67
+      position: {x: 5.66486406, y: 1044.61304, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle03_68
+      position: {x: -6.99417686, y: 1017.68799, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle03_69
+      position: {x: -.719276428, y: 1106.078, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle03_70
+      position: {x: -7.68819904, y: 1228.974, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle03_71
+      position: {x: 8.82951927, y: 1198.90198, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle03_72
+      position: {x: 6.63187981, y: 1007.46698, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle03_73
+      position: {x: -4.11504889, y: 974.351929, z: 0}
+      scale: {x: .699999988, y: .699999988}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle03_74
+      position: {x: -7.76869011, y: 1507.98804, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle03_75
+      position: {x: -9.85071182, y: 1546.29602, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage8_Castle04_76
+      position: {x: -5.76941395, y: 1811.172, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_77
+      position: {x: 11.4792404, y: 1949.04297, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_78
+      position: {x: -1.87469399, y: 2057.5979, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_79
+      position: {x: 10.3687401, y: 2095.5061, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_80
+      position: {x: -3.75928402, y: 2149.05103, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_81
+      position: {x: -3.75928402, y: 2197.50391, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_82
+      position: {x: 5.46807623, y: 2269.40698, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_83
+      position: {x: 7.50166512, y: 2402.98608, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_84
+      position: {x: 2.04181099, y: 2350.51196, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_85
+      position: {x: -1.02935898, y: 2474.35303, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_86
+      position: {x: -3.75928402, y: 2600.42603, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_87
+      position: {x: -3.75928402, y: 2679.47998, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_88
+      position: {x: 4.08649111, y: 2729.16992, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_89
+      position: {x: 7.8502059, y: 2785.75903, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_90
+      position: {x: -10.92204, y: 2830.34302, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_91
+      position: {x: 4.928339, y: 2895.72607, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_92
+      position: {x: -.520227909, y: 2652.0271, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_93
+      position: {x: 10.0815096, y: 2524.27002, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_94
+      position: {x: -4.48666286, y: 1984.81897, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_95
+      position: {x: 4.49040222, y: 1766.71301, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_96
+      position: {x: -6.90939617, y: 1902.93994, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    - name: Stage8_Castle04_97
+      position: {x: -13.5287199, y: 2870.55591, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 6
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage8_Castle01_3
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_6
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_7
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_8
+      position: {x: 1.97432399, y: -5.83709717, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_9
+      position: {x: 0, y: -2.79492211, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_10
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_11
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_12
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_13
+      position: {x: 1.97432399, y: -7.4083252, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_14
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_39
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_40
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage8_Castle01_47
+      position: {x: -.418579608, y: -4.17321777, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      objType: 0
+      prefabName: redglow
+    - parentName: Stage8_Castle02_48
+      position: {x: -5.38230324, y: 6.06451416, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 9.Death
+    - parentName: Stage8_Castle02_66
+      position: {x: 1.19496095, y: -12.2016602, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: redglow
+    - parentName: Stage8_Castle04_76
+      position: {x: -.973579884, y: -6.5715332, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_77
+      position: {x: 2.08074594, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_78
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_79
+      position: {x: -18.3603191, y: 2.78893995, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud2
+    - parentName: Stage8_Castle04_80
+      position: {x: 9.121768, y: 1.24939001, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_81
+      position: {x: -4.06571722, y: -8.33483887, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_82
+      position: {x: -3.73347592, y: 4.7651372, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_83
+      position: {x: -6.3799901, y: -18.3220196, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_84
+      position: {x: 7.12844801, y: -12.62183, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_85
+      position: {x: -.981536388, y: .981689513, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_86
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_87
+      position: {x: 13.2065496, y: 5.71093798, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_88
+      position: {x: 1.20466197, y: 6.14379883, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_89
+      position: {x: -13.5265703, y: 3.809448, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud2
+    - parentName: Stage8_Castle04_90
+      position: {x: 3.75918007, y: -.723144472, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud2
+    - parentName: Stage8_Castle04_91
+      position: {x: .267374486, y: 9.81286621, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud2
+    - parentName: Stage8_Castle04_92
+      position: {x: 12.4405203, y: -8.70507812, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud2
+    - parentName: Stage8_Castle04_93
+      position: {x: -14.7328501, y: -.892822325, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud2
+    - parentName: Stage8_Castle04_94
+      position: {x: 10.5724897, y: .151061997, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud2
+    - parentName: Stage8_Castle04_95
+      position: {x: 1.60234594, y: -4.85430908, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_96
+      position: {x: -.973579884, y: -6.5715332, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud
+    - parentName: Stage8_Castle04_97
+      position: {x: 10.5724897, y: .151061997, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: transparentcloud2
+    startHeight: 1490
+    endHeight: 1490
+  - title: Stage 9
+    subTitle: Test
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .00999999978
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage9_Castle01_0
+      position: {x: -.828313589, y: 1511.099, z: 0}
+      scale: {x: .5, y: .499999911}
+      eulerAngles: 5.00000095
+      atlas: Area03_2
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_1
+      position: {x: 0, y: 1260.11304, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_2
+      position: {x: 17.2880802, y: 1297.44995, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_3
+      position: {x: 10.5405197, y: 1389.33398, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_4
+      position: {x: 0, y: 1374.427, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_5
+      position: {x: 0, y: 1470.979, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_6
+      position: {x: 0, y: 1582.68799, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_7
+      position: {x: 0, y: 1641.43005, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_8
+      position: {x: 0, y: 1670.10901, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_9
+      position: {x: 0, y: 1673.83606, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_10
+      position: {x: 0, y: 1638.47998, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_11
+      position: {x: 0, y: 1636.16101, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_12
+      position: {x: 15.2049198, y: 1365.28796, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_13
+      position: {x: 0, y: 1643.828, z: 2}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_14
+      position: {x: -2.68304396, y: 1623.68005, z: 0}
+      scale: {x: .400000006, y: .400000006}
+      eulerAngles: 10
+      atlas: Area03
+      atlasIndex: 6
+      layerType: 2
+      objType: 1
+    - name: Stage9_Castle01_15
+      position: {x: 8.17555618, y: 1626.38403, z: 0}
+      scale: {x: .400000006, y: .400000006}
+      eulerAngles: 0
+      atlas: Area03_2
+      atlasIndex: 6
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_16
+      position: {x: -6.54506207, y: 1257.677, z: 1}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: Area03_2
+      atlasIndex: 1
+      layerType: 2
+      objType: 1
+    - name: Stage9_Castle01_17
+      position: {x: 5.81243992, y: 1258.04102, z: 0}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 0
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_18
+      position: {x: -.180807099, y: 1217.64502, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 8
+      layerType: 2
+      objType: 1
+    - name: Stage9_Castle01_19
+      position: {x: -.499886513, y: 1220.05798, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_20
+      position: {x: -2.74756598, y: 1322.15295, z: 0}
+      scale: {x: .400000006, y: .400000006}
+      eulerAngles: 5.00000095
+      atlas: Area03
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_21
+      position: {x: 2.614712, y: 1309.96204, z: 0}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 350
+      atlas: Area03_2
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_22
+      position: {x: -10.3024197, y: 1550.13403, z: 0}
+      scale: {x: .400000006, y: .400000006}
+      eulerAngles: 5.00000095
+      atlas: Area03
+      atlasIndex: 2
+      layerType: 2
+      objType: 1
+    - name: Stage9_Castle01_23
+      position: {x: -6.35434008, y: 1575.62695, z: 0}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 10
+      atlas: Area03
+      atlasIndex: 2
+      layerType: 2
+      objType: 1
+    - name: Stage9_Castle01_24
+      position: {x: 5.51895285, y: 1355.49304, z: 0}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 10
+      atlas: Area03_2
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_25
+      position: {x: -.297144502, y: 1343.63306, z: 0}
+      scale: {x: -.300000012, y: .300000012}
+      eulerAngles: 5.00000095
+      atlas: Area03_2
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_26
+      position: {x: 5.33418608, y: 1273.51099, z: 0}
+      scale: {x: .400000006, y: .400000006}
+      eulerAngles: 355
+      atlas: Area03_2
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_27
+      position: {x: -5.08099508, y: 1267.80701, z: 0}
+      scale: {x: -.300000012, y: .300000012}
+      eulerAngles: 5.00000095
+      atlas: Area03_2
+      atlasIndex: 3
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_28
+      position: {x: -8.14358234, y: 1486.80103, z: -10}
+      scale: {x: .5, y: .5}
+      eulerAngles: 10
+      atlas: Area03_2
+      atlasIndex: 2
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_29
+      position: {x: -4.52490711, y: 1380.43799, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 5.00000095
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_30
+      position: {x: 6.93391418, y: 1397.29004, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 5.00000095
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_31
+      position: {x: 8.65812492, y: 1407.76697, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_32
+      position: {x: -7.27813911, y: 1424.42798, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_33
+      position: {x: 1.81648898, y: 1427.54797, z: 0}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_34
+      position: {x: 9.19819355, y: 1434.27002, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_35
+      position: {x: -3.67562294, y: 1442.83801, z: 0}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_36
+      position: {x: 5.22159815, y: 1436.86304, z: 0}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_37
+      position: {x: -7.73978901, y: 1430.18396, z: 0}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_38
+      position: {x: -5.63050604, y: 1448.15405, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle01_39
+      position: {x: .718065321, y: 1432.55701, z: 0}
+      scale: {x: .300000012, y: .300000012}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 2
+      objType: 0
+    - name: Stage9_Castle02_40
+      position: {x: 38.3858185, y: 2070, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_41
+      position: {x: 10.8771801, y: 1666.33801, z: 0}
+      scale: {x: .699999988, y: .699999988}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_42
+      position: {x: 10.7233696, y: 1736.37805, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 4
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_43
+      position: {x: -3.58306408, y: 1751.50903, z: 4}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: Area03_2
+      atlasIndex: 4
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_44
+      position: {x: 10.4765501, y: 1780.81897, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: Area03_2
+      atlasIndex: 4
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_45
+      position: {x: -4.30597782, y: 1795.76904, z: 0}
+      scale: {x: .5, y: .5}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 4
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_46
+      position: {x: 6.89793205, y: 1806.75403, z: 0}
+      scale: {x: -.5, y: .5}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 4
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_47
+      position: {x: 8.19806099, y: 1830.23096, z: 0}
+      scale: {x: -.800000012, y: .800000012}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 4
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_48
+      position: {x: 6.99430418, y: 2019.71802, z: 0}
+      scale: {x: .400000006, y: .400000006}
+      eulerAngles: 345
+      atlas: Area03_2
+      atlasIndex: 6
+      layerType: 3
+      objType: 1
+    - name: Stage9_Castle02_49
+      position: {x: -16.7713203, y: 1631.61499, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_50
+      position: {x: 4.16248178, y: 1952.33997, z: 0}
+      scale: {x: .800000012, y: .800000012}
+      eulerAngles: 350
+      atlas: Area03
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_51
+      position: {x: .826147974, y: 1551.16199, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 7
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_52
+      position: {x: 6.09587002, y: 1873.58997, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 350
+      atlas: Area03
+      atlasIndex: 1
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_53
+      position: {x: -10.3056202, y: 1747.453, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_54
+      position: {x: 18.1875591, y: 1774.08496, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_55
+      position: {x: -2.92520308, y: 1944.677, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 3
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle02_56
+      position: {x: 6.9219389, y: 1721.39697, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 5
+      layerType: 3
+      objType: 0
+    - name: Stage9_Castle03_57
+      position: {x: 0, y: 1773.38904, z: 0}
+      scale: {x: .699999988, y: .699999988}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage9_Castle03_58
+      position: {x: -11.7602901, y: 1851.95898, z: 0}
+      scale: {x: .699999988, y: .699999988}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 3
+      layerType: 4
+      objType: 0
+    - name: Stage9_Castle03_59
+      position: {x: .299666196, y: 1947.03796, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 4
+      layerType: 4
+      objType: 0
+    - name: Stage9_Castle03_60
+      position: {x: -4.60785484, y: 2006.81995, z: -.0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 4
+      layerType: 4
+      objType: 0
+    - name: Stage9_Castle03_61
+      position: {x: .00713539077, y: 2106.98291, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 10
+      layerType: 4
+      objType: 0
+    - name: Stage9_Castle03_62
+      position: {x: 1.20776701, y: 2189.36694, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 5.00000095
+      atlas: Area03
+      atlasIndex: 2
+      layerType: 4
+      objType: 0
+    - name: Stage9_Castle03_63
+      position: {x: -16.5572395, y: 2161.79712, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      atlas: Area03
+      atlasIndex: 2
+      layerType: 4
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage9_Castle01_1
+      position: {x: -2.9855969, y: -.337280303, z: -.0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 23.Special Audience Tardis
+    - parentName: Stage9_Castle01_1
+      position: {x: 1.97432399, y: -7.4083252, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_4
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_5
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_6
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_7
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_8
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_9
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_10
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_11
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_11
+      position: {x: -10.2039299, y: 2.74157691, z: 1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect12
+    - parentName: Stage9_Castle01_13
+      position: {x: 1.97432399, y: 0, z: 0}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage9_Castle01_18
+      position: {x: 1.19496095, y: -12.2016602, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: redglow
+    - parentName: Stage9_Castle02_47
+      position: {x: 10.97472, y: .969543517, z: -1}
+      scale: {x: 1.25, y: 1.25}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect13
+    - parentName: Stage9_Castle02_52
+      position: {x: -2.624861, y: -6.85362577, z: -.0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 22.Special Audience Hellboy
+    - parentName: Stage9_Castle02_53
+      position: {x: 9.03427887, y: -.897094727, z: 1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect10
+    - parentName: Stage9_Castle02_55
+      position: {x: .199106202, y: -8.51989746, z: -.0999984667}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 20. Flying wizard 2
+    - parentName: Stage9_Castle03_59
+      position: {x: 1.69551897, y: .284179688, z: -1}
+      scale: {x: -1, y: 1}
+      eulerAngles: 0
+      objType: 0
+      prefabName: Secrect11
+    - parentName: Stage9_Castle03_60
+      position: {x: 6.73726988, y: 1.55481005, z: -40}
+      scale: {x: 1.5, y: 1.5}
+      eulerAngles: 0
+      objType: 0
+      prefabName: 18. Waving wizard
+    startHeight: 2070
+    endHeight: 2070
+  - title: Stage 10
+    subTitle: Test
+    layerInfo:
+    - layerType: 0
+      scrollSpeed: .0500000007
+      tiltValue: 6
+    - layerType: 1
+      scrollSpeed: .00999999978
+      tiltValue: 5
+    - layerType: 2
+      scrollSpeed: .800000012
+      tiltValue: 4
+    - layerType: 3
+      scrollSpeed: 1
+      tiltValue: 3
+    - layerType: 4
+      scrollSpeed: 1.10000002
+      tiltValue: 2
+    - layerType: 5
+      scrollSpeed: 1.29999995
+      tiltValue: 0
+    - layerType: 6
+      scrollSpeed: 2
+      tiltValue: -1
+    - layerType: 8
+      scrollSpeed: 3
+      tiltValue: -2
+    - layerType: 7
+      scrollSpeed: 3.5
+      tiltValue: -3
+    layerImageInfo:
+    - name: Stage10_Castle01_0
+      position: {x: 0, y: 1720, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: Area03_2
+      atlasIndex: 0
+      layerType: 2
+      objType: 0
+    - name: Stage10_Castle02_1
+      position: {x: 0, y: 2112.26709, z: -1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 3
+      objType: 0
+    - name: Stage10_Castle02_2
+      position: {x: 0, y: 2100.82593, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 3
+      objType: 0
+    - name: Stage10_Castle02_3
+      position: {x: 0, y: 2121.42896, z: -2}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 3
+      objType: 0
+    - name: Stage10_Castle02_4
+      position: {x: 0, y: 2135.22095, z: 3}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 3
+      objType: 0
+    - name: Stage10_Castle02_5
+      position: {x: 0, y: 2136.60303, z: 4}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 3
+      objType: 0
+    - name: Stage10_Castle02_6
+      position: {x: 0, y: 2133.78198, z: 2}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 3
+      objType: 0
+    - name: Stage10_Castle02_7
+      position: {x: 38.3858185, y: 2152, z: 1}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: ReuseTexture
+      atlasIndex: 2
+      layerType: 3
+      objType: 0
+    - name: Stage10_Platform_8
+      position: {x: 0, y: 2770.31592, z: -5}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      atlas: none
+      atlasIndex: -1
+      layerType: 5
+      objType: 0
+    layerObjInfo:
+    - parentName: Stage10_Castle02_1
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud2
+    - parentName: Stage10_Castle02_2
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud2
+    - parentName: Stage10_Castle02_3
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud2
+    - parentName: Stage10_Castle02_4
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud2dark
+    - parentName: Stage10_Castle02_5
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud2dark1
+    - parentName: Stage10_Castle02_6
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud
+    - parentName: Stage10_Platform_8
+      position: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1}
+      eulerAngles: 0
+      objType: 2
+      prefabName: bgcloud2
+    startHeight: 2152
+    endHeight: 2152
+  pm: {fileID: 0}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

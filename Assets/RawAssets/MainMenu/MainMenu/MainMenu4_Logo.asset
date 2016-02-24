@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: MainMenu4_Logo
+  m_EditorClassIdentifier: 
+  elements:
+  - name: TX_wizardsLOGO_00
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 6
+      width: 280
+      height: 93
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .909179688
+      width: .2734375
+      height: .0908203125
+    rotated: 0
+  - name: TX_wizardsLOGO_01
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 290
+      height: 93
+    coords:
+      serializedVersion: 2
+      x: .274414062
+      y: .909179688
+      width: .283203125
+      height: .0908203125
+    rotated: 0
+  - name: TX_wizardsLOGO_02
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 290
+      height: 93
+    coords:
+      serializedVersion: 2
+      x: .55859375
+      y: .909179688
+      width: .283203125
+      height: .0908203125
+    rotated: 0
+  - name: TX_wizardsLOGO_03
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 0
+      width: 286
+      height: 105
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .805664062
+      width: .279296875
+      height: .102539062
+    rotated: 0
+  - name: TX_wizardsLOGO_04
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 0
+      width: 280
+      height: 105
+    coords:
+      serializedVersion: 2
+      x: .280273438
+      y: .805664062
+      width: .2734375
+      height: .102539062
+    rotated: 0
+  - name: TX_wizardsLOGO_05
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 0
+      width: 280
+      height: 103
+    coords:
+      serializedVersion: 2
+      x: .5546875
+      y: .807617188
+      width: .2734375
+      height: .100585938
+    rotated: 0
+  - name: TX_wizardsLOGO_06
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 6
+      width: 280
+      height: 93
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .713867188
+      width: .2734375
+      height: .0908203125
+    rotated: 0
+  - name: TX_wizardsLOGO_07
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 6
+      width: 280
+      height: 93
+    coords:
+      serializedVersion: 2
+      x: .274414062
+      y: .713867188
+      width: .2734375
+      height: .0908203125
+    rotated: 0
+  - name: TX_wizardsLOGO_08
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 6
+      width: 280
+      height: 93
+    coords:
+      serializedVersion: 2
+      x: .548828125
+      y: .713867188
+      width: .2734375
+      height: .0908203125
+    rotated: 0
+  - name: TX_wizardsLOGO_09
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 0
+      width: 280
+      height: 99
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .616210938
+      width: .2734375
+      height: .0966796875
+    rotated: 0
+  - name: TX_wizardsLOGO_10
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 0
+      width: 280
+      height: 99
+    coords:
+      serializedVersion: 2
+      x: .274414062
+      y: .616210938
+      width: .2734375
+      height: .0966796875
+    rotated: 0
+  - name: TX_wizardsLOGO_11
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 3
+      width: 283
+      height: 98
+    coords:
+      serializedVersion: 2
+      x: .548828125
+      y: .6171875
+      width: .276367188
+      height: .095703125
+    rotated: 0
+  - name: TX_wizardsLOGO_12
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 5
+      width: 290
+      height: 101
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .516601562
+      width: .283203125
+      height: .0986328125
+    rotated: 0
+  - name: TX_wizardsLOGO_13
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 6
+      width: 290
+      height: 100
+    coords:
+      serializedVersion: 2
+      x: .284179688
+      y: .517578125
+      width: .283203125
+      height: .09765625
+    rotated: 0
+  - name: TX_wizardsLOGO_14
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 6
+      width: 287
+      height: 93
+    coords:
+      serializedVersion: 2
+      x: .568359375
+      y: .524414062
+      width: .280273438
+      height: .0908203125
+    rotated: 0
+  - name: TX_wizardsLOGO_15
+    originalWidth: 300
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 6
+      width: 280
+      height: 93
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .424804688
+      width: .2734375
+      height: .0908203125
+    rotated: 0
+  material: {fileID: 2100000, guid: 73b24bc01f0164b659cf330d0c5ee343, type: 2}
+  texture: {fileID: 2800000, guid: d72686ff6a2bd4f3fbafddf8183c90e5, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

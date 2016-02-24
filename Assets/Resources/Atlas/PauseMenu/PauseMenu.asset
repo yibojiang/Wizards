@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: PauseMenu
+  m_EditorClassIdentifier: 
+  elements:
+  - name: barrel-closed-final
+    originalWidth: 289
+    originalHeight: 219
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 289
+      height: 219
+    coords:
+      serializedVersion: 2
+      x: .283203125
+      y: .572265625
+      width: .282226562
+      height: .427734375
+    rotated: 0
+  - name: barrel-open-final
+    originalWidth: 289
+    originalHeight: 219
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 289
+      height: 219
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .572265625
+      width: .282226562
+      height: .427734375
+    rotated: 0
+  - name: broomTail
+    originalWidth: 61
+    originalHeight: 74
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 61
+      height: 74
+    coords:
+      serializedVersion: 2
+      x: .631835938
+      y: .42578125
+      width: .0595703125
+      height: .14453125
+    rotated: 0
+  - name: glow-light
+    originalWidth: 203
+    originalHeight: 169
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 203
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .25390625
+      y: .240234375
+      width: .198242188
+      height: .330078125
+    rotated: 0
+  - name: javibroom
+    originalWidth: 173
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 173
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .823242188
+      y: .744140625
+      width: .168945312
+      height: .255859375
+    rotated: 0
+  - name: Pauls-diner-glowv4
+    originalWidth: 133
+    originalHeight: 70
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 133
+      height: 70
+    coords:
+      serializedVersion: 2
+      x: .823242188
+      y: .43359375
+      width: .129882812
+      height: .13671875
+    rotated: 0
+  - name: pauls-dinerv4
+    originalWidth: 133
+    originalHeight: 70
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 133
+      height: 70
+    coords:
+      serializedVersion: 2
+      x: .692382812
+      y: .43359375
+      width: .129882812
+      height: .13671875
+    rotated: 0
+  - name: yummy
+    originalWidth: 182
+    originalHeight: 90
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 182
+      height: 90
+    coords:
+      serializedVersion: 2
+      x: .453125
+      y: .39453125
+      width: .177734375
+      height: .17578125
+    rotated: 0
+  - name: yummy-glow-light
+    originalWidth: 259
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 259
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .23046875
+      width: .252929688
+      height: .33984375
+    rotated: 0
+  - name: yummy-pad
+    originalWidth: 262
+    originalHeight: 192
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 262
+      height: 192
+    coords:
+      serializedVersion: 2
+      x: .56640625
+      y: .625
+      width: .255859375
+      height: .375
+    rotated: 0
+  material: {fileID: 2100000, guid: 7786d825c524e4e3d81ad74673798d6d, type: 2}
+  texture: {fileID: 2800000, guid: 0dfc6b18d81fc4961ab7a3ff23261d1a, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

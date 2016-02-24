@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: BirdAnimationAtlas
+  m_EditorClassIdentifier: 
+  elements:
+  - name: TX_BirdHead_01
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 16
+      width: 31
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .125
+      y: .66015625
+      width: .12109375
+      height: .1640625
+    rotated: 0
+  - name: TX_BirdHead_02
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 14
+      width: 41
+      height: 44
+    coords:
+      serializedVersion: 2
+      x: .625
+      y: .828125
+      width: .16015625
+      height: .171875
+    rotated: 0
+  - name: TX_BirdHead_03
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 15
+      width: 44
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .57421875
+      y: .66015625
+      width: .171875
+      height: .1640625
+    rotated: 0
+  - name: TX_BirdHead_04
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 15
+      width: 50
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .75
+      y: .66015625
+      width: .1953125
+      height: .1640625
+    rotated: 0
+  - name: TX_BirdHead_05
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 14
+      width: 58
+      height: 44
+    coords:
+      serializedVersion: 2
+      x: .1640625
+      y: .828125
+      width: .2265625
+      height: .171875
+    rotated: 0
+  - name: TX_BirdHead_06
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 64
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .5078125
+      y: .49609375
+      width: .25
+      height: .16015625
+    rotated: 0
+  - name: TX_BirdHead_07
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 64
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .25390625
+      y: .49609375
+      width: .25
+      height: .16015625
+    rotated: 0
+  - name: TX_BirdHead_08
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 64
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .49609375
+      width: .25
+      height: .16015625
+    rotated: 0
+  - name: TX_BirdHead_09
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 14
+      width: 58
+      height: 44
+    coords:
+      serializedVersion: 2
+      x: .39453125
+      y: .828125
+      width: .2265625
+      height: .171875
+    rotated: 0
+  - name: TX_BirdHead_10
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 15
+      width: 50
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .375
+      y: .66015625
+      width: .1953125
+      height: .1640625
+    rotated: 0
+  - name: TX_BirdHead_11
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 15
+      width: 44
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .7890625
+      y: .8359375
+      width: .171875
+      height: .1640625
+    rotated: 0
+  - name: TX_BirdHead_12
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 14
+      width: 41
+      height: 44
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .828125
+      width: .16015625
+      height: .171875
+    rotated: 0
+  - name: TX_BirdHead_13
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 16
+      width: 31
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .66015625
+      width: .12109375
+      height: .1640625
+    rotated: 0
+  - name: TX_BirdHead_14
+    originalWidth: 64
+    originalHeight: 64
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 16
+      width: 31
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .25
+      y: .66015625
+      width: .12109375
+      height: .1640625
+    rotated: 0
+  material: {fileID: 2100000, guid: 69feea1e07cc74a73be279483d7b6387, type: 2}
+  texture: {fileID: 2800000, guid: 0f26c61ae486243bbb0aaa0d8915563b, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

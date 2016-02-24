@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Story
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Arrival
+    originalWidth: 673
+    originalHeight: 960
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 673
+      height: 960
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0625
+      width: .657226562
+      height: .9375
+    rotated: 0
+  - name: ArrivalCastle
+    originalWidth: 220
+    originalHeight: 695
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 220
+      height: 695
+    coords:
+      serializedVersion: 2
+      x: .658203125
+      y: .321289062
+      width: .21484375
+      height: .678710938
+    rotated: 0
+  material: {fileID: 2100000, guid: 8bfd758bb45124c7fa6628106729d45b, type: 2}
+  texture: {fileID: 2800000, guid: 9e9e991ce0c274d1ab50a92ea62b2546, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

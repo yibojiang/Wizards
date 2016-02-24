@@ -1,0 +1,611 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: ShopNew
+  m_EditorClassIdentifier: 
+  elements:
+  - name: bg
+    originalWidth: 109
+    originalHeight: 480
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 109
+      height: 480
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .53125
+      width: .106445312
+      height: .46875
+    rotated: 0
+  - name: books
+    originalWidth: 61
+    originalHeight: 67
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 61
+      height: 67
+    coords:
+      serializedVersion: 2
+      x: .927734375
+      y: .934570312
+      width: .0595703125
+      height: .0654296875
+    rotated: 0
+  - name: bottle_back
+    originalWidth: 32
+    originalHeight: 52
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 29
+      height: 51
+    coords:
+      serializedVersion: 2
+      x: .948242188
+      y: .62890625
+      width: .0283203125
+      height: .0498046875
+    rotated: 0
+  - name: bottle_font
+    originalWidth: 32
+    originalHeight: 52
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 12
+      width: 28
+      height: 40
+    coords:
+      serializedVersion: 2
+      x: .930664062
+      y: .39453125
+      width: .02734375
+      height: .0390625
+    rotated: 0
+  - name: candle
+    originalWidth: 37
+    originalHeight: 202
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 37
+      height: 202
+    coords:
+      serializedVersion: 2
+      x: .890625
+      y: .802734375
+      width: .0361328125
+      height: .197265625
+    rotated: 0
+  - name: carpet
+    originalWidth: 285
+    originalHeight: 150
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 285
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .493164062
+      y: .383789062
+      width: .278320312
+      height: .146484375
+    rotated: 0
+  - name: catalog_bg copy
+    originalWidth: 305
+    originalHeight: 110
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 305
+      height: 110
+    coords:
+      serializedVersion: 2
+      x: .357421875
+      y: .24609375
+      width: .297851562
+      height: .107421875
+    rotated: 0
+  - name: catalogboard
+    originalWidth: 115
+    originalHeight: 45
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 115
+      height: 45
+    coords:
+      serializedVersion: 2
+      x: .772460938
+      y: .389648438
+      width: .112304688
+      height: .0439453125
+    rotated: 0
+  - name: circle_glow
+    originalWidth: 80
+    originalHeight: 48
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 79
+      height: 47
+    coords:
+      serializedVersion: 2
+      x: .772460938
+      y: .434570312
+      width: .0771484375
+      height: .0458984375
+    rotated: 0
+  - name: curtain_bg
+    originalWidth: 242
+    originalHeight: 381
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 242
+      height: 381
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .158203125
+      width: .236328125
+      height: .372070312
+    rotated: 0
+  - name: curtain_left
+    originalWidth: 122
+    originalHeight: 368
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 122
+      height: 368
+    coords:
+      serializedVersion: 2
+      x: .237304688
+      y: .170898438
+      width: .119140625
+      height: .359375
+    rotated: 0
+  - name: curtain_top
+    originalWidth: 320
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 320
+      height: 53
+    coords:
+      serializedVersion: 2
+      x: .65625
+      y: .301757812
+      width: .3125
+      height: .0517578125
+    rotated: 0
+  - name: exit
+    originalWidth: 80
+    originalHeight: 48
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 80
+      height: 47
+    coords:
+      serializedVersion: 2
+      x: .861328125
+      y: .484375
+      width: .078125
+      height: .0458984375
+    rotated: 0
+  - name: exit_glow
+    originalWidth: 80
+    originalHeight: 48
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 8
+      width: 51
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .716796875
+      y: .271484375
+      width: .0498046875
+      height: .029296875
+    rotated: 0
+  - name: fairy-ball-orange
+    originalWidth: 59
+    originalHeight: 60
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 59
+      height: 60
+    coords:
+      serializedVersion: 2
+      x: .927734375
+      y: .875
+      width: .0576171875
+      height: .05859375
+    rotated: 0
+  - name: fairy-wing-orange
+    originalWidth: 61
+    originalHeight: 31
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 61
+      height: 31
+    coords:
+      serializedVersion: 2
+      x: .65625
+      y: .270507812
+      width: .0595703125
+      height: .0302734375
+    rotated: 0
+  - name: ghostwand
+    originalWidth: 66
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 57
+      height: 51
+    coords:
+      serializedVersion: 2
+      x: .876953125
+      y: .576171875
+      width: .0556640625
+      height: .0498046875
+    rotated: 0
+  - name: ghostwand_glow
+    originalWidth: 66
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 65
+      height: 55
+    coords:
+      serializedVersion: 2
+      x: .694335938
+      y: .572265625
+      width: .0634765625
+      height: .0537109375
+    rotated: 0
+  - name: glass
+    originalWidth: 35
+    originalHeight: 35
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 30
+      height: 35
+    coords:
+      serializedVersion: 2
+      x: .958984375
+      y: .399414062
+      width: .029296875
+      height: .0341796875
+    rotated: 0
+  - name: heart
+    originalWidth: 45
+    originalHeight: 41
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 45
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .885742188
+      y: .393554688
+      width: .0439453125
+      height: .0400390625
+    rotated: 0
+  - name: jester_down
+    originalWidth: 46
+    originalHeight: 43
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 46
+      height: 43
+    coords:
+      serializedVersion: 2
+      x: .938476562
+      y: .438476562
+      width: .044921875
+      height: .0419921875
+    rotated: 0
+  - name: jester_upper
+    originalWidth: 138
+    originalHeight: 180
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 138
+      height: 180
+    coords:
+      serializedVersion: 2
+      x: .357421875
+      y: .354492188
+      width: .134765625
+      height: .17578125
+    rotated: 0
+  - name: lamp
+    originalWidth: 96
+    originalHeight: 125
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 96
+      height: 125
+    coords:
+      serializedVersion: 2
+      x: .890625
+      y: .6796875
+      width: .09375
+      height: .122070312
+    rotated: 0
+  - name: MS_BG Coins
+    originalWidth: 400
+    originalHeight: 480
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 480
+    coords:
+      serializedVersion: 2
+      x: .107421875
+      y: .53125
+      width: .390625
+      height: .46875
+    rotated: 0
+  - name: MS_Table
+    originalWidth: 400
+    originalHeight: 382
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 382
+    coords:
+      serializedVersion: 2
+      x: .499023438
+      y: .626953125
+      width: .390625
+      height: .373046875
+    rotated: 0
+  - name: pot
+    originalWidth: 32
+    originalHeight: 50
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 50
+    coords:
+      serializedVersion: 2
+      x: .829101562
+      y: .481445312
+      width: .03125
+      height: .048828125
+    rotated: 0
+  - name: powder
+    originalWidth: 24
+    originalHeight: 21
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 24
+      height: 21
+    coords:
+      serializedVersion: 2
+      x: .694335938
+      y: .55078125
+      width: .0234375
+      height: .0205078125
+    rotated: 0
+  - name: shelf_loop
+    originalWidth: 199
+    originalHeight: 80
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 199
+      height: 80
+    coords:
+      serializedVersion: 2
+      x: .499023438
+      y: .547851562
+      width: .194335938
+      height: .078125
+    rotated: 0
+  - name: star_back
+    originalWidth: 48
+    originalHeight: 46
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 46
+      height: 45
+    coords:
+      serializedVersion: 2
+      x: .892578125
+      y: .436523438
+      width: .044921875
+      height: .0439453125
+    rotated: 0
+  - name: star_front
+    originalWidth: 48
+    originalHeight: 46
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 42
+      height: 46
+    coords:
+      serializedVersion: 2
+      x: .850585938
+      y: .435546875
+      width: .041015625
+      height: .044921875
+    rotated: 0
+  - name: starcoinwand
+    originalWidth: 66
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 3
+      width: 57
+      height: 50
+    coords:
+      serializedVersion: 2
+      x: .772460938
+      y: .481445312
+      width: .0556640625
+      height: .048828125
+    rotated: 0
+  - name: starcoinwand_glow
+    originalWidth: 66
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 64
+      height: 55
+    coords:
+      serializedVersion: 2
+      x: .927734375
+      y: .8203125
+      width: .0625
+      height: .0537109375
+    rotated: 0
+  - name: swipeWand
+    originalWidth: 66
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 66
+      height: 50
+    coords:
+      serializedVersion: 2
+      x: .93359375
+      y: .577148438
+      width: .064453125
+      height: .048828125
+    rotated: 0
+  - name: swipeWand_glow
+    originalWidth: 66
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 66
+      height: 54
+    coords:
+      serializedVersion: 2
+      x: .758789062
+      y: .573242188
+      width: .064453125
+      height: .052734375
+    rotated: 0
+  - name: whitewand
+    originalWidth: 66
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 5
+      width: 50
+      height: 47
+    coords:
+      serializedVersion: 2
+      x: .940429688
+      y: .484375
+      width: .048828125
+      height: .0458984375
+    rotated: 0
+  - name: whitewand_glow
+    originalWidth: 66
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 2
+      width: 53
+      height: 51
+    coords:
+      serializedVersion: 2
+      x: .82421875
+      y: .576171875
+      width: .0517578125
+      height: .0498046875
+    rotated: 0
+  - name: woodwand
+    originalWidth: 58
+    originalHeight: 52
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 58
+      height: 52
+    coords:
+      serializedVersion: 2
+      x: .890625
+      y: .627929688
+      width: .056640625
+      height: .05078125
+    rotated: 0
+  material: {fileID: 2100000, guid: a3242a20c8cd240b0ae7dc4594f6ffae, type: 2}
+  texture: {fileID: 2800000, guid: 5f2274abfee194f9ca65e9ce751db20a, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Area03_2
+  m_EditorClassIdentifier: 
+  elements:
+  - name: sky
+    originalWidth: 455
+    originalHeight: 480
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 455
+      height: 480
+    coords:
+      serializedVersion: 2
+      x: .447265625
+      y: .0224609375
+      width: .444335938
+      height: .46875
+    rotated: 0
+  - name: TX_Area03_Building04
+    originalWidth: 37
+    originalHeight: 180
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 37
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .918945312
+      y: .828125
+      width: .0361328125
+      height: .171875
+    rotated: 0
+  - name: TX_Area03_Building06
+    originalWidth: 366
+    originalHeight: 482
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 364
+      height: 482
+    coords:
+      serializedVersion: 2
+      x: .430664062
+      y: .529296875
+      width: .35546875
+      height: .470703125
+    rotated: 0
+  - name: TX_Area03_Building09
+    originalWidth: 104
+    originalHeight: 213
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 104
+      height: 213
+    coords:
+      serializedVersion: 2
+      x: .787109375
+      y: .561523438
+      width: .1015625
+      height: .208007812
+    rotated: 0
+  - name: TX_Area03_Building12
+    originalWidth: 406
+    originalHeight: 312
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 406
+      height: 312
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0419921875
+      width: .396484375
+      height: .3046875
+    rotated: 0
+  - name: TX_Area03_Building13
+    originalWidth: 440
+    originalHeight: 668
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 440
+      height: 668
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .34765625
+      width: .4296875
+      height: .65234375
+    rotated: 0
+  - name: TX_Area03_Building15
+    originalWidth: 134
+    originalHeight: 235
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 134
+      height: 235
+    coords:
+      serializedVersion: 2
+      x: .787109375
+      y: .770507812
+      width: .130859375
+      height: .229492188
+    rotated: 0
+  - name: TX_Area03_Building18
+    originalWidth: 61
+    originalHeight: 147
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 61
+      height: 147
+    coords:
+      serializedVersion: 2
+      x: .889648438
+      y: .625976562
+      width: .0595703125
+      height: .143554688
+    rotated: 0
+  material: {fileID: 2100000, guid: 751d5ea4db8cb4ea38b6ff8fb506a96b, type: 2}
+  texture: {fileID: 2800000, guid: 34abc36f50a51402bb34a28c825ba6e9, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

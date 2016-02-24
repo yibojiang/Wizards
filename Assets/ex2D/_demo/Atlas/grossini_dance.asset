@@ -1,0 +1,1571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: grossini_dance
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    coords:
+      serializedVersion: 2
+      x: .986328125
+      y: .9140625
+      width: 0
+      height: 0
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 123
+      y: 42
+      width: 11
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .263671875
+      y: .23046875
+      width: .021484375
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 222
+      width: 15
+      height: 14
+    coords:
+      serializedVersion: 2
+      x: .30859375
+      y: .265625
+      width: .029296875
+      height: .02734375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 28
+      y: 169
+      width: 26
+      height: 28
+    coords:
+      serializedVersion: 2
+      x: .859375
+      y: .728515625
+      width: .05078125
+      height: .0546875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 54
+      y: 169
+      width: 36
+      height: 28
+    coords:
+      serializedVersion: 2
+      x: .78515625
+      y: .728515625
+      width: .0703125
+      height: .0546875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 169
+      width: 28
+      height: 28
+    coords:
+      serializedVersion: 2
+      x: .7265625
+      y: .728515625
+      width: .0546875
+      height: .0546875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 238
+      y: 197
+      width: 8
+      height: 14
+    coords:
+      serializedVersion: 2
+      x: .2890625
+      y: .265625
+      width: .015625
+      height: .02734375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 46
+      y: 0
+      width: 16
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .20703125
+      y: .423828125
+      width: .03125
+      height: .080078125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 30
+      y: 0
+      width: 16
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .951171875
+      y: .833984375
+      width: .03125
+      height: .080078125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 187
+      y: 197
+      width: 19
+      height: 18
+    coords:
+      serializedVersion: 2
+      x: .951171875
+      y: .794921875
+      width: .037109375
+      height: .03515625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 166
+      y: 197
+      width: 21
+      height: 20
+    coords:
+      serializedVersion: 2
+      x: .90625
+      y: .791015625
+      width: .041015625
+      height: .0390625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 226
+      y: 197
+      width: 12
+      height: 15
+    coords:
+      serializedVersion: 2
+      x: .966796875
+      y: .32421875
+      width: .0234375
+      height: .029296875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 52
+      y: 222
+      width: 16
+      height: 7
+    coords:
+      serializedVersion: 2
+      x: .421875
+      y: .279296875
+      width: .03125
+      height: .013671875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 15
+      y: 222
+      width: 11
+      height: 10
+    coords:
+      serializedVersion: 2
+      x: .341796875
+      y: .2734375
+      width: .021484375
+      height: .01953125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 139
+      width: 24
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .67578125
+      y: .724609375
+      width: .046875
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 204
+      y: 139
+      width: 16
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .640625
+      y: .724609375
+      width: .03125
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 182
+      y: 139
+      width: 22
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .59375
+      y: .724609375
+      width: .04296875
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 160
+      y: 139
+      width: 22
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .546875
+      y: .724609375
+      width: .04296875
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 135
+      y: 139
+      width: 25
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .494140625
+      y: .724609375
+      width: .048828125
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 113
+      y: 139
+      width: 22
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .447265625
+      y: .724609375
+      width: .04296875
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 139
+      width: 23
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .3984375
+      y: .724609375
+      width: .044921875
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 69
+      y: 139
+      width: 21
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .353515625
+      y: .724609375
+      width: .041015625
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 47
+      y: 139
+      width: 22
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .306640625
+      y: .724609375
+      width: .04296875
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 24
+      y: 139
+      width: 23
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .724609375
+      width: .044921875
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 169
+      width: 11
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .51171875
+      y: .3046875
+      width: .021484375
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 206
+      y: 197
+      width: 20
+      height: 15
+    coords:
+      serializedVersion: 2
+      x: .923828125
+      y: .32421875
+      width: .0390625
+      height: .029296875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 103
+      y: 42
+      width: 20
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .220703125
+      y: .23046875
+      width: .0390625
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 202
+      y: 107
+      width: 30
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .158203125
+      y: .23046875
+      width: .05859375
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 178
+      y: 107
+      width: 24
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .107421875
+      y: .23046875
+      width: .046875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 154
+      y: 107
+      width: 24
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .056640625
+      y: .23046875
+      width: .046875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 127
+      y: 107
+      width: 27
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .23046875
+      width: .052734375
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 105
+      y: 107
+      width: 22
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .9453125
+      y: .357421875
+      width: .04296875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 84
+      y: 107
+      width: 21
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .900390625
+      y: .357421875
+      width: .041015625
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 115
+      y: 0
+      width: 26
+      height: 40
+    coords:
+      serializedVersion: 2
+      x: .27734375
+      y: .42578125
+      width: .05078125
+      height: .078125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 58
+      y: 107
+      width: 26
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .845703125
+      y: .357421875
+      width: .05078125
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 107
+      width: 10
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .822265625
+      y: .357421875
+      width: .01953125
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 99
+      y: 0
+      width: 16
+      height: 40
+    coords:
+      serializedVersion: 2
+      x: .2421875
+      y: .42578125
+      width: .03125
+      height: .078125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 20
+      y: 107
+      width: 28
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .763671875
+      y: .357421875
+      width: .0546875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 107
+      width: 20
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .720703125
+      y: .357421875
+      width: .0390625
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 203
+      y: 75
+      width: 33
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .65234375
+      y: .357421875
+      width: .064453125
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 177
+      y: 75
+      width: 26
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .59765625
+      y: .357421875
+      width: .05078125
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 149
+      y: 75
+      width: 28
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .5390625
+      y: .357421875
+      width: .0546875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 127
+      y: 75
+      width: 22
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .4921875
+      y: .357421875
+      width: .04296875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 30
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .90625
+      y: .91796875
+      width: .05859375
+      height: .08203125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 102
+      y: 75
+      width: 25
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .439453125
+      y: .357421875
+      width: .048828125
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 80
+      y: 75
+      width: 22
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .392578125
+      y: .357421875
+      width: .04296875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 56
+      y: 75
+      width: 24
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .341796875
+      y: .357421875
+      width: .046875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 30
+      y: 75
+      width: 26
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .287109375
+      y: .357421875
+      width: .05078125
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 75
+      width: 30
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .94140625
+      y: .44140625
+      width: .05859375
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 211
+      y: 42
+      width: 39
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .20703125
+      y: .357421875
+      width: .076171875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 183
+      y: 42
+      width: 28
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .8828125
+      y: .44140625
+      width: .0546875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 157
+      y: 42
+      width: 26
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .828125
+      y: .44140625
+      width: .05078125
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 134
+      y: 42
+      width: 23
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .779296875
+      y: .44140625
+      width: .044921875
+      height: .0625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 26
+      y: 222
+      width: 26
+      height: 7
+    coords:
+      serializedVersion: 2
+      x: .3671875
+      y: .279296875
+      width: .05078125
+      height: .013671875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 20
+      y: 197
+      width: 24
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .4609375
+      y: .3046875
+      width: .046875
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 81
+      y: 42
+      width: 22
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .732421875
+      y: .439453125
+      width: .04296875
+      height: .064453125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 197
+      width: 20
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .41796875
+      y: .3046875
+      width: .0390625
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 57
+      y: 42
+      width: 24
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .681640625
+      y: .439453125
+      width: .046875
+      height: .064453125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 218
+      y: 169
+      width: 21
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .373046875
+      y: .3046875
+      width: .041015625
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 0
+      width: 21
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .90625
+      y: .833984375
+      width: .041015625
+      height: .080078125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 155
+      y: 0
+      width: 23
+      height: 34
+    coords:
+      serializedVersion: 2
+      x: .36328125
+      y: .4375
+      width: .044921875
+      height: .06640625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 35
+      y: 42
+      width: 22
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .634765625
+      y: .439453125
+      width: .04296875
+      height: .064453125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 23
+      y: 42
+      width: 12
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .607421875
+      y: .439453125
+      width: .0234375
+      height: .064453125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 62
+      y: 0
+      width: 16
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .96875
+      y: .919921875
+      width: .03125
+      height: .080078125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 42
+      width: 23
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .55859375
+      y: .439453125
+      width: .044921875
+      height: .064453125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 141
+      y: 0
+      width: 14
+      height: 34
+    coords:
+      serializedVersion: 2
+      x: .33203125
+      y: .4375
+      width: .02734375
+      height: .06640625
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 185
+      y: 169
+      width: 33
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .3046875
+      y: .3046875
+      width: .064453125
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 162
+      y: 169
+      width: 23
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .255859375
+      y: .3046875
+      width: .044921875
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 139
+      y: 169
+      width: 23
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .20703125
+      y: .3046875
+      width: .044921875
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 223
+      y: 0
+      width: 24
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .5078125
+      y: .439453125
+      width: .046875
+      height: .064453125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 201
+      y: 0
+      width: 22
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .4609375
+      y: .439453125
+      width: .04296875
+      height: .064453125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 121
+      y: 169
+      width: 18
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .95703125
+      y: .734375
+      width: .03515625
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 101
+      y: 169
+      width: 20
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .9140625
+      y: .734375
+      width: .0390625
+      height: .048828125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 220
+      y: 139
+      width: 19
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .216796875
+      y: .724609375
+      width: .037109375
+      height: .05859375
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 143
+      y: 197
+      width: 23
+      height: 24
+    coords:
+      serializedVersion: 2
+      x: .74609375
+      y: .306640625
+      width: .044921875
+      height: .046875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 121
+      y: 197
+      width: 22
+      height: 24
+    coords:
+      serializedVersion: 2
+      x: .69921875
+      y: .306640625
+      width: .04296875
+      height: .046875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 89
+      y: 197
+      width: 32
+      height: 24
+    coords:
+      serializedVersion: 2
+      x: .6328125
+      y: .306640625
+      width: .0625
+      height: .046875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 63
+      y: 197
+      width: 26
+      height: 24
+    coords:
+      serializedVersion: 2
+      x: .578125
+      y: .306640625
+      width: .05078125
+      height: .046875
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 178
+      y: 0
+      width: 23
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .412109375
+      y: .439453125
+      width: .044921875
+      height: .064453125
+    rotated: 0
+  - name: Amaranth
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 44
+      y: 197
+      width: 19
+      height: 24
+    coords:
+      serializedVersion: 2
+      x: .537109375
+      y: .306640625
+      width: .037109375
+      height: .046875
+    rotated: 0
+  - name: ex2D_Logo
+    originalWidth: 150
+    originalHeight: 150
+    trimRect:
+      serializedVersion: 2
+      x: 23
+      y: 7
+      width: 109
+      height: 141
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .724609375
+      width: .212890625
+      height: .275390625
+    rotated: 0
+  - name: ex2D_Logo_pure
+    originalWidth: 150
+    originalHeight: 150
+    trimRect:
+      serializedVersion: 2
+      x: 22
+      y: 23
+      width: 108
+      height: 108
+    coords:
+      serializedVersion: 2
+      x: .779296875
+      y: .509765625
+      width: .2109375
+      height: .2109375
+    rotated: 0
+  - name: grossini_dance_01
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 7
+      width: 51
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .802734375
+      y: .787109375
+      width: .099609375
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_02
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 7
+      width: 63
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .216796875
+      y: .787109375
+      width: .123046875
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_03
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 7
+      width: 63
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .447265625
+      y: .787109375
+      width: .123046875
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_04
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 7
+      width: 74
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .630859375
+      y: .5078125
+      width: .14453125
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_05
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 7
+      width: 74
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .23046875
+      y: .5078125
+      width: .14453125
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_06
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 7
+      width: 63
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .37890625
+      y: .5078125
+      width: .123046875
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_07
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 7
+      width: 63
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .5078125
+      width: .123046875
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_08
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 7
+      width: 51
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .34375
+      y: .787109375
+      width: .099609375
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_09
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 7
+      width: 51
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .57421875
+      y: .787109375
+      width: .099609375
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_10
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 7
+      width: 62
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .677734375
+      y: .787109375
+      width: .12109375
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_11
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 7
+      width: 62
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .505859375
+      y: .5078125
+      width: .12109375
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_12
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 10
+      width: 51
+      height: 106
+    coords:
+      serializedVersion: 2
+      x: .103515625
+      y: .296875
+      width: .099609375
+      height: .20703125
+    rotated: 0
+  - name: grossini_dance_13
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 7
+      width: 51
+      height: 109
+    coords:
+      serializedVersion: 2
+      x: .126953125
+      y: .5078125
+      width: .099609375
+      height: .212890625
+    rotated: 0
+  - name: grossini_dance_14
+    originalWidth: 85
+    originalHeight: 121
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 10
+      width: 51
+      height: 106
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .296875
+      width: .099609375
+      height: .20703125
+    rotated: 0
+  - name: shadow
+    originalWidth: 64
+    originalHeight: 20
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 20
+    coords:
+      serializedVersion: 2
+      x: .794921875
+      y: .314453125
+      width: .125
+      height: .0390625
+    rotated: 0
+  material: {fileID: 2100000, guid: c4778a6cb1073447fb0be04a57f7b4b2, type: 2}
+  texture: {fileID: 2800000, guid: 696a3bfff4b864744949860287b4b442, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

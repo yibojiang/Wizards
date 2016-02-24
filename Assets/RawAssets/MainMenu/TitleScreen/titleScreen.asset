@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: titleScreen
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Castle
+    originalWidth: 641
+    originalHeight: 495
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 641
+      height: 495
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .516601562
+      width: .625976562
+      height: .483398438
+    rotated: 0
+  - name: castle_mini
+    originalWidth: 27
+    originalHeight: 87
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 0
+      width: 23
+      height: 87
+    coords:
+      serializedVersion: 2
+      x: .626953125
+      y: .915039062
+      width: .0224609375
+      height: .0849609375
+    rotated: 0
+  - name: grass
+    originalWidth: 339
+    originalHeight: 32
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 339
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .650390625
+      y: .96875
+      width: .331054688
+      height: .03125
+    rotated: 0
+  - name: TAP_TO_CONTINUE
+    originalWidth: 150
+    originalHeight: 25
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 5
+      width: 146
+      height: 17
+    coords:
+      serializedVersion: 2
+      x: .650390625
+      y: .951171875
+      width: .142578125
+      height: .0166015625
+    rotated: 0
+  - name: tree
+    originalWidth: 640
+    originalHeight: 352
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 640
+      height: 352
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .171875
+      width: .625
+      height: .34375
+    rotated: 0
+  material: {fileID: 2100000, guid: cb6c281fbd0b044a19708c0ad6c0c446, type: 2}
+  texture: {fileID: 2800000, guid: 8b75d631d5938449cace96fa7ccc5b60, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

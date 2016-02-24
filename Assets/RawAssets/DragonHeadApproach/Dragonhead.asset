@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Dragonhead
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Castle1
+    originalWidth: 177
+    originalHeight: 599
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 1
+      width: 173
+      height: 598
+    coords:
+      serializedVersion: 2
+      x: .180664062
+      y: .416015625
+      width: .168945312
+      height: .583984375
+    rotated: 0
+  - name: Castle2
+    originalWidth: 185
+    originalHeight: 600
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 184
+      height: 600
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .4140625
+      width: .1796875
+      height: .5859375
+    rotated: 0
+  - name: Dragonhead_3
+    originalWidth: 640
+    originalHeight: 572
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 640
+      height: 572
+    coords:
+      serializedVersion: 2
+      x: .350585938
+      y: .44140625
+      width: .625
+      height: .55859375
+    rotated: 0
+  - name: Dragonhead_4
+    originalWidth: 640
+    originalHeight: 158
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 640
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0732421875
+      width: .625
+      height: .154296875
+    rotated: 0
+  - name: dragonheadbase
+    originalWidth: 640
+    originalHeight: 189
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 640
+      height: 189
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .228515625
+      width: .625
+      height: .184570312
+    rotated: 0
+  material: {fileID: 2100000, guid: 297ca5290d9c64f9d96ea69185281cb0, type: 2}
+  texture: {fileID: 2800000, guid: 0edf321d99ba044d58517e1146c41151, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

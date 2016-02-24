@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Downtown
+  m_EditorClassIdentifier: 
+  elements:
+  - name: above1
+    originalWidth: 61
+    originalHeight: 42
+    trimRect:
+      serializedVersion: 2
+      x: 16
+      y: 6
+      width: 34
+      height: 35
+    coords:
+      serializedVersion: 2
+      x: .951171875
+      y: .655273438
+      width: .033203125
+      height: .0341796875
+    rotated: 0
+  - name: above2
+    originalWidth: 43
+    originalHeight: 66
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 3
+      width: 22
+      height: 57
+    coords:
+      serializedVersion: 2
+      x: .961914062
+      y: .734375
+      width: .021484375
+      height: .0556640625
+    rotated: 0
+  - name: angry
+    originalWidth: 62
+    originalHeight: 111
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 62
+      height: 111
+    coords:
+      serializedVersion: 2
+      x: .830078125
+      y: .51171875
+      width: .060546875
+      height: .108398438
+    rotated: 0
+  - name: body
+    originalWidth: 50
+    originalHeight: 73
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 10
+      width: 31
+      height: 52
+    coords:
+      serializedVersion: 2
+      x: .862304688
+      y: .638671875
+      width: .0302734375
+      height: .05078125
+    rotated: 0
+  - name: crow
+    originalWidth: 26
+    originalHeight: 32
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 26
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .908203125
+      y: .588867188
+      width: .025390625
+      height: .03125
+    rotated: 0
+  - name: crow glow
+    originalWidth: 11
+    originalHeight: 13
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 11
+      height: 13
+    coords:
+      serializedVersion: 2
+      x: .989257812
+      y: .987304688
+      width: .0107421875
+      height: .0126953125
+    rotated: 0
+  - name: downtownback
+    originalWidth: 400
+    originalHeight: 114
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 114
+    coords:
+      serializedVersion: 2
+      x: .313476562
+      y: .239257812
+      width: .390625
+      height: .111328125
+    rotated: 0
+  - name: downtownfore
+    originalWidth: 400
+    originalHeight: 664
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 664
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .3515625
+      width: .390625
+      height: .6484375
+    rotated: 0
+  - name: go back rod
+    originalWidth: 16
+    originalHeight: 110
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 110
+    coords:
+      serializedVersion: 2
+      x: .891601562
+      y: .512695312
+      width: .015625
+      height: .107421875
+    rotated: 0
+  - name: normal
+    originalWidth: 64
+    originalHeight: 114
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 114
+    coords:
+      serializedVersion: 2
+      x: .766601562
+      y: .508789062
+      width: .0625
+      height: .111328125
+    rotated: 0
+  - name: platform
+    originalWidth: 199
+    originalHeight: 89
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 199
+      height: 84
+    coords:
+      serializedVersion: 2
+      x: .72265625
+      y: .708007812
+      width: .194335938
+      height: .08203125
+    rotated: 0
+  - name: rod
+    originalWidth: 22
+    originalHeight: 317
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 0
+      width: 17
+      height: 317
+    coords:
+      serializedVersion: 2
+      x: .705078125
+      y: .690429688
+      width: .0166015625
+      height: .309570312
+    rotated: 0
+  - name: sceart The first
+    originalWidth: 320
+    originalHeight: 222
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 320
+      height: 222
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .403320312
+      width: .3125
+      height: .216796875
+    rotated: 0
+  - name: sceart The third
+    originalWidth: 320
+    originalHeight: 389
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 320
+      height: 388
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .62109375
+      width: .3125
+      height: .37890625
+    rotated: 0
+  - name: sceart water glow
+    originalWidth: 45
+    originalHeight: 69
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 44
+      height: 64
+    coords:
+      serializedVersion: 2
+      x: .91796875
+      y: .727539062
+      width: .04296875
+      height: .0625
+    rotated: 0
+  - name: sceart1
+    originalWidth: 272
+    originalHeight: 214
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 272
+      height: 214
+    coords:
+      serializedVersion: 2
+      x: .72265625
+      y: .791015625
+      width: .265625
+      height: .208984375
+    rotated: 0
+  - name: shop rod
+    originalWidth: 160
+    originalHeight: 59
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 160
+      height: 59
+    coords:
+      serializedVersion: 2
+      x: .705078125
+      y: .631835938
+      width: .15625
+      height: .0576171875
+    rotated: 0
+  - name: surprised
+    originalWidth: 62
+    originalHeight: 115
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 62
+      height: 115
+    coords:
+      serializedVersion: 2
+      x: .705078125
+      y: .5078125
+      width: .060546875
+      height: .112304688
+    rotated: 0
+  - name: The wall of the circular
+    originalWidth: 320
+    originalHeight: 338
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 320
+      height: 308
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0498046875
+      width: .3125
+      height: .30078125
+    rotated: 0
+  - name: under1
+    originalWidth: 45
+    originalHeight: 48
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 2
+      width: 36
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .915039062
+      y: .649414062
+      width: .03515625
+      height: .0400390625
+    rotated: 0
+  - name: under2
+    originalWidth: 31
+    originalHeight: 61
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 4
+      width: 21
+      height: 51
+    coords:
+      serializedVersion: 2
+      x: .893554688
+      y: .639648438
+      width: .0205078125
+      height: .0498046875
+    rotated: 0
+  material: {fileID: 2100000, guid: 3cd2008d12fce4c728127c655dfc2d29, type: 2}
+  texture: {fileID: 2800000, guid: 2c5f6433f176e440f9456db3fd964d3a, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

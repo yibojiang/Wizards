@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Story2
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Tutorial test
+    originalWidth: 815
+    originalHeight: 960
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 815
+      height: 960
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0625
+      width: .795898438
+      height: .9375
+    rotated: 0
+  material: {fileID: 2100000, guid: e6713768f498f41589c3690ceccb9a34, type: 2}
+  texture: {fileID: 2800000, guid: ae13078aff7564a2c8ee8f17175dfab4, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

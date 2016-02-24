@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: barrel
+  m_EditorClassIdentifier: 
+  wrapMode: 8
+  stopAction: 0
+  length: .333333343
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: 30755249149ba9e40896ca33ec5b63b4
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 3510b0b1b9bfd4dca92c7e7edff44f32, type: 2}
+    index: 0
+  - textureGUID: e9e4d22f7c1843f4c9091773b1440563
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 3510b0b1b9bfd4dca92c7e7edff44f32, type: 2}
+    index: 1
+  eventInfos: []
+  speed: 1
+  editorPreviewSize: 256
+  editorScale: .894999862
+  editorOffset: 0
+  editorSpeed: 1
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

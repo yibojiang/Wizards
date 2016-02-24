@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: SecrectItems
+  m_EditorClassIdentifier: 
+  elements:
+  - name: 1.Racull battle worn
+    originalWidth: 30
+    originalHeight: 97
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 25
+      height: 89
+    coords:
+      serializedVersion: 2
+      x: .3515625
+      y: .52734375
+      width: .048828125
+      height: .173828125
+    rotated: 0
+  - name: 10. Gryzors Harpsichord the 3rd
+    originalWidth: 101
+    originalHeight: 89
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 1
+      width: 91
+      height: 88
+    coords:
+      serializedVersion: 2
+      x: .40234375
+      y: .529296875
+      width: .177734375
+      height: .171875
+    rotated: 0
+  - name: 12.Fire Leo
+    originalWidth: 84
+    originalHeight: 108
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 7
+      width: 73
+      height: 98
+    coords:
+      serializedVersion: 2
+      x: .20703125
+      y: .509765625
+      width: .142578125
+      height: .19140625
+    rotated: 0
+  - name: 13.Horse and Katz NEW
+    originalWidth: 97
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 94
+      height: 152
+    coords:
+      serializedVersion: 2
+      x: .17578125
+      y: .703125
+      width: .18359375
+      height: .296875
+    rotated: 0
+  - name: 13.Horse and Katzv2 pX
+    originalWidth: 97
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 3
+      width: 89
+      height: 152
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .703125
+      width: .173828125
+      height: .296875
+    rotated: 0
+  - name: 2
+    originalWidth: 66
+    originalHeight: 76
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 66
+      height: 76
+    coords:
+      serializedVersion: 2
+      x: .58203125
+      y: .552734375
+      width: .12890625
+      height: .1484375
+    rotated: 0
+  - name: 3
+    originalWidth: 52
+    originalHeight: 75
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 52
+      height: 75
+    coords:
+      serializedVersion: 2
+      x: .712890625
+      y: .5546875
+      width: .1015625
+      height: .146484375
+    rotated: 0
+  - name: 4.Shield of light
+    originalWidth: 63
+    originalHeight: 58
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 3
+      width: 51
+      height: 51
+    coords:
+      serializedVersion: 2
+      x: .15625
+      y: .404296875
+      width: .099609375
+      height: .099609375
+    rotated: 0
+  - name: 5.Manpfi
+    originalWidth: 81
+    originalHeight: 61
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 3
+      width: 79
+      height: 53
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .400390625
+      width: .154296875
+      height: .103515625
+    rotated: 0
+  - name: 6
+    originalWidth: 105
+    originalHeight: 100
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 105
+      height: 100
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .505859375
+      width: .205078125
+      height: .1953125
+    rotated: 0
+  - name: 7.Quack F
+    originalWidth: 69
+    originalHeight: 61
+    trimRect:
+      serializedVersion: 2
+      x: 2
+      y: 1
+      width: 63
+      height: 58
+    coords:
+      serializedVersion: 2
+      x: .81640625
+      y: .587890625
+      width: .123046875
+      height: .11328125
+    rotated: 0
+  - name: 8.Munchy
+    originalWidth: 84
+    originalHeight: 57
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 3
+      width: 79
+      height: 50
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .40625
+      width: .154296875
+      height: .09765625
+    rotated: 0
+  - name: 9
+    originalWidth: 87
+    originalHeight: 112
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 112
+    coords:
+      serializedVersion: 2
+      x: .673828125
+      y: .78125
+      width: .169921875
+      height: .21875
+    rotated: 0
+  - name: frognew
+    originalWidth: 85
+    originalHeight: 115
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 0
+      width: 73
+      height: 106
+    coords:
+      serializedVersion: 2
+      x: .845703125
+      y: .79296875
+      width: .142578125
+      height: .20703125
+    rotated: 0
+  - name: secrets horse finalv4 blue
+    originalWidth: 79
+    originalHeight: 128
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 79
+      height: 128
+    coords:
+      serializedVersion: 2
+      x: .361328125
+      y: .75
+      width: .154296875
+      height: .25
+    rotated: 0
+  - name: secrets horse finalv4 bluetga
+    originalWidth: 79
+    originalHeight: 128
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 79
+      height: 128
+    coords:
+      serializedVersion: 2
+      x: .517578125
+      y: .75
+      width: .154296875
+      height: .25
+    rotated: 0
+  material: {fileID: 2100000, guid: bc2d2ac7ffb46484489aa33a827a4f09, type: 2}
+  texture: {fileID: 2800000, guid: bb657522de5f847afa87bb4adb89f48d, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

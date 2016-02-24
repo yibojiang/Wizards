@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Wizard_Outline_Sit_Tap
+  m_EditorClassIdentifier: 
+  wrapMode: 8
+  stopAction: 0
+  length: 1.16666663
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: f18474a7bb3e94c0a879ee718e54a61e
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 61
+  - textureGUID: 07a550fc9e97f4ab9b24382d7281b830
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 62
+  - textureGUID: 580cfedc4ce724b1db27168404ad0052
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 65
+  - textureGUID: 682d631d2c6cd4e23ad5ef99daecb42f
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 67
+  - textureGUID: d72724840b89a4eb8979a74d3dc39a9b
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 69
+  - textureGUID: 53a2f6a04133040b29c70d58266b2df9
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 71
+  - textureGUID: e64b02a50c3744a71a2d2df92085e123
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 73
+  eventInfos: []
+  speed: 5
+  editorPreviewSize: 256
+  editorScale: 1
+  editorOffset: 0
+  editorSpeed: 5
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: WizardLevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.938952148, y: 21.5196133, z: 24.121582}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c733d1120734c4443a2b758f64ba0e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pm: {fileID: 0}
+  audiencebar: {fileID: 0}
+  levelup: {fileID: 100022, guid: c8c6a6eb8b4334a4e82aedc8db5a417f, type: 2}
+  em: {fileID: 0}
+  notice: {fileID: 0}
+  curLevel: 0
+  levelScore: 0000000010270000f964000019b30000cc0d0100c672010070e00100a055020073d102003653030058da030062660400eef60400a88b05004524060085c00600306007001303080002a90800d551090069fd09009bab0a004e5c0b00680f0c00cfc40c006b7c0d0028360e00f1f10e00b5af0f00626f1000e830110038f4110044b91200ff7f13005c4814004f121500cddd1500cdaa160043791700264918006d1a190011ed190007c11a004a961b00d06c1c0094441d008e1d1e00b7f71e000ad31f0081af2000158d2100c26b2200814b23004e2c2400230e2500fdf02500d6d42600aab92700749f280031862900dc6d2a0072562b00ef3f2c004f2a2d008f152e00ab012f00a0ee2f006bdc300008cb310075ba3200aeaa3300b19b34007c8d35000a8036005a7337006a673800355c3900bb513a00f9473b00ec3e3c0093363d00ea2e3e00f1273f00a4214000021c410009174200b6124300090f4400fe0b450095094600cb0747009e0648000e06490018064a00ba064b00f4074c00c3094d00260c4e001b0f4f00a2125000
+  lm: {fileID: 0}
+  newlm: {fileID: 0}
+  wc: {fileID: 0}
+  achievementManager: {fileID: 0}
+  am: {fileID: 0}
+  levelupOn: 1
+  beingUsedInGameOverMenu: 0
+  levelRewards:
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 2
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 2
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 3
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 2
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 4
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 2
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 5
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 2
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 6
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 2
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 7
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 2
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 8
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 2
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 9
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 9
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 10
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 11
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 2
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 1
+    explosionUnlock: 0
+    numSFXUnlocked: 0
+    SFXDescription: 
+  - rewardType: 0
+    explosionUnlock: 12
+    numSFXUnlocked: 0
+    SFXDescription: 
+  testUnlockLevel: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

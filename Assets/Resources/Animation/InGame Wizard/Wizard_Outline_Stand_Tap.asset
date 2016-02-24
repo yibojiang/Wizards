@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Wizard_Outline_Stand_Tap
+  m_EditorClassIdentifier: 
+  wrapMode: 8
+  stopAction: 0
+  length: 1.33333325
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: 06225cea475534787820f30af58093bb
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 60
+  - textureGUID: b2143e7e4b6384f9cbd90f318f090f52
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 63
+  - textureGUID: 37d61d8ec1eb64164b688d48824cc233
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 64
+  - textureGUID: 046f2d0e41e8f4f0f8f622709d2c8d77
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 66
+  - textureGUID: d66dcd272860c411bafaec0edf16ba39
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 68
+  - textureGUID: 4c60a91b1afa040ada58bf16be243d6d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 70
+  - textureGUID: a475d920db8f44b11802d915dbfb8ed5
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 72
+  - textureGUID: b4cb440a785be44a19bcc5c7cbf0654a
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 74
+  eventInfos: []
+  speed: 5
+  editorPreviewSize: 256
+  editorScale: .854225338
+  editorOffset: 0
+  editorSpeed: 5
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

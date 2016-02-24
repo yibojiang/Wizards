@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: fairy
+  m_EditorClassIdentifier: 
+  wrapMode: 8
+  stopAction: 0
+  length: .333333343
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: 04fc5cc55ac7b45e192ff8052a3339bd
+    length: .166666672
+    atlas: {fileID: 11400000, guid: b85f72d1f0ce940d8aef3b554f900400, type: 2}
+    index: 5
+  - textureGUID: 4d2a488a778f84690a2dd6b583fe0a0a
+    length: .166666672
+    atlas: {fileID: 11400000, guid: b85f72d1f0ce940d8aef3b554f900400, type: 2}
+    index: 3
+  eventInfos: []
+  speed: 1
+  editorPreviewSize: 256
+  editorScale: 1
+  editorOffset: 0
+  editorSpeed: 1
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

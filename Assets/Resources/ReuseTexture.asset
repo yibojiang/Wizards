@@ -1,0 +1,611 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: ReuseTexture
+  m_EditorClassIdentifier: 
+  elements:
+  - name: ACC_Lamp01
+    originalWidth: 28
+    originalHeight: 28
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 27
+      height: 27
+    coords:
+      serializedVersion: 2
+      x: .961914062
+      y: .891601562
+      width: .0263671875
+      height: .0263671875
+    rotated: 0
+  - name: ACC_Tree02
+    originalWidth: 82
+    originalHeight: 122
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 82
+      height: 122
+    coords:
+      serializedVersion: 2
+      x: .354492188
+      y: .624023438
+      width: .080078125
+      height: .119140625
+    rotated: 0
+  - name: cloud_single_b
+    originalWidth: 400
+    originalHeight: 181
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 181
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .353515625
+      width: .390625
+      height: .176757812
+    rotated: 0
+  - name: cloud_single_s
+    originalWidth: 400
+    originalHeight: 249
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 249
+    coords:
+      serializedVersion: 2
+      x: .443359375
+      y: .756835938
+      width: .390625
+      height: .243164062
+    rotated: 0
+  - name: Lantern Bush
+    originalWidth: 130
+    originalHeight: 101
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 19
+      width: 102
+      height: 68
+    coords:
+      serializedVersion: 2
+      x: .518554688
+      y: .53515625
+      width: .099609375
+      height: .06640625
+    rotated: 0
+  - name: Platform Park1
+    originalWidth: 215
+    originalHeight: 317
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 42
+      width: 215
+      height: 262
+    coords:
+      serializedVersion: 2
+      x: .232421875
+      y: .744140625
+      width: .209960938
+      height: .255859375
+    rotated: 0
+  - name: Tower Vein  Blue Glow greens
+    originalWidth: 151
+    originalHeight: 186
+    trimRect:
+      serializedVersion: 2
+      x: 18
+      y: 17
+      width: 123
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .497070312
+      y: .37109375
+      width: .120117188
+      height: .159179688
+    rotated: 0
+  - name: Tower Vein  Blue Glow greens2
+    originalWidth: 151
+    originalHeight: 129
+    trimRect:
+      serializedVersion: 2
+      x: 16
+      y: 11
+      width: 123
+      height: 118
+    coords:
+      serializedVersion: 2
+      x: .435546875
+      y: .627929688
+      width: .120117188
+      height: .115234375
+    rotated: 0
+  - name: Tower Vein blue flowers
+    originalWidth: 142
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 25
+      width: 119
+      height: 69
+    coords:
+      serializedVersion: 2
+      x: .31640625
+      y: .534179688
+      width: .116210938
+      height: .0673828125
+    rotated: 0
+  - name: Tower Vein blue glow flowers
+    originalWidth: 142
+    originalHeight: 97
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 19
+      width: 120
+      height: 65
+    coords:
+      serializedVersion: 2
+      x: .619140625
+      y: .538085938
+      width: .1171875
+      height: .0634765625
+    rotated: 0
+  - name: Tower Vein blue glow leaves flowers
+    originalWidth: 142
+    originalHeight: 100
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 13
+      width: 120
+      height: 87
+    coords:
+      serializedVersion: 2
+      x: .1171875
+      y: .267578125
+      width: .1171875
+      height: .0849609375
+    rotated: 0
+  - name: Tower Vein Leaves
+    originalWidth: 136
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 8
+      y: 12
+      width: 119
+      height: 94
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .260742188
+      width: .116210938
+      height: .091796875
+    rotated: 0
+  - name: Tower Vein mix flowers
+    originalWidth: 142
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 25
+      width: 119
+      height: 69
+    coords:
+      serializedVersion: 2
+      x: .095703125
+      y: .534179688
+      width: .116210938
+      height: .0673828125
+    rotated: 0
+  - name: Tower Vein purple flowers
+    originalWidth: 143
+    originalHeight: 87
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 9
+      width: 120
+      height: 65
+    coords:
+      serializedVersion: 2
+      x: .737304688
+      y: .538085938
+      width: .1171875
+      height: .0634765625
+    rotated: 0
+  - name: Tower Vein red flowers
+    originalWidth: 142
+    originalHeight: 106
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 30
+      width: 119
+      height: 64
+    coords:
+      serializedVersion: 2
+      x: .85546875
+      y: .5390625
+      width: .116210938
+      height: .0625
+    rotated: 0
+  - name: Tower Vein1
+    originalWidth: 139
+    originalHeight: 88
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 17
+      width: 113
+      height: 61
+    coords:
+      serializedVersion: 2
+      x: .349609375
+      y: .29296875
+      width: .110351562
+      height: .0595703125
+    rotated: 0
+  - name: TowerWall2
+    originalWidth: 155
+    originalHeight: 463
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 28
+      width: 139
+      height: 407
+    coords:
+      serializedVersion: 2
+      x: .095703125
+      y: .602539062
+      width: .135742188
+      height: .397460938
+    rotated: 0
+  - name: TX_Bush01
+    originalWidth: 116
+    originalHeight: 86
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 84
+    coords:
+      serializedVersion: 2
+      x: .235351562
+      y: .270507812
+      width: .11328125
+      height: .08203125
+    rotated: 0
+  - name: TX_Bush02
+    originalWidth: 82
+    originalHeight: 60
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 82
+      height: 60
+    coords:
+      serializedVersion: 2
+      x: .91015625
+      y: .756835938
+      width: .080078125
+      height: .05859375
+    rotated: 0
+  - name: TX_Bush03
+    originalWidth: 76
+    originalHeight: 60
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 76
+      height: 60
+    coords:
+      serializedVersion: 2
+      x: .834960938
+      y: .756835938
+      width: .07421875
+      height: .05859375
+    rotated: 0
+  - name: TX_Bush04
+    originalWidth: 62
+    originalHeight: 21
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 62
+      height: 21
+    coords:
+      serializedVersion: 2
+      x: .92578125
+      y: .701171875
+      width: .060546875
+      height: .0205078125
+    rotated: 0
+  - name: TX_Bush05
+    originalWidth: 62
+    originalHeight: 21
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 62
+      height: 21
+    coords:
+      serializedVersion: 2
+      x: .92578125
+      y: .72265625
+      width: .060546875
+      height: .0205078125
+    rotated: 0
+  - name: TX_ChurchWindow01
+    originalWidth: 33
+    originalHeight: 46
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 3
+      width: 32
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .961914062
+      y: .959960938
+      width: .03125
+      height: .0400390625
+    rotated: 0
+  - name: TX_ChurchWindow02
+    originalWidth: 33
+    originalHeight: 46
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 3
+      width: 32
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .961914062
+      y: .918945312
+      width: .03125
+      height: .0400390625
+    rotated: 0
+  - name: TX_SmallBridge02
+    originalWidth: 176
+    originalHeight: 105
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 176
+      height: 105
+    coords:
+      serializedVersion: 2
+      x: .556640625
+      y: .640625
+      width: .171875
+      height: .102539062
+    rotated: 0
+  - name: TX_SmallBuilding01
+    originalWidth: 64
+    originalHeight: 187
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 187
+    coords:
+      serializedVersion: 2
+      x: .8984375
+      y: .817382812
+      width: .0625
+      height: .182617188
+    rotated: 0
+  - name: TX_SmallBuilding02
+    originalWidth: 53
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .444335938
+      y: .368164062
+      width: .0517578125
+      height: .162109375
+    rotated: 0
+  - name: TX_SmallBuilding02 brighter
+    originalWidth: 71
+    originalHeight: 193
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 13
+      width: 53
+      height: 167
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .3671875
+      width: .0517578125
+      height: .163085938
+    rotated: 0
+  - name: TX_SmallBuilding03
+    originalWidth: 111
+    originalHeight: 230
+    trimRect:
+      serializedVersion: 2
+      x: 26
+      y: 12
+      width: 64
+      height: 188
+    coords:
+      serializedVersion: 2
+      x: .834960938
+      y: .81640625
+      width: .0625
+      height: .18359375
+    rotated: 0
+  - name: TX_TowerStyle01
+    originalWidth: 119
+    originalHeight: 480
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 97
+      height: 480
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .53125
+      width: .0947265625
+      height: .46875
+    rotated: 0
+  - name: TX_Tree01
+    originalWidth: 83
+    originalHeight: 98
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 83
+      height: 98
+    coords:
+      serializedVersion: 2
+      x: .84375
+      y: .647460938
+      width: .0810546875
+      height: .095703125
+    rotated: 0
+  - name: TX_Tree02
+    originalWidth: 105
+    originalHeight: 69
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 105
+      height: 69
+    coords:
+      serializedVersion: 2
+      x: .212890625
+      y: .534179688
+      width: .102539062
+      height: .0673828125
+    rotated: 0
+  - name: TX_Tree03
+    originalWidth: 162
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 162
+      height: 99
+    coords:
+      serializedVersion: 2
+      x: .805664062
+      y: .43359375
+      width: .158203125
+      height: .0966796875
+    rotated: 0
+  - name: TX_Tree04
+    originalWidth: 116
+    originalHeight: 100
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 100
+    coords:
+      serializedVersion: 2
+      x: .729492188
+      y: .645507812
+      width: .11328125
+      height: .09765625
+    rotated: 0
+  - name: TX_Tree05
+    originalWidth: 86
+    originalHeight: 68
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 86
+      height: 68
+    coords:
+      serializedVersion: 2
+      x: .43359375
+      y: .53515625
+      width: .083984375
+      height: .06640625
+    rotated: 0
+  - name: TX_Tree06
+    originalWidth: 124
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 124
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .232421875
+      y: .602539062
+      width: .12109375
+      height: .140625
+    rotated: 0
+  - name: TX_Tree07
+    originalWidth: 201
+    originalHeight: 187
+    trimRect:
+      serializedVersion: 2
+      x: 2
+      y: 20
+      width: 191
+      height: 148
+    coords:
+      serializedVersion: 2
+      x: .618164062
+      y: .385742188
+      width: .186523438
+      height: .14453125
+    rotated: 0
+  material: {fileID: 2100000, guid: a6b2118c3497e41a09ac71aefee9766b, type: 2}
+  texture: {fileID: 2800000, guid: 7e829fdfd2f96421c9fdf87ec6a18f60, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

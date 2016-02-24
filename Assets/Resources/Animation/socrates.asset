@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: socrates
+  m_EditorClassIdentifier: 
+  wrapMode: 8
+  stopAction: 0
+  length: .5
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: 7ddbbfac574114d47b7eccdcdb529da3
+    length: .166666672
+    atlas: {fileID: 11400000, guid: d2e358ab81a7f4011bdf852383e4e191, type: 2}
+    index: 9
+  - textureGUID: 52e62bd7dafba46b8be533a4fd0545c2
+    length: .166666672
+    atlas: {fileID: 11400000, guid: d2e358ab81a7f4011bdf852383e4e191, type: 2}
+    index: 17
+  - textureGUID: 93e55518734a74fbf90fc5790de097aa
+    length: .166666672
+    atlas: {fileID: 11400000, guid: d2e358ab81a7f4011bdf852383e4e191, type: 2}
+    index: 2
+  eventInfos: []
+  speed: 1
+  editorPreviewSize: 256
+  editorScale: 1.04000247
+  editorOffset: 0
+  editorSpeed: 1
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

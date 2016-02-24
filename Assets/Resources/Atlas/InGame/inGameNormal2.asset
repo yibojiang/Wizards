@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: inGameNormal2
+  m_EditorClassIdentifier: 
+  elements:
+  - name: audiencebarLeft
+    originalWidth: 28
+    originalHeight: 40
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 28
+      height: 40
+    coords:
+      serializedVersion: 2
+      x: .828125
+      y: .84375
+      width: .109375
+      height: .15625
+    rotated: 0
+  - name: audiencebarMid
+    originalWidth: 181
+    originalHeight: 32
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 181
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .109375
+      y: .703125
+      width: .70703125
+      height: .125
+    rotated: 0
+  - name: audiencebarRight
+    originalWidth: 27
+    originalHeight: 40
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 27
+      height: 40
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .671875
+      width: .10546875
+      height: .15625
+    rotated: 0
+  - name: energybarGray
+    originalWidth: 211
+    originalHeight: 43
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 211
+      height: 43
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .83203125
+      width: .82421875
+      height: .16796875
+    rotated: 0
+  material: {fileID: 2100000, guid: 8e3c041dd0a6948bc94ab1f7766c0ad1, type: 2}
+  texture: {fileID: 2800000, guid: 8d790febc5e064f5cb23a97cd761eb55, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

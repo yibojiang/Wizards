@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: MainMenu
+  m_EditorClassIdentifier: 
+  elements:
+  - name: arm
+    originalWidth: 12
+    originalHeight: 29
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 12
+      height: 29
+    coords:
+      serializedVersion: 2
+      x: .977539062
+      y: .971679688
+      width: .01171875
+      height: .0283203125
+    rotated: 0
+  - name: back
+    originalWidth: 17
+    originalHeight: 16
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 17
+      height: 16
+    coords:
+      serializedVersion: 2
+      x: .977539062
+      y: .932617188
+      width: .0166015625
+      height: .015625
+    rotated: 0
+  - name: credit
+    originalWidth: 116
+    originalHeight: 50
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 50
+    coords:
+      serializedVersion: 2
+      x: .841796875
+      y: .7109375
+      width: .11328125
+      height: .048828125
+    rotated: 0
+  - name: fairy-back-orange
+    originalWidth: 31
+    originalHeight: 28
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 31
+      height: 28
+    coords:
+      serializedVersion: 2
+      x: .958007812
+      y: .682617188
+      width: .0302734375
+      height: .02734375
+    rotated: 0
+  - name: fairy-ball-orange
+    originalWidth: 59
+    originalHeight: 60
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 59
+      height: 60
+    coords:
+      serializedVersion: 2
+      x: .924804688
+      y: .819335938
+      width: .0576171875
+      height: .05859375
+    rotated: 0
+  - name: fairy-cog-orange
+    originalWidth: 34
+    originalHeight: 33
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 34
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .959960938
+      y: .78515625
+      width: .033203125
+      height: .0322265625
+    rotated: 0
+  - name: fairy-wing-orange
+    originalWidth: 61
+    originalHeight: 31
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 61
+      height: 31
+    coords:
+      serializedVersion: 2
+      x: .841796875
+      y: .635742188
+      width: .0595703125
+      height: .0302734375
+    rotated: 0
+  - name: forest
+    originalWidth: 639
+    originalHeight: 296
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 639
+      height: 294
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0546875
+      width: .624023438
+      height: .287109375
+    rotated: 0
+  - name: head
+    originalWidth: 37
+    originalHeight: 30
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 37
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .956054688
+      y: .73046875
+      width: .0361328125
+      height: .029296875
+    rotated: 0
+  - name: hole light
+    originalWidth: 138
+    originalHeight: 124
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 138
+      height: 124
+    coords:
+      serializedVersion: 2
+      x: .841796875
+      y: .87890625
+      width: .134765625
+      height: .12109375
+    rotated: 0
+  - name: leaves
+    originalWidth: 400
+    originalHeight: 686
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 13
+      width: 400
+      height: 673
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .342773438
+      width: .390625
+      height: .657226562
+    rotated: 0
+  - name: leg1
+    originalWidth: 10
+    originalHeight: 22
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 10
+      height: 22
+    coords:
+      serializedVersion: 2
+      x: .977539062
+      y: .94921875
+      width: .009765625
+      height: .021484375
+    rotated: 0
+  - name: leg2
+    originalWidth: 9
+    originalHeight: 24
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 9
+      height: 24
+    coords:
+      serializedVersion: 2
+      x: .990234375
+      y: .9765625
+      width: .0087890625
+      height: .0234375
+    rotated: 0
+  - name: options
+    originalWidth: 84
+    originalHeight: 61
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 84
+      height: 61
+    coords:
+      serializedVersion: 2
+      x: .841796875
+      y: .818359375
+      width: .08203125
+      height: .0595703125
+    rotated: 0
+  - name: prelude
+    originalWidth: 120
+    originalHeight: 58
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 120
+      height: 58
+    coords:
+      serializedVersion: 2
+      x: .841796875
+      y: .760742188
+      width: .1171875
+      height: .056640625
+    rotated: 0
+  - name: sky
+    originalWidth: 460
+    originalHeight: 531
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 460
+      height: 531
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .481445312
+      width: .44921875
+      height: .518554688
+    rotated: 0
+  - name: usersign
+    originalWidth: 196
+    originalHeight: 184
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 196
+      height: 184
+    coords:
+      serializedVersion: 2
+      x: .625
+      y: .162109375
+      width: .19140625
+      height: .1796875
+    rotated: 0
+  - name: wings1
+    originalWidth: 51
+    originalHeight: 44
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 51
+      height: 44
+    coords:
+      serializedVersion: 2
+      x: .841796875
+      y: .666992188
+      width: .0498046875
+      height: .04296875
+    rotated: 0
+  - name: wings2
+    originalWidth: 66
+    originalHeight: 36
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 66
+      height: 36
+    coords:
+      serializedVersion: 2
+      x: .892578125
+      y: .674804688
+      width: .064453125
+      height: .03515625
+    rotated: 0
+  - name: wings3
+    originalWidth: 72
+    originalHeight: 28
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 71
+      height: 28
+    coords:
+      serializedVersion: 2
+      x: .90234375
+      y: .638671875
+      width: .0693359375
+      height: .02734375
+    rotated: 0
+  - name: woodenBoard
+    originalWidth: 216
+    originalHeight: 62
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 216
+      height: 62
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .419921875
+      width: .2109375
+      height: .060546875
+    rotated: 0
+  material: {fileID: 2100000, guid: 52576d9998aa54226845a2a3c1bfff03, type: 2}
+  texture: {fileID: 2800000, guid: 15947cd83502a46a38a4bb980e7c315e, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Area03
+  m_EditorClassIdentifier: 
+  elements:
+  - name: TX_Area03_Building03
+    originalWidth: 96
+    originalHeight: 431
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 0
+      width: 92
+      height: 431
+    coords:
+      serializedVersion: 2
+      x: .903320312
+      y: .789550781
+      width: .08984375
+      height: .210449219
+    rotated: 0
+  - name: TX_Area03_Building05
+    originalWidth: 365
+    originalHeight: 481
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 365
+      height: 481
+    coords:
+      serializedVersion: 2
+      x: .571289062
+      y: .413085938
+      width: .356445312
+      height: .234863281
+    rotated: 0
+  - name: TX_Area03_Building07
+    originalWidth: 344
+    originalHeight: 720
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 344
+      height: 720
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .6484375
+      width: .3359375
+      height: .3515625
+    rotated: 0
+  - name: TX_Area03_Building08
+    originalWidth: 334
+    originalHeight: 664
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 334
+      height: 664
+    coords:
+      serializedVersion: 2
+      x: .336914062
+      y: .67578125
+      width: .326171875
+      height: .32421875
+    rotated: 0
+  - name: TX_Area03_Building10
+    originalWidth: 406
+    originalHeight: 312
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 406
+      height: 312
+    coords:
+      serializedVersion: 2
+      x: .438476562
+      y: .201660156
+      width: .396484375
+      height: .15234375
+    rotated: 0
+  - name: TX_Area03_Building11
+    originalWidth: 166
+    originalHeight: 122
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 3
+      width: 147
+      height: 113
+    coords:
+      serializedVersion: 2
+      x: .8359375
+      y: .298828125
+      width: .143554688
+      height: .0551757812
+    rotated: 0
+  - name: TX_Area03_Building14
+    originalWidth: 279
+    originalHeight: 401
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 279
+      height: 401
+    coords:
+      serializedVersion: 2
+      x: .165039062
+      y: .158203125
+      width: .272460938
+      height: .195800781
+    rotated: 0
+  - name: TX_Area03_Building16
+    originalWidth: 246
+    originalHeight: 539
+    trimRect:
+      serializedVersion: 2
+      x: 26
+      y: 7
+      width: 205
+      height: 521
+    coords:
+      serializedVersion: 2
+      x: .370117188
+      y: .393554688
+      width: .200195312
+      height: .254394531
+    rotated: 0
+  - name: TX_Area03_Building17
+    originalWidth: 177
+    originalHeight: 438
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 7
+      width: 168
+      height: 423
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .147460938
+      width: .1640625
+      height: .206542969
+    rotated: 0
+  - name: TX_Area03_Building19 glow comp
+    originalWidth: 268
+    originalHeight: 681
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 15
+      width: 244
+      height: 655
+    coords:
+      serializedVersion: 2
+      x: .6640625
+      y: .680175781
+      width: .23828125
+      height: .319824219
+    rotated: 0
+  - name: TX_Area03_Building20
+    originalWidth: 378
+    originalHeight: 601
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 378
+      height: 601
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .354492188
+      width: .369140625
+      height: .293457031
+    rotated: 0
+  material: {fileID: 2100000, guid: a5ada180bf80d42788a27426d0a3b332, type: 2}
+  texture: {fileID: 2800000, guid: 16e46669029d44fe28d0f694f1534d15, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

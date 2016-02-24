@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Broom
+  m_EditorClassIdentifier: 
+  wrapMode: 1
+  stopAction: 0
+  length: .5
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: a6b2f240836e1446ab34daf5f393821b
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 37b0e59bf99044cc7aa9df0bcdbb4c53, type: 2}
+    index: 3
+  - textureGUID: ce1dd0e1200c7488096dd0ff643a5db1
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 37b0e59bf99044cc7aa9df0bcdbb4c53, type: 2}
+    index: 2
+  - textureGUID: e55bffb9115674a62ad9cca2d8d8c953
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 37b0e59bf99044cc7aa9df0bcdbb4c53, type: 2}
+    index: 4
+  eventInfos: []
+  speed: 1
+  editorPreviewSize: 256
+  editorScale: 1
+  editorOffset: 0
+  editorSpeed: 1
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

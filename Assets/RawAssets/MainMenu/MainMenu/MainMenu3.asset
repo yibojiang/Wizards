@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: MainMenu3
+  m_EditorClassIdentifier: 
+  elements:
+  - name: front tree
+    originalWidth: 837
+    originalHeight: 510
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 837
+      height: 510
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .501953125
+      width: .817382812
+      height: .498046875
+    rotated: 0
+  - name: tower
+    originalWidth: 252
+    originalHeight: 485
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 252
+      height: 485
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .02734375
+      width: .24609375
+      height: .473632812
+    rotated: 0
+  - name: wizards_logo_clean
+    originalWidth: 621
+    originalHeight: 272
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 621
+      height: 272
+    coords:
+      serializedVersion: 2
+      x: .247070312
+      y: .235351562
+      width: .606445312
+      height: .265625
+    rotated: 0
+  - name: wizards_logos
+    originalWidth: 800
+    originalHeight: 500
+    trimRect:
+      serializedVersion: 2
+      x: 131
+      y: 178
+      width: 525
+      height: 172
+    coords:
+      serializedVersion: 2
+      x: .247070312
+      y: .06640625
+      width: .512695312
+      height: .16796875
+    rotated: 0
+  material: {fileID: 2100000, guid: fc00a0694f28943f3b7fff2168771eb0, type: 2}
+  texture: {fileID: 2800000, guid: 9703af075714f4be99f364d842685e43, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

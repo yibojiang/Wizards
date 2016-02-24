@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: MapScreen
+  m_EditorClassIdentifier: 
+  elements:
+  - name: castleforelayerv2
+    originalWidth: 400
+    originalHeight: 1020
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 1020
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .00390625
+      width: .390625
+      height: .99609375
+    rotated: 0
+  - name: cloud_down
+    originalWidth: 400
+    originalHeight: 278
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 278
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .297851562
+      width: .390625
+      height: .271484375
+    rotated: 0
+  - name: cloud_up
+    originalWidth: 400
+    originalHeight: 440
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 440
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .5703125
+      width: .390625
+      height: .4296875
+    rotated: 0
+  - name: smallcastle01
+    originalWidth: 29
+    originalHeight: 62
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 29
+      height: 62
+    coords:
+      serializedVersion: 2
+      x: .877929688
+      y: .763671875
+      width: .0283203125
+      height: .060546875
+    rotated: 0
+  - name: smallcastle02
+    originalWidth: 35
+    originalHeight: 69
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 35
+      height: 69
+    coords:
+      serializedVersion: 2
+      x: .962890625
+      y: .932617188
+      width: .0341796875
+      height: .0673828125
+    rotated: 0
+  - name: smallcastle03
+    originalWidth: 54
+    originalHeight: 117
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 54
+      height: 117
+    coords:
+      serializedVersion: 2
+      x: .876953125
+      y: .885742188
+      width: .052734375
+      height: .114257812
+    rotated: 0
+  - name: smallcastle04
+    originalWidth: 95
+    originalHeight: 179
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 95
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .783203125
+      y: .825195312
+      width: .0927734375
+      height: .174804688
+    rotated: 0
+  - name: smallcastle05
+    originalWidth: 39
+    originalHeight: 69
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 39
+      height: 69
+    coords:
+      serializedVersion: 2
+      x: .783203125
+      y: .756835938
+      width: .0380859375
+      height: .0673828125
+    rotated: 0
+  - name: smallcastle06
+    originalWidth: 56
+    originalHeight: 68
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 56
+      height: 68
+    coords:
+      serializedVersion: 2
+      x: .822265625
+      y: .7578125
+      width: .0546875
+      height: .06640625
+    rotated: 0
+  - name: smallcastle07
+    originalWidth: 32
+    originalHeight: 78
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 78
+    coords:
+      serializedVersion: 2
+      x: .930664062
+      y: .923828125
+      width: .03125
+      height: .076171875
+    rotated: 0
+  material: {fileID: 2100000, guid: ef738ff86d0024717b2a750d6e6191de, type: 2}
+  texture: {fileID: 2800000, guid: 19a584432e7394915b5f32a416f3be5f, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: FireworkFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -100, y: 0, z: -20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d53c922ea57842069d3b634bdbca06d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fw_blue_star: {fileID: 100010, guid: 64a4462316f2d497387165718395e33a, type: 2}
+  fw_green_star: {fileID: 100010, guid: c02f7a8dc70b649bdbf1de7e5c586c53, type: 2}
+  fw_orange_star: {fileID: 100010, guid: 7721f240cbb24485d916741f4a78220e, type: 2}
+  fw_red_star: {fileID: 100010, guid: eb9756f9cb8934f39a7bb2c711d0021b, type: 2}
+  fw_purple_star: {fileID: 100010, guid: 578bd9601e6d045dfb1ae720c3acb70d, type: 2}
+  fw_skull: {fileID: 100002, guid: 74f9253e6be3c405bbdfe59ebe8a0d9e, type: 2}
+  fw_torus: {fileID: 100002, guid: ff83971781b8a45d3afe4411aeec88eb, type: 2}
+  fw_butterfly: {fileID: 100002, guid: 87986bb5e0e4347e9b705b9f8b078b22, type: 2}
+  fw_phoenix: {fileID: 100008, guid: 9c64c4ce178224e5db66992c327dd85a, type: 2}
+  fw_multistar: {fileID: 100012, guid: 11a89cad2e1ad418b9f2215b5bb868fc, type: 2}
+  blueStarPool: []
+  greenStarPool: []
+  orangeStarPool: []
+  redStarPool: []
+  purpleStarPool: []
+  skullPool: []
+  torusPool: []
+  phoenixPool: []
+  butterflyPool: []
+  multistarPool: []
+  numFireworks: 20
+  fireworkCount: 0
+  testCounter: 0
+  fwPrefab:
+  - {fileID: 100010, guid: 64a4462316f2d497387165718395e33a, type: 2}
+  - {fileID: 100002, guid: ff83971781b8a45d3afe4411aeec88eb, type: 2}
+  - {fileID: 100002, guid: 74f9253e6be3c405bbdfe59ebe8a0d9e, type: 2}
+  - {fileID: 100008, guid: 9c64c4ce178224e5db66992c327dd85a, type: 2}
+  - {fileID: 100002, guid: 87986bb5e0e4347e9b705b9f8b078b22, type: 2}
+  - {fileID: 100012, guid: 11a89cad2e1ad418b9f2215b5bb868fc, type: 2}
+  - {fileID: 100010, guid: c02f7a8dc70b649bdbf1de7e5c586c53, type: 2}
+  - {fileID: 100010, guid: 7721f240cbb24485d916741f4a78220e, type: 2}
+  - {fileID: 100010, guid: 578bd9601e6d045dfb1ae720c3acb70d, type: 2}
+  - {fileID: 100010, guid: eb9756f9cb8934f39a7bb2c711d0021b, type: 2}
+  - {fileID: 100010, guid: 794ff55a9a3c84b93b4d72c63cbd791f, type: 2}
+  Zpos: 0
+  tutorialMode: 0
+  numLaunchesToShowTutorial: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Credits
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Drageon mu
+    originalWidth: 256
+    originalHeight: 158
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 9
+      width: 237
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .176757812
+      y: .4765625
+      width: .231445312
+      height: .145507812
+    rotated: 0
+  - name: Group Final
+    originalWidth: 256
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 8
+      width: 247
+      height: 160
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0751953125
+      width: .241210938
+      height: .15625
+    rotated: 0
+  - name: Group picture MU Katz2
+    originalWidth: 256
+    originalHeight: 154
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 0
+      width: 246
+      height: 147
+    coords:
+      serializedVersion: 2
+      x: .409179688
+      y: .478515625
+      width: .240234375
+      height: .143554688
+    rotated: 0
+  - name: gryzor mu
+    originalWidth: 183
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 8
+      width: 161
+      height: 234
+    coords:
+      serializedVersion: 2
+      x: .825195312
+      y: .2421875
+      width: .157226562
+      height: .228515625
+    rotated: 0
+  - name: Javie Jr. Nr1 mu
+    originalWidth: 205
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 183
+      height: 244
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .232421875
+      width: .178710938
+      height: .23828125
+    rotated: 0
+  - name: javie mu Final
+    originalWidth: 192
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 18
+      y: 15
+      width: 157
+      height: 236
+    coords:
+      serializedVersion: 2
+      x: .670898438
+      y: .240234375
+      width: .153320312
+      height: .23046875
+    rotated: 0
+  - name: loco mu copy
+    originalWidth: 205
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 6
+      width: 179
+      height: 248
+    coords:
+      serializedVersion: 2
+      x: .561523438
+      y: .7578125
+      width: .174804688
+      height: .2421875
+    rotated: 0
+  - name: master mu2
+    originalWidth: 187
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 19
+      width: 175
+      height: 237
+    coords:
+      serializedVersion: 2
+      x: .499023438
+      y: .239257812
+      width: .170898438
+      height: .231445312
+    rotated: 0
+  - name: mr b mu
+    originalWidth: 213
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 15
+      y: 3
+      width: 189
+      height: 253
+    coords:
+      serializedVersion: 2
+      x: .375976562
+      y: .752929688
+      width: .184570312
+      height: .247070312
+    rotated: 0
+  - name: ScareCrow Wizard Broom
+    originalWidth: 200
+    originalHeight: 580
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 19
+      width: 180
+      height: 541
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .471679688
+      width: .17578125
+      height: .528320312
+    rotated: 0
+  - name: ScareCrow Wizard Eyes green strong
+    originalWidth: 278
+    originalHeight: 389
+    trimRect:
+      serializedVersion: 2
+      x: 43
+      y: 1
+      width: 203
+      height: 386
+    coords:
+      serializedVersion: 2
+      x: .176757812
+      y: .623046875
+      width: .198242188
+      height: .376953125
+    rotated: 0
+  - name: Secret Ending
+    originalWidth: 111
+    originalHeight: 115
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 0
+      width: 87
+      height: 115
+    coords:
+      serializedVersion: 2
+      x: .87890625
+      y: .887695312
+      width: .0849609375
+      height: .112304688
+    rotated: 0
+  - name: socrates mu
+    originalWidth: 187
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 25
+      y: 7
+      width: 144
+      height: 244
+    coords:
+      serializedVersion: 2
+      x: .737304688
+      y: .76171875
+      width: .140625
+      height: .23828125
+    rotated: 0
+  - name: toto mu
+    originalWidth: 187
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 15
+      y: 15
+      width: 158
+      height: 241
+    coords:
+      serializedVersion: 2
+      x: .34375
+      y: .235351562
+      width: .154296875
+      height: .235351562
+    rotated: 0
+  - name: wesley mu
+    originalWidth: 183
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 6
+      width: 167
+      height: 242
+    coords:
+      serializedVersion: 2
+      x: .1796875
+      y: .234375
+      width: .163085938
+      height: .236328125
+    rotated: 0
+  material: {fileID: 2100000, guid: 7b16e0201af7242b29df6b6aafeab3c2, type: 2}
+  texture: {fileID: 2800000, guid: 55ea1c33b0dbe417aaa6456f27875674, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Wizard_Outline_Stand_Yeahpose
+  m_EditorClassIdentifier: 
+  wrapMode: 8
+  stopAction: 0
+  length: 2.78333354
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: f40c852622aae4b358e706f7a38207c8
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 77
+  - textureGUID: 3b76b3ead03de4f56a6f03c774150640
+    length: .183333337
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 78
+  - textureGUID: faff47c828fda413885ef3b686452f24
+    length: .200000003
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 81
+  - textureGUID: c711b858f61134ee793a461b9c484f8a
+    length: .216666669
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 83
+  - textureGUID: cb8aaab6e27bb426d94a698d07dc0225
+    length: .233333334
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 85
+  - textureGUID: 1dc594dcfc6c34807a17139931d7eca9
+    length: .25
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 87
+  - textureGUID: b5b04a2dfd6484d778e32ad20013480a
+    length: .283333331
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 89
+  - textureGUID: 7b44d95bfe1c948b0b9081496e0afadd
+    length: .25
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 90
+  - textureGUID: 32f42f4046c134a62a426919dda64a93
+    length: .233333334
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 92
+  - textureGUID: 0aebd5d9a82754da5968b8208a465f35
+    length: .216666669
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 94
+  - textureGUID: a297ab0c6f547445a81b37c694a17224
+    length: .200000003
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 97
+  - textureGUID: e2bbf32e481aa488c9e208c66c397e84
+    length: .183333337
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 99
+  - textureGUID: e90f0e751340c4e628f5d8520ec80c34
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 1d21faff277214caba44f1947087e78c, type: 2}
+    index: 100
+  eventInfos: []
+  speed: 5
+  editorPreviewSize: 256
+  editorScale: .488468736
+  editorOffset: 0
+  editorSpeed: 5
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

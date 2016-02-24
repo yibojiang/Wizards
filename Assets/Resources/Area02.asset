@@ -1,0 +1,467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Area02
+  m_EditorClassIdentifier: 
+  elements:
+  - name: ACC_Fan01
+    originalWidth: 85
+    originalHeight: 85
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 19
+      width: 59
+      height: 60
+    coords:
+      serializedVersion: 2
+      x: .616210938
+      y: .678710938
+      width: .0576171875
+      height: .05859375
+    rotated: 0
+  - name: ACC_Fan02
+    originalWidth: 15
+    originalHeight: 66
+    trimRect:
+      serializedVersion: 2
+      x: 2
+      y: 1
+      width: 10
+      height: 65
+    coords:
+      serializedVersion: 2
+      x: .951171875
+      y: .936523438
+      width: .009765625
+      height: .0634765625
+    rotated: 0
+  - name: ACC_FanBase01
+    originalWidth: 13
+    originalHeight: 45
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 12
+      height: 43
+    coords:
+      serializedVersion: 2
+      x: .73828125
+      y: .749023438
+      width: .01171875
+      height: .0419921875
+    rotated: 0
+  - name: ACC_FanBase02
+    originalWidth: 37
+    originalHeight: 66
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 25
+      width: 37
+      height: 16
+    coords:
+      serializedVersion: 2
+      x: .685546875
+      y: .849609375
+      width: .0361328125
+      height: .015625
+    rotated: 0
+  - name: ACC_Flag05
+    originalWidth: 32
+    originalHeight: 34
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 34
+    coords:
+      serializedVersion: 2
+      x: .954101562
+      y: .704101562
+      width: .03125
+      height: .033203125
+    rotated: 0
+  - name: ACC_HydoranCharacter01
+    originalWidth: 44
+    originalHeight: 46
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 44
+      height: 46
+    coords:
+      serializedVersion: 2
+      x: .951171875
+      y: .890625
+      width: .04296875
+      height: .044921875
+    rotated: 0
+  - name: ACC_HydoranInn
+    originalWidth: 110
+    originalHeight: 59
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 110
+      height: 59
+    coords:
+      serializedVersion: 2
+      x: .674804688
+      y: .6796875
+      width: .107421875
+      height: .0576171875
+    rotated: 0
+  - name: ACC_Lamp02
+    originalWidth: 68
+    originalHeight: 36
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 63
+      height: 30
+    coords:
+      serializedVersion: 2
+      x: .477539062
+      y: .791992188
+      width: .0615234375
+      height: .029296875
+    rotated: 0
+  - name: ACC_Lamp03
+    originalWidth: 29
+    originalHeight: 48
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 24
+      height: 43
+    coords:
+      serializedVersion: 2
+      x: .750976562
+      y: .749023438
+      width: .0234375
+      height: .0419921875
+    rotated: 0
+  - name: ACC_Pumpkin01
+    originalWidth: 55
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 0
+      width: 28
+      height: 55
+    coords:
+      serializedVersion: 2
+      x: .961914062
+      y: .946289062
+      width: .02734375
+      height: .0537109375
+    rotated: 0
+  - name: Mill1
+    originalWidth: 139
+    originalHeight: 452
+    trimRect:
+      serializedVersion: 2
+      x: 32
+      y: 18
+      width: 74
+      height: 434
+    coords:
+      serializedVersion: 2
+      x: .138671875
+      y: .576171875
+      width: .072265625
+      height: .423828125
+    rotated: 0
+  - name: Mill2
+    originalWidth: 139
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 136
+      height: 126
+    coords:
+      serializedVersion: 2
+      x: .817382812
+      y: .876953125
+      width: .1328125
+      height: .123046875
+    rotated: 0
+  - name: Rank06 blue
+    originalWidth: 400
+    originalHeight: 317
+    trimRect:
+      serializedVersion: 2
+      x: 26
+      y: 80
+      width: 342
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .211914062
+      y: .584960938
+      width: .333984375
+      height: .15234375
+    rotated: 0
+  - name: Tower Turret Defense0
+    originalWidth: 140
+    originalHeight: 140
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 134
+      height: 137
+    coords:
+      serializedVersion: 2
+      x: .685546875
+      y: .866210938
+      width: .130859375
+      height: .133789062
+    rotated: 0
+  - name: TowerSmall01
+    originalWidth: 88
+    originalHeight: 189
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 16
+      width: 63
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .623046875
+      y: .845703125
+      width: .0615234375
+      height: .154296875
+    rotated: 0
+  - name: TX_ChurchCorridor04
+    originalWidth: 367
+    originalHeight: 45
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 367
+      height: 45
+    coords:
+      serializedVersion: 2
+      x: .37890625
+      y: .747070312
+      width: .358398438
+      height: .0439453125
+    rotated: 0
+  - name: TX_ChurchCorridor05
+    originalWidth: 303
+    originalHeight: 30
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 303
+      height: 29
+    coords:
+      serializedVersion: 2
+      x: .540039062
+      y: .79296875
+      width: .295898438
+      height: .0283203125
+    rotated: 0
+  - name: TX_LongRoof02
+    originalWidth: 154
+    originalHeight: 1024
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 11
+      width: 141
+      height: 1013
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0107421875
+      width: .137695312
+      height: .989257812
+    rotated: 0
+  - name: TX_SmallBridge03
+    originalWidth: 174
+    originalHeight: 44
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 174
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .783203125
+      y: .696289062
+      width: .169921875
+      height: .041015625
+    rotated: 0
+  - name: TX_SmallBuilding07
+    originalWidth: 184
+    originalHeight: 286
+    trimRect:
+      serializedVersion: 2
+      x: 8
+      y: 9
+      width: 170
+      height: 268
+    coords:
+      serializedVersion: 2
+      x: .211914062
+      y: .73828125
+      width: .166015625
+      height: .26171875
+    rotated: 0
+  - name: TX_SmallBuilding08
+    originalWidth: 144
+    originalHeight: 258
+    trimRect:
+      serializedVersion: 2
+      x: 24
+      y: 26
+      width: 100
+      height: 213
+    coords:
+      serializedVersion: 2
+      x: .37890625
+      y: .791992188
+      width: .09765625
+      height: .208007812
+    rotated: 0
+  - name: TX_SmallBuilding09
+    originalWidth: 400
+    originalHeight: 480
+    trimRect:
+      serializedVersion: 2
+      x: 153
+      y: 124
+      width: 148
+      height: 182
+    coords:
+      serializedVersion: 2
+      x: .477539062
+      y: .822265625
+      width: .14453125
+      height: .177734375
+    rotated: 0
+  - name: TX_SmallPlatform01
+    originalWidth: 125
+    originalHeight: 33
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 125
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .640625
+      y: .634765625
+      width: .122070312
+      height: .0322265625
+    rotated: 0
+  - name: TX_SmallPlatform02
+    originalWidth: 222
+    originalHeight: 42
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 222
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .775390625
+      y: .75
+      width: .216796875
+      height: .041015625
+    rotated: 0
+  - name: TX_SmallPlatform03
+    originalWidth: 222
+    originalHeight: 42
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 10
+      width: 222
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .763671875
+      y: .635742188
+      width: .216796875
+      height: .03125
+    rotated: 0
+  - name: TX_SmallPlatform04
+    originalWidth: 95
+    originalHeight: 38
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 95
+      height: 38
+    coords:
+      serializedVersion: 2
+      x: .546875
+      y: .629882812
+      width: .0927734375
+      height: .037109375
+    rotated: 0
+  - name: TX_SmallPlatform05
+    originalWidth: 70
+    originalHeight: 71
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 70
+      height: 71
+    coords:
+      serializedVersion: 2
+      x: .546875
+      y: .66796875
+      width: .068359375
+      height: .0693359375
+    rotated: 0
+  - name: TX_SmallPlatform06
+    originalWidth: 109
+    originalHeight: 31
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 109
+      height: 31
+    coords:
+      serializedVersion: 2
+      x: .546875
+      y: .598632812
+      width: .106445312
+      height: .0302734375
+    rotated: 0
+  material: {fileID: 2100000, guid: 01f35674530584c2f88a081969385d93, type: 2}
+  texture: {fileID: 2800000, guid: 62cc831d0a6b14863bdd89ab59c9f19a, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

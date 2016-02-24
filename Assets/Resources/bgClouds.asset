@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: bgClouds
+  m_EditorClassIdentifier: 
+  elements:
+  - name: cloud
+    originalWidth: 523
+    originalHeight: 207
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 523
+      height: 206
+    coords:
+      serializedVersion: 2
+      x: .001953125
+      y: .59375
+      width: .510742188
+      height: .40234375
+    rotated: 0
+  material: {fileID: 2100000, guid: 9a5db212add8b46a6ad8693ba7a1125e, type: 2}
+  texture: {fileID: 2800000, guid: 3435483956ba544a78ff609a353b9a85, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

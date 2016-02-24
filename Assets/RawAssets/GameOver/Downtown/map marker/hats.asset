@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: hats
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Copper hat
+    originalWidth: 116
+    originalHeight: 93
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 13
+      width: 91
+      height: 72
+    coords:
+      serializedVersion: 2
+      x: .716796875
+      y: .71875
+      width: .177734375
+      height: .28125
+    rotated: 0
+  - name: Copper map glow
+    originalWidth: 97
+    originalHeight: 91
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 0
+      width: 94
+      height: 91
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .64453125
+      width: .18359375
+      height: .35546875
+    rotated: 0
+  - name: Gold hat
+    originalWidth: 109
+    originalHeight: 87
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 9
+      width: 91
+      height: 73
+    coords:
+      serializedVersion: 2
+      x: .537109375
+      y: .71484375
+      width: .177734375
+      height: .28515625
+    rotated: 0
+  - name: Gold map glow
+    originalWidth: 109
+    originalHeight: 103
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 13
+      width: 94
+      height: 90
+    coords:
+      serializedVersion: 2
+      x: .185546875
+      y: .6484375
+      width: .18359375
+      height: .3515625
+    rotated: 0
+  - name: map wings1
+    originalWidth: 125
+    originalHeight: 74
+    trimRect:
+      serializedVersion: 2
+      x: 2
+      y: 6
+      width: 118
+      height: 61
+    coords:
+      serializedVersion: 2
+      x: .419921875
+      y: .40234375
+      width: .23046875
+      height: .23828125
+    rotated: 0
+  - name: map wings2
+    originalWidth: 125
+    originalHeight: 74
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 5
+      width: 124
+      height: 69
+    coords:
+      serializedVersion: 2
+      x: .17578125
+      y: .37109375
+      width: .2421875
+      height: .26953125
+    rotated: 0
+  - name: map wings3
+    originalWidth: 128
+    originalHeight: 70
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 6
+      width: 120
+      height: 60
+    coords:
+      serializedVersion: 2
+      x: .65234375
+      y: .40625
+      width: .234375
+      height: .234375
+    rotated: 0
+  - name: Silver hat
+    originalWidth: 116
+    originalHeight: 93
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 14
+      width: 89
+      height: 71
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .36328125
+      width: .173828125
+      height: .27734375
+    rotated: 0
+  - name: Silver map glow
+    originalWidth: 92
+    originalHeight: 89
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 1
+      width: 84
+      height: 82
+    coords:
+      serializedVersion: 2
+      x: .37109375
+      y: .6796875
+      width: .1640625
+      height: .3203125
+    rotated: 0
+  - name: untapped map gem
+    originalWidth: 57
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 55
+      height: 55
+    coords:
+      serializedVersion: 2
+      x: .888671875
+      y: .42578125
+      width: .107421875
+      height: .21484375
+    rotated: 0
+  material: {fileID: 2100000, guid: 460227b1cb733475a8b2864adb795bac, type: 2}
+  texture: {fileID: 2800000, guid: 3b5af898cc2d84b29a4091a471e5de53, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

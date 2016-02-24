@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: ninja_atlas
+  m_EditorClassIdentifier: 
+  elements:
+  - name: ninjajump_1
+    originalWidth: 202
+    originalHeight: 308
+    trimRect:
+      serializedVersion: 2
+      x: 27
+      y: 21
+      width: 169
+      height: 265
+    coords:
+      serializedVersion: 2
+      x: .378417969
+      y: .399414062
+      width: .0825195312
+      height: .258789062
+    rotated: 0
+  - name: ninjajump_2
+    originalWidth: 202
+    originalHeight: 308
+    trimRect:
+      serializedVersion: 2
+      x: 23
+      y: 17
+      width: 166
+      height: 266
+    coords:
+      serializedVersion: 2
+      x: .296875
+      y: .3984375
+      width: .0810546875
+      height: .259765625
+    rotated: 0
+  - name: ninjajump_3
+    originalWidth: 227
+    originalHeight: 304
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 21
+      width: 214
+      height: 223
+    coords:
+      serializedVersion: 2
+      x: .661621094
+      y: .440429688
+      width: .104492188
+      height: .217773438
+    rotated: 0
+  - name: ninjajump_4
+    originalWidth: 293
+    originalHeight: 314
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 18
+      width: 288
+      height: 213
+    coords:
+      serializedVersion: 2
+      x: .766601562
+      y: .450195312
+      width: .140625
+      height: .208007812
+    rotated: 0
+  - name: ninjajump_5
+    originalWidth: 224
+    originalHeight: 317
+    trimRect:
+      serializedVersion: 2
+      x: 8
+      y: 14
+      width: 196
+      height: 275
+    coords:
+      serializedVersion: 2
+      x: .103027344
+      y: .389648438
+      width: .095703125
+      height: .268554688
+    rotated: 0
+  - name: ninjajump_6
+    originalWidth: 225
+    originalHeight: 350
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 22
+      width: 194
+      height: 314
+    coords:
+      serializedVersion: 2
+      x: .419921875
+      y: .693359375
+      width: .0947265625
+      height: .306640625
+    rotated: 0
+  - name: ninjajump_7
+    originalWidth: 203
+    originalHeight: 359
+    trimRect:
+      serializedVersion: 2
+      x: 16
+      y: 20
+      width: 174
+      height: 333
+    coords:
+      serializedVersion: 2
+      x: .170898438
+      y: .674804688
+      width: .0849609375
+      height: .325195312
+    rotated: 0
+  - name: ninjaland_1
+    originalWidth: 208
+    originalHeight: 359
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 22
+      width: 183
+      height: 334
+    coords:
+      serializedVersion: 2
+      x: .0810546875
+      y: .673828125
+      width: .0893554688
+      height: .326171875
+    rotated: 0
+  - name: ninjaland_2
+    originalWidth: 182
+    originalHeight: 348
+    trimRect:
+      serializedVersion: 2
+      x: 15
+      y: 14
+      width: 160
+      height: 329
+    coords:
+      serializedVersion: 2
+      x: .256347656
+      y: .678710938
+      width: .078125
+      height: .321289062
+    rotated: 0
+  - name: ninjaland_3
+    originalWidth: 182
+    originalHeight: 348
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 173
+      height: 329
+    coords:
+      serializedVersion: 2
+      x: .334960938
+      y: .678710938
+      width: .0844726562
+      height: .321289062
+    rotated: 0
+  - name: ninjaland_4
+    originalWidth: 182
+    originalHeight: 367
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 4
+      width: 165
+      height: 349
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .659179688
+      width: .0805664062
+      height: .340820312
+    rotated: 0
+  - name: ninjaland_5
+    originalWidth: 168
+    originalHeight: 319
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 24
+      width: 148
+      height: 288
+    coords:
+      serializedVersion: 2
+      x: .619140625
+      y: .71875
+      width: .072265625
+      height: .28125
+    rotated: 0
+  - name: ninjaland_6
+    originalWidth: 168
+    originalHeight: 319
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 24
+      width: 146
+      height: 288
+    coords:
+      serializedVersion: 2
+      x: .691894531
+      y: .71875
+      width: .0712890625
+      height: .28125
+    rotated: 0
+  - name: ninjaland_7
+    originalWidth: 168
+    originalHeight: 319
+    trimRect:
+      serializedVersion: 2
+      x: 8
+      y: 24
+      width: 148
+      height: 288
+    coords:
+      serializedVersion: 2
+      x: .763671875
+      y: .71875
+      width: .072265625
+      height: .28125
+    rotated: 0
+  - name: ninjaland_8
+    originalWidth: 168
+    originalHeight: 319
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 24
+      width: 148
+      height: 288
+    coords:
+      serializedVersion: 2
+      x: .836425781
+      y: .71875
+      width: .072265625
+      height: .28125
+    rotated: 0
+  - name: ninjarun_1
+    originalWidth: 187
+    originalHeight: 306
+    trimRect:
+      serializedVersion: 2
+      x: 29
+      y: 26
+      width: 149
+      height: 273
+    coords:
+      serializedVersion: 2
+      x: .909179688
+      y: .733398438
+      width: .0727539062
+      height: .266601562
+    rotated: 0
+  - name: ninjarun_2
+    originalWidth: 222
+    originalHeight: 294
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 56
+      width: 204
+      height: 236
+    coords:
+      serializedVersion: 2
+      x: .561523438
+      y: .427734375
+      width: .099609375
+      height: .23046875
+    rotated: 0
+  - name: ninjarun_3
+    originalWidth: 242
+    originalHeight: 294
+    trimRect:
+      serializedVersion: 2
+      x: 33
+      y: 43
+      width: 204
+      height: 251
+    coords:
+      serializedVersion: 2
+      x: .461425781
+      y: .413085938
+      width: .099609375
+      height: .245117188
+    rotated: 0
+  - name: ninjarun_4
+    originalWidth: 217
+    originalHeight: 294
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 21
+      width: 199
+      height: 269
+    coords:
+      serializedVersion: 2
+      x: .19921875
+      y: .395507812
+      width: .0971679688
+      height: .262695312
+    rotated: 0
+  - name: ninjarun_5
+    originalWidth: 212
+    originalHeight: 303
+    trimRect:
+      serializedVersion: 2
+      x: 2
+      y: 20
+      width: 210
+      height: 275
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .389648438
+      width: .102539062
+      height: .268554688
+    rotated: 0
+  - name: ninjarun_6
+    originalWidth: 242
+    originalHeight: 312
+    trimRect:
+      serializedVersion: 2
+      x: 16
+      y: 23
+      width: 212
+      height: 289
+    coords:
+      serializedVersion: 2
+      x: .515136719
+      y: .717773438
+      width: .103515625
+      height: .282226562
+    rotated: 0
+  material: {fileID: 2100000, guid: 84c04416c574441f1a0905aac06aebea, type: 2}
+  texture: {fileID: 2800000, guid: ac188e46d13134d9f80e7a9f86d7c96f, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Castle_1
+    originalWidth: 43
+    originalHeight: 260
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 43
+      height: 258
+    coords:
+      serializedVersion: 2
+      x: .380859375
+      y: .748046875
+      width: .083984375
+      height: .251953125
+    rotated: 0
+  - name: Castle_2
+    originalWidth: 72
+    originalHeight: 255
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 72
+      height: 255
+    coords:
+      serializedVersion: 2
+      x: .466796875
+      y: .750976562
+      width: .140625
+      height: .249023438
+    rotated: 0
+  - name: Castle_3
+    originalWidth: 98
+    originalHeight: 500
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 97
+      height: 497
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .514648438
+      width: .189453125
+      height: .485351562
+    rotated: 0
+  - name: Castle_4
+    originalWidth: 97
+    originalHeight: 400
+    trimRect:
+      serializedVersion: 2
+      x: 1
+      y: 0
+      width: 96
+      height: 398
+    coords:
+      serializedVersion: 2
+      x: .19140625
+      y: .611328125
+      width: .1875
+      height: .388671875
+    rotated: 0
+  - name: Forest
+    originalWidth: 400
+    originalHeight: 289
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 289
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .231445312
+      width: .78125
+      height: .282226562
+    rotated: 0
+  - name: Watchtower
+    originalWidth: 400
+    originalHeight: 125
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 125
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .108398438
+      width: .78125
+      height: .122070312
+    rotated: 0
+  material: {fileID: 2100000, guid: a80ebd0c1069947e4a72ae2b09c9df74, type: 2}
+  texture: {fileID: 2800000, guid: dc2a622543bf04bf5a71f6cb3d4ebf92, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

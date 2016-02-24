@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Area01
+  m_EditorClassIdentifier: 
+  elements:
+  - name: ACC_Dragonhead01
+    originalWidth: 100
+    originalHeight: 78
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 100
+      height: 76
+    coords:
+      serializedVersion: 2
+      x: .8515625
+      y: .92578125
+      width: .09765625
+      height: .07421875
+    rotated: 0
+  - name: ACC_Flag01
+    originalWidth: 480
+    originalHeight: 75
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 480
+      height: 74
+    coords:
+      serializedVersion: 2
+      x: .446289062
+      y: .686523438
+      width: .46875
+      height: .072265625
+    rotated: 0
+  - name: ACC_Flag02
+    originalWidth: 480
+    originalHeight: 190
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 480
+      height: 190
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .243164062
+      width: .46875
+      height: .185546875
+    rotated: 0
+  - name: ACC_Flag03
+    originalWidth: 32
+    originalHeight: 154
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .783203125
+      y: .849609375
+      width: .03125
+      height: .150390625
+    rotated: 0
+  - name: ACC_Flag04
+    originalWidth: 136
+    originalHeight: 24
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 136
+      height: 24
+    coords:
+      serializedVersion: 2
+      x: .783203125
+      y: .825195312
+      width: .1328125
+      height: .0234375
+    rotated: 0
+  - name: ACC_FlagFar01
+    originalWidth: 242
+    originalHeight: 35
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 242
+      height: 34
+    coords:
+      serializedVersion: 2
+      x: .7421875
+      y: .349609375
+      width: .236328125
+      height: .033203125
+    rotated: 0
+  - name: ACC_FlagFar02
+    originalWidth: 253
+    originalHeight: 48
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 253
+      height: 46
+    coords:
+      serializedVersion: 2
+      x: .7421875
+      y: .383789062
+      width: .247070312
+      height: .044921875
+    rotated: 0
+  - name: ACC_FlagFar03
+    originalWidth: 266
+    originalHeight: 88
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 266
+      height: 83
+    coords:
+      serializedVersion: 2
+      x: .469726562
+      y: .264648438
+      width: .259765625
+      height: .0810546875
+    rotated: 0
+  - name: ACC_Rope01
+    originalWidth: 268
+    originalHeight: 53
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 265
+      height: 53
+    coords:
+      serializedVersion: 2
+      x: .73046875
+      y: .293945312
+      width: .258789062
+      height: .0517578125
+    rotated: 0
+  - name: BG_AREA01_06_Ani_01
+    originalWidth: 20
+    originalHeight: 146
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 73
+      width: 20
+      height: 73
+    coords:
+      serializedVersion: 2
+      x: .950195312
+      y: .928710938
+      width: .01953125
+      height: .0712890625
+    rotated: 0
+  - name: platform_blue
+    originalWidth: 210
+    originalHeight: 141
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 210
+      height: 141
+    coords:
+      serializedVersion: 2
+      x: .684570312
+      y: .516601562
+      width: .205078125
+      height: .137695312
+    rotated: 0
+  - name: Rank01 Blue
+    originalWidth: 280
+    originalHeight: 264
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 21
+      width: 249
+      height: 237
+    coords:
+      serializedVersion: 2
+      x: .5390625
+      y: .768554688
+      width: .243164062
+      height: .231445312
+    rotated: 0
+  - name: Rank03 green
+    originalWidth: 400
+    originalHeight: 317
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 28
+      width: 299
+      height: 223
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .436523438
+      width: .291992188
+      height: .217773438
+    rotated: 0
+  - name: TX_Area03_Building02
+    originalWidth: 137
+    originalHeight: 353
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 137
+      height: 353
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .655273438
+      width: .133789062
+      height: .344726562
+    rotated: 0
+  - name: TX_ChurchChimney01
+    originalWidth: 42
+    originalHeight: 43
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 42
+      height: 43
+    coords:
+      serializedVersion: 2
+      x: .815429688
+      y: .87109375
+      width: .041015625
+      height: .0419921875
+    rotated: 0
+  - name: TX_ChurchCorridor01
+    originalWidth: 278
+    originalHeight: 84
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 278
+      height: 84
+    coords:
+      serializedVersion: 2
+      x: .469726562
+      y: .346679688
+      width: .271484375
+      height: .08203125
+    rotated: 0
+  - name: TX_ChurchCorridor02
+    originalWidth: 307
+    originalHeight: 72
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 307
+      height: 72
+    coords:
+      serializedVersion: 2
+      x: .684570312
+      y: .4453125
+      width: .299804688
+      height: .0703125
+    rotated: 0
+  - name: TX_ChurchCorridorFar01
+    originalWidth: 349
+    originalHeight: 28
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 349
+      height: 26
+    coords:
+      serializedVersion: 2
+      x: .134765625
+      y: .65625
+      width: .340820312
+      height: .025390625
+    rotated: 0
+  - name: TX_ClockBuilding02
+    originalWidth: 94
+    originalHeight: 248
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 94
+      height: 246
+    coords:
+      serializedVersion: 2
+      x: .446289062
+      y: .759765625
+      width: .091796875
+      height: .240234375
+    rotated: 0
+  - name: TX_SmallBridge01
+    originalWidth: 133
+    originalHeight: 33
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 133
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .857421875
+      y: .880859375
+      width: .129882812
+      height: .0322265625
+    rotated: 0
+  - name: TX_SmallBuildingFar01
+    originalWidth: 36
+    originalHeight: 88
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 36
+      height: 88
+    coords:
+      serializedVersion: 2
+      x: .815429688
+      y: .9140625
+      width: .03515625
+      height: .0859375
+    rotated: 0
+  - name: TX_SmallBuildingOfTwo01_bak
+    originalWidth: 318
+    originalHeight: 325
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 318
+      height: 325
+    coords:
+      serializedVersion: 2
+      x: .134765625
+      y: .682617188
+      width: .310546875
+      height: .317382812
+    rotated: 0
+  - name: village
+    originalWidth: 400
+    originalHeight: 233
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 400
+      height: 230
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .4296875
+      width: .390625
+      height: .224609375
+    rotated: 0
+  material: {fileID: 2100000, guid: d5882dc7a4d824b5ead7b133983e3138, type: 2}
+  texture: {fileID: 2800000, guid: 39d805d47064a4c009a9eb47b3768605, type: 3}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

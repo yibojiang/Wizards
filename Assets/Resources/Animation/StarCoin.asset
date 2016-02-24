@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: StarCoin
+  m_EditorClassIdentifier: 
+  wrapMode: 2
+  stopAction: 0
+  length: 1.16666663
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: ce0192cc239bb40719e519fda96448c5
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 4ea3da93352034445a7bfc4a2c731ca9, type: 2}
+    index: 0
+  - textureGUID: 6d306765fb77d4d60aa5c65219741971
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 4ea3da93352034445a7bfc4a2c731ca9, type: 2}
+    index: 1
+  - textureGUID: 07edc9195a70e435385cdf92d88b563c
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 4ea3da93352034445a7bfc4a2c731ca9, type: 2}
+    index: 2
+  - textureGUID: 4013df0ea32ab40dfb0c12f3c042791b
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 4ea3da93352034445a7bfc4a2c731ca9, type: 2}
+    index: 3
+  - textureGUID: 0ac684fe0a33a4acf84eddee328ec8f6
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 4ea3da93352034445a7bfc4a2c731ca9, type: 2}
+    index: 4
+  - textureGUID: 8122a877e3f194f8cb5d03c106e85fd6
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 4ea3da93352034445a7bfc4a2c731ca9, type: 2}
+    index: 5
+  - textureGUID: fdb6bf1bba24d48fb9bc97ce9cd160e1
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 4ea3da93352034445a7bfc4a2c731ca9, type: 2}
+    index: 6
+  eventInfos: []
+  speed: 1.82000005
+  editorPreviewSize: 256
+  editorScale: .573973954
+  editorOffset: 0
+  editorSpeed: 2
+  editorNeedRebuild: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
