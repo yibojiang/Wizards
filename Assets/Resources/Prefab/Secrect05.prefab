@@ -254,7 +254,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1310270934, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Script: {fileID: 11500000, guid: fdaee45eecfdc471fa1e39093bc7656f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1002 &11400003
@@ -290,7 +290,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1714840765, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Script: {fileID: 11500000, guid: 72222ffe19081477d86ab95ffdc1793a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   autoResizeCollision_: 1
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1965115596, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ac8bceb52a204a38bba4d120567f54f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animations:
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 152183940, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Script: {fileID: 11500000, guid: 6efb0ef87aebc4c07b8b80265a0bc1cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   camera_: {fileID: 0}

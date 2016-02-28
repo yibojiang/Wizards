@@ -1,0 +1,5 @@
+fileFormatVersion: 1
+guid: 72222ffe19081477d86ab95ffdc1793a
+
+
+ /usr/bin/xcrun -sdk iphoneos PackageApplication -v "/Users/cyc/Desktop/AAA/naughtykittiescn.app" -o "/Users/cyc/Desktop/nk.ipa" --sign "iPhone Distribution: Chengdu Lanfei Huyu Technology Co., Ltd.(G4Z4HN9F5D)" --embed "/Users/cyc/Desktop/AAA/naughtykittiescn_Distribution.mobileprovision"

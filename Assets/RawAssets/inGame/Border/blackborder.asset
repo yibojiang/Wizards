@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1837739921, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d88982ee844c401b939d3e5e710bde7, type: 3}
   m_Name: blackborder
   m_EditorClassIdentifier: 
   textureGUID: 588e8ece518ac4c5ca333d7cfafe3e24

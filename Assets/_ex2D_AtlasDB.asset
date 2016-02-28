@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -916013278, guid: 77f72665dddd347bba153c5cb5a2df66, type: 3}
+  m_Script: {fileID: 11500000, guid: cd22e4dbfc71144b69961869877586c9, type: 3}
   m_Name: _ex2D_AtlasDB
   m_EditorClassIdentifier: 
   curVersion: 2

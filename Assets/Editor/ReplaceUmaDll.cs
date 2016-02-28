@@ -22,31 +22,41 @@ public class ReplaceUmaDll
     static void Replace()
     {
         List<UnityReference> r = new List<UnityReference>();
-        r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "1155214310", "787cfc6a93c63433e92e033e697a4771", "11500000")); // exAtlas.cs
-        r.Add(new UnityReference("0ff54ba54fd624050a6d96ac696ee62a", "-2055322909", "583664a9335f546d68094cae24bafd03", "11500000")); // exAtlasInfo.cs
+
+        
+
+        
+
+        
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "-894469397", "795d9b1dd78d242239e476cce3eec843", "11500000")); // exSpriteMng.cs
+
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "-1958963152", "09f38919b6f744cff80277400a5c790c", "11500000"));//exPixelPerfect Camera
+
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "1155214310", "787cfc6a93c63433e92e033e697a4771", "11500000")); // exAtlas.cs
+        r.Add(new UnityReference("77f72665dddd347bba153c5cb5a2df66", "-2055322909", "583664a9335f546d68094cae24bafd03", "11500000")); // exAtlasInfo.cs
 
 
-        r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "1318968151", "77d4bd815af5f443ab8f83def6d20555", "11500000")); // exViewportPosition.cs
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "1318968151", "77d4bd815af5f443ab8f83def6d20555", "11500000")); // exViewportPosition.cs
 
-        r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "152183940", "6efb0ef87aebc4c07b8b80265a0bc1cf", "11500000")); // exSprite.cs
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "152183940", "6efb0ef87aebc4c07b8b80265a0bc1cf", "11500000")); // exSprite.cs
 
-        r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "-997644103", "c3a0cbac84cb34542b67eec34fc207eb", "11500000")); // exBitmapFont.cs
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "-997644103", "c3a0cbac84cb34542b67eec34fc207eb", "11500000")); // exBitmapFont.cs
 
-        r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "1837739921", "9d88982ee844c401b939d3e5e710bde7", "11500000"));//exGUIBorder
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "1837739921", "9d88982ee844c401b939d3e5e710bde7", "11500000"));//exGUIBorder
 
-        r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "1436349420", "360861cf57c644f53aae8c5771924922", "11500000"));//exSpriteBorder
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "1436349420", "360861cf57c644f53aae8c5771924922", "11500000"));//exSpriteBorder
 
-		r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "-1904263217", "85b5f7b0a2a864acba9975dc5a28e546", "11500000"));//exPixelPerfect
+		r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "-1904263217", "85b5f7b0a2a864acba9975dc5a28e546", "11500000"));//exPixelPerfect
 
-		r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "-1965115596", "4ac8bceb52a204a38bba4d120567f54f", "11500000"));//exSpriteAnimation
+		r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "-1965115596", "4ac8bceb52a204a38bba4d120567f54f", "11500000"));//exSpriteAnimation
 
-		r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "1310270934", "fdaee45eecfdc471fa1e39093bc7656f", "11500000"));//exSpriteAnimHelper
+		r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "1310270934", "fdaee45eecfdc471fa1e39093bc7656f", "11500000"));//exSpriteAnimHelper
 
-		r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "49051723", "bf5697e911dcb4f8389232e24eea42a6", "11500000"));//exSpriteAnimClip
+		r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "49051723", "bf5697e911dcb4f8389232e24eea42a6", "11500000"));//exSpriteAnimClip
 
-		r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "-640569473", "1d72d188a05d64509b3055231146e979", "11500000"));//exSpriteFont
+		r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "-640569473", "1d72d188a05d64509b3055231146e979", "11500000"));//exSpriteFont
 
-        r.Add(new UnityReference("d898c4629191945679c7e4262a52cb29", "1714840765", "72222ffe19081477d86ab95ffdc1793a", "11500000"));//exCollisionHelper
+        r.Add(new UnityReference("86da5fbf2fdd742fabee71203cfbdca4", "1714840765", "72222ffe19081477d86ab95ffdc1793a", "11500000"));//exCollisionHelper
 
         
 
