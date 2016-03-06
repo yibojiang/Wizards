@@ -2,7 +2,7 @@ var IsInitComplete : boolean = false;
 
 var launchedFirework : GameObject;
 
-var ff : FireworkFactory;
+private var ff : FireworkFactory;
 
 var currentFirework : FireWork;
 
@@ -29,6 +29,7 @@ var newLevel : boolean = true;
 
 
 var maxLevelCount : int = 100;
+
 var levelList : Level[];
 
 var playList : PlayList;
@@ -53,7 +54,7 @@ var difficulty : EDifficulty;
 var forcedDifficulty : boolean;
 var forcedDifficultyLevel : EDifficulty;
 
-var pm : ProfileManager;
+
 
 var gSL : GameSaveLoad;
 
@@ -341,7 +342,7 @@ function Awake()
 		}
 		else
 		{
-			difficulty = pm.GetDifficultyLevel();
+			difficulty = ProfileManager.Instance().GetDifficultyLevel();
 		}
 		
 		if ( Wizards.Utils.DEBUG ) if ( Wizards.Utils.DEBUG ) Debug.Log("Difficulty: " + difficulty);

@@ -60,7 +60,7 @@ class LevelEditor extends EditorWindow
 	var currentLevelDifficulty : EDifficulty;
 	var switchToDifficulty : EDifficulty;
 	
-	var pm : ProfileManager;
+	
 	
 	// LOAD SECTION OF FILE
 	var sourceStartLevel : int = 0;
@@ -122,7 +122,8 @@ class LevelEditor extends EditorWindow
     		gSL = GameObject.Find("GameSaveLoad").GetComponent(GameSaveLoad) as GameSaveLoad;
     	}
     	
-    	pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
+    	// pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
+    	var pm:ProfileManager=ProfileManager.Inatance();
     	
     	LoadLevelDifficulty();
     	if ( Wizards.Utils.DEBUG ) Debug.Log("CURR DIFF: " + currentLevelDifficulty);
@@ -191,7 +192,7 @@ class LevelEditor extends EditorWindow
 	    
         if ( lm != null ) //&& lm.LevelsInitialised() == true)
         {
-	        
+	     	var pm:ProfileManager=ProfileManager.Instance();   
 	        // The actual window code goes here
 	        
 	        scrollPos2 = EditorGUILayout.BeginScrollView(scrollPos2);
@@ -212,6 +213,7 @@ class LevelEditor extends EditorWindow
 	         }
 	         if ( GUILayout.Button("SWITCH" ) )
 	         {
+
 	         	var saveTo : String = pm.GetDifficultyPathAndFileName(currentLevelDifficulty);
 	         	if ( Wizards.Utils.DEBUG ) Debug.Log("SAVETO: " + saveTo);
 	         	gSL.SaveLevelData(saveTo);
@@ -1101,7 +1103,9 @@ class LevelEditor extends EditorWindow
 	
 	function SaveLevelDifficulty()
 	{
+		var pm:ProfileManager=ProfileManager.Instance();
 		PlayerPrefs.SetInt("LevelEditorCurrentDifficulty", currentLevelDifficulty);
+
 		pm.SetDifficultyLevel(currentLevelDifficulty);
 	}
 	
@@ -1141,6 +1145,7 @@ class LevelEditor extends EditorWindow
 	}
 	function OnDisable()
 	{
+		var pm:ProfileManager=ProfileManager.Instance();
 		if ( Wizards.Utils.DEBUG ) Debug.Log("Disable Called");
 		SaveLevelPosition();
 		SaveLevelDifficulty();

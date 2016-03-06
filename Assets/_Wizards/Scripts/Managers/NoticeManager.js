@@ -1,4 +1,4 @@
-var pm:ProfileManager;
+private var pm:ProfileManager;
 var notice:NoticeBox;
 var timerController:TimerController;
 var newHighScoreShowed:boolean;
@@ -8,8 +8,9 @@ private var am : AudioManager;
 function Awake()
 {
 	newHighScoreShowed=false;
-	am = GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
+	am = GameObject.Find("AudioManager").GetComponent.<AudioManager>();
 	InvokeRepeating("CheckForNewHighScore", 2.0, 1.0);
+	pm=ProfileManager.Instance();
 }
 
 

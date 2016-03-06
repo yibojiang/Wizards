@@ -1,3 +1,12 @@
+private static var instance : ProfileManager;
+ 
+public static function Instance() : ProfileManager
+{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<ProfileManager>();
+    return instance;
+}
+
 var rankArray:String[];
 var achievementArray:AchievementInfo[];
 var secrectArray:SecrectInfo[];
@@ -187,6 +196,8 @@ enum Record
 
 
 var tempRecord:int[];
+
+
 
 function SaveAllRecord()
 {

@@ -1,3 +1,11 @@
+private static var instance : AudioManager;
+ 
+public static function Instance() : AudioManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<AudioManager>();
+    return instance;
+}
+
 var miss : AudioClip[];
 var poor : AudioClip[];
 var good : AudioClip[];
@@ -33,7 +41,7 @@ var FXVol:float=1;//for catboard FX and starcoins
 var expVol:float=1;
 var fwVol:float=1;
 var audienceVol:float=1;
-var pm:ProfileManager;
+
 
 var registerCash:AudioClip;
 
@@ -77,7 +85,7 @@ enum SFX
 function Awake()
 {
 	timerController=GameObject.Find("TimerController").GetComponent(TimerController);
-	pm=GameObject.Find("ProfileManager").GetComponent(ProfileManager);
+	
 }
 
 function Start()
@@ -88,7 +96,7 @@ function Start()
 	_fwVol=0.5;
 	_audienceVol=0.2;
 	
-	sfxFactor=pm.GetSFXVolume();
+	sfxFactor=ProfileManager.Instance().GetSFXVolume();
     if ( Wizards.Utils.DEBUG ) Debug.Log("SFX VOLUME FACTOR = " + sfxFactor);
 	voiceVol=_voiceVol*sfxFactor;
 	FXVol=_FXVol*sfxFactor;

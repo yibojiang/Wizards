@@ -1,3 +1,11 @@
+private static var instance : GameManager;
+ 
+public static function Instance() : GameManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<GameManager>();
+    return instance;
+}
+
 var totalFireWorks : int = 0;
 
 var TextChainCount:exSpriteFont;
@@ -35,11 +43,11 @@ var gameState : GameState;
 
 var gameOverMessage : GameOverMessage;
 
-var im : InputManager;
-var pm : ProfileManager;
-var lm : LevelManager;
-var am: AudioManager;
-var em : EventManager;
+private var im : InputManager;
+private var pm : ProfileManager;
+private var lm : LevelManager;
+private var am: AudioManager;
+private var em : EventManager;
 
 var wizard : WizardControl;
 

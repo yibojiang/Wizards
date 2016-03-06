@@ -29,7 +29,7 @@ var glitterAmount : int = 10;
 
 
 var tm:TutorialLevelManager;
-var pm:ProfileManager;
+private var pm:ProfileManager;
 
 var orangeExplosionPool:Explosion[];
 var blueExplosionPool:Explosion[];
@@ -41,7 +41,7 @@ var glitterExplosion:Explosion[];
 var chanceOfSFW:float=0.2;
 
 var flash : FlashControl;
-var am:AudioManager;
+private var am:AudioManager;
 
 var numSFXUnlocked : int = 0;
 
@@ -67,9 +67,9 @@ function Awake()
 {
 	//if ( Wizards.Utils.DEBUG ) Debug.LogWarning("NOTE : Need to write cleanup code for the SFW base GO's");
 	tm = GameObject.Find("TutorialLevelManager").GetComponent(TutorialLevelManager) as TutorialLevelManager;
-	pm=GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
-	am=GameObject.Find("AudioManager").GetComponent(AudioManager);
-	gm=GameObject.Find("GameManager").GetComponent(GameManager) as GameManager;
+	pm=ProfileManager.Instance();
+	am=AudioManager.Instance();
+	gm=GameManager.Instance();
 	BuildGlitterExpPool();
 	BuildGlitterPool();
 	BuildGoodExpPool();

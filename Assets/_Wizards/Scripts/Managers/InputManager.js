@@ -1,3 +1,11 @@
+private static var instance:InputManager;
+
+public static function Instance() : InputManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<InputManager>();
+    return instance;
+}
+
 var touch : Touch;
 var touchPos : Vector3;
 
@@ -6,12 +14,12 @@ var ray : Ray;
 
 var wizard : WizardControl;
 
-var gm : GameManager;
+// private var gm : GameManager;
 
 var state : GameState;
 
 
-var pm:ProfileManager;
+private var pm:ProfileManager;
 
 var inputMode:InputMode;
 
@@ -64,7 +72,7 @@ function Awake()
 function Start()
 {
 	//InitSwords();
-	pm=GameObject.Find("ProfileManager").GetComponent(ProfileManager);
+	pm=ProfileManager.Instance();
 	touched=false;
 
 	var wandCode:int=pm.GetWandBitmask();

@@ -1,3 +1,11 @@
+private static var instance : MessageManager;
+ 
+public static function Instance() : MessageManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<MessageManager>();
+    return instance;
+}
+
 var missMessage : GameObject;
 var poorMessage : GameObject;
 var goodMessage : GameObject;

@@ -11,7 +11,7 @@ var pauseMenuBGM:AudioSource;
 var menuBGM:AudioSource;
 var secretBGM:AudioSource;
 
-var pm:ProfileManager;
+
 var bgmVol:float=1.0;
 var _bgmVol:float=1.0;
 
@@ -33,15 +33,12 @@ enum BGM
 	WIND,//12
 }
 
-function Awake()
-{
-	pm=GameObject.Find("ProfileManager").GetComponent(ProfileManager);
-}
+
 
 function Start()
 {
 	_bgmVol=0.6;
-	bgmFactor=pm.GetMusicVolume();
+	bgmFactor=ProfileManager.Instance().GetMusicVolume();
 	bgmVol=_bgmVol*bgmFactor;
 	if (inGameBGM!=null)
 	{

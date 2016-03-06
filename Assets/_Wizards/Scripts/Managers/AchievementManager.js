@@ -1,21 +1,20 @@
-var gm:GameManager;
-var pm:ProfileManager;
+
 var notice:NoticeBox;
 var panelController:PanelController;
-var timerController:TimerController;
+// private var timerController:TimerController;
 var achievementArray:int[];
 
 var lifeTimePerfect:int;
 var lifeTimeFWCount:int;
 
-var lm:LevelManager;
-private var am : AudioManager;
 
+
+private var pm:ProfileManager;
 
 function Awake()
 {
-	am = GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
-	timerController=GameObject.Find("TimerController").GetComponent(TimerController);
+	pm =ProfileManager.Instance();
+	// timerController=GameObject.Find("TimerController").GetComponent(TimerController);
 	//Save temp data
 	achievementArray=new int[pm.achievementArray.length];
 	//if ( Wizards.Utils.DEBUG ) Debug.Log(pm.achievementArray.length);
@@ -34,6 +33,7 @@ function Start()
 
 function UnlockAchievement(_achievement:Achievement)
 {
+	var am:AudioManager =AudioManager.Instance();
 	if ( Wizards.Utils.DEBUG ) Debug.Log("ACHIEVEMENT STATUS : " + achievementArray[_achievement]);
 	if ( achievementArray[_achievement] == 0 )
 	{
@@ -93,6 +93,7 @@ function Update()
 
 function LateUpdate () 
 {
+	var gm:GameManager=GameManager.Instance();
 	if (gm.perfectChainCount >=10 && achievementArray[Achievement.Not_Bad]==0)
 	{
 		UnlockAchievement(Achievement.Not_Bad);

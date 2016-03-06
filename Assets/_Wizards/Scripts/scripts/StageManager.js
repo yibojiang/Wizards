@@ -1,6 +1,6 @@
 var stageInfo:StageInfo[];
 
-var pm : ProfileManager;
+private var pm : ProfileManager;
 
 function Awake()
 {

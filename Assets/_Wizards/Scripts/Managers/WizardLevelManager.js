@@ -1,4 +1,4 @@
-var pm:ProfileManager;
+private var pm:ProfileManager;
 var audiencebar:AudienceBar;
 var levelup:GameObject;
 var em:ExplosionManager;
@@ -44,12 +44,11 @@ var levelRewards : LevelReward[];
 
 var testUnlockLevel : int = 0;
 
-function Awake()
-{
-	if ( !beingUsedInGameOverMenu )
-	{
-		am=GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
+function Awake(){
+	if ( !beingUsedInGameOverMenu ){
+		am=AudioManager.Instance();
 		wc=GameObject.Find("Wizard").GetComponent(WizardControl) as WizardControl;
+		pm=ProfileManager.Instance();
 	}
 }
 

@@ -1,3 +1,12 @@
+private static var instance : TimerController;
+ 
+public static function Instance() : TimerController
+{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<TimerController>();
+    return instance;
+}
+
 private var lastRealTime:float;
 static var realDeltaTime:float;
 
