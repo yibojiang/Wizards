@@ -12,6 +12,22 @@ MonoBehaviour:
   m_Name: inGameNormal2
   m_EditorClassIdentifier: 
   elements:
+  - name: audiencebar
+    originalWidth: 53
+    originalHeight: 40
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 40
+    coords:
+      serializedVersion: 2
+      x: 0.109375
+      y: 0.671875
+      width: 0.20703125
+      height: 0.15625
+    rotated: 0
   - name: audiencebarLeft
     originalWidth: 28
     originalHeight: 40
@@ -23,10 +39,10 @@ MonoBehaviour:
       height: 40
     coords:
       serializedVersion: 2
-      x: .828125
-      y: .84375
-      width: .109375
-      height: .15625
+      x: 0.828125
+      y: 0.84375
+      width: 0.109375
+      height: 0.15625
     rotated: 0
   - name: audiencebarMid
     originalWidth: 181
@@ -39,10 +55,10 @@ MonoBehaviour:
       height: 32
     coords:
       serializedVersion: 2
-      x: .109375
-      y: .703125
-      width: .70703125
-      height: .125
+      x: 0
+      y: 0.54296875
+      width: 0.70703125
+      height: 0.125
     rotated: 0
   - name: audiencebarRight
     originalWidth: 27
@@ -56,9 +72,9 @@ MonoBehaviour:
     coords:
       serializedVersion: 2
       x: 0
-      y: .671875
-      width: .10546875
-      height: .15625
+      y: 0.671875
+      width: 0.10546875
+      height: 0.15625
     rotated: 0
   - name: energybarGray
     originalWidth: 211
@@ -72,9 +88,9 @@ MonoBehaviour:
     coords:
       serializedVersion: 2
       x: 0
-      y: .83203125
-      width: .82421875
-      height: .16796875
+      y: 0.83203125
+      width: 0.82421875
+      height: 0.16796875
     rotated: 0
   material: {fileID: 2100000, guid: 8e3c041dd0a6948bc94ab1f7766c0ad1, type: 2}
   texture: {fileID: 2800000, guid: 8d790febc5e064f5cb23a97cd761eb55, type: 3}

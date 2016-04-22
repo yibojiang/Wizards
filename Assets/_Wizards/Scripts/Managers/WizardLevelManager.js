@@ -45,10 +45,12 @@ var levelRewards : LevelReward[];
 var testUnlockLevel : int = 0;
 
 function Awake(){
+	am=AudioManager.Instance();
+	pm=ProfileManager.Instance();
+	lm=LevelManager.Instance();
 	if ( !beingUsedInGameOverMenu ){
-		am=AudioManager.Instance();
 		wc=GameObject.Find("Wizard").GetComponent(WizardControl) as WizardControl;
-		pm=ProfileManager.Instance();
+		
 	}
 }
 
@@ -64,7 +66,7 @@ function Start()
 	
 		// GetLevelBonus(curLevel); -PJC - Believe this was used to set the players HP Bar to correct size
 		SetupHPBar(curLevel);
-		lm = GameObject.Find("LevelManager").GetComponent(LevelManager) as LevelManager;
+		// lm = GameObject.Find("LevelManager").GetComponent(LevelManager) as LevelManager;
 	}
 }
 

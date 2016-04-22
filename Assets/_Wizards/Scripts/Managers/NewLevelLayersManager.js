@@ -1,3 +1,10 @@
+private static var instance : NewLevelLayersManager;
+ 
+public static function Instance() : NewLevelLayersManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<NewLevelLayersManager>();
+    return instance;
+}
 private var layerManager:LayerManager;
 private var pm:ProfileManager;
 private var gm:GameManager;
@@ -600,6 +607,7 @@ function LoadStage(_index:int)
 		layerManager.SetLayer(sm.stageInfo[_index].layerInfo[k].layerType,sm.stageInfo[_index].layerInfo[k].scrollSpeed,sm.stageInfo[_index].layerInfo[k].tiltValue);
 	}
 
+	//can load next level data
 }
 
 // Only used for Stage 0, Stage 1, and Stage 11 (Title text comes from params)
@@ -1020,7 +1028,7 @@ function ProcessInput()
 function Update () 
 {
 	ProcessInput();
-	pm.SetTempRecord(Record.GameHeight,layerManager.travelHeight);
+	pm.SetTempRecord(Record.GameHeight,layerManager.GetTravelHeight() );
 	/*
 	if (waitForNoFireworks)
 	{
@@ -1045,8 +1053,8 @@ function Update ()
 		 // ( ( 75 - 1 - (120 - 3 ) ) * ( 75 - ( 120 - 3 ) ) < 0 )
 		 // ( ( 74 - ( 117 ) ) * ( 75 - 117 ) ) < 0 )
 		 // ( ( 
-		var levelHeightCheck : float = (layerManager.travelHeight - layerManager.initYSpeed - (sm.stageInfo[currentStageIndex].endHeight-3)  ) *
-									   (layerManager.travelHeight - (sm.stageInfo[currentStageIndex].endHeight-3) );
+		var levelHeightCheck : float = (layerManager.GetTravelHeight() - layerManager.initYSpeed - (sm.stageInfo[currentStageIndex].endHeight-3)  ) *
+									   (layerManager.GetTravelHeight() - (sm.stageInfo[currentStageIndex].endHeight-3) );
 		//if ( Wizards.Utils.DEBUG ) Debug.Log("YSPEED > 0 :: Level Height Check : " + levelHeightCheck);
 		
 		if ( levelHeightCheck <0 )
@@ -1071,8 +1079,8 @@ function Update ()
 	else if (layerManager.initYSpeed<0)//TODO
 	{
 	
-		levelHeightCheck = (layerManager.travelHeight - layerManager.initYSpeed - (sm.stageInfo[currentStageIndex].startHeight+3) )*
-		 				   (layerManager.travelHeight - (sm.stageInfo[currentStageIndex].startHeight+3) );
+		levelHeightCheck = (layerManager.GetTravelHeight() - layerManager.initYSpeed - (sm.stageInfo[currentStageIndex].startHeight+3) )*
+		 				   (layerManager.GetTravelHeight() - (sm.stageInfo[currentStageIndex].startHeight+3) );
 		if ( Wizards.Utils.DEBUG ) Debug.Log("YSPEED < 0 :: Level Height Check : " + levelHeightCheck);
 		if ( levelHeightCheck < 0 )
 		{

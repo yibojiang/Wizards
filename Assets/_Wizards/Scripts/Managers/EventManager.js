@@ -1,6 +1,13 @@
 //#pragma strict
-
 import System.Collections.Generic;
+
+private static var instance : EventManager;
+ 
+public static function Instance() : EventManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<EventManager>();
+    return instance;
+}
 
 enum EGameEvent
 {

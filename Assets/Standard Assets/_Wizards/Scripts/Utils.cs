@@ -5,6 +5,6 @@ namespace Wizards
 {
 	public static class Utils
 	{
-		public static bool DEBUG = false;
+		public static bool DEBUG = true;
 	}
 }

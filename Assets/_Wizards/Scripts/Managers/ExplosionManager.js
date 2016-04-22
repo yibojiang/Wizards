@@ -1,3 +1,11 @@
+private static var instance : ExplosionManager;
+ 
+public static function Instance() : ExplosionManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<ExplosionManager>();
+    return instance;
+}
+
 private var firework : GameObject;
 
 var numberFireworks : int = 10;
@@ -9,8 +17,6 @@ var currentFirework : int = 0;
 var fireworksPoor : GameObject[];
 var fireworksGood : Explosion[];
 var fireworksGoodInUse:int;
-
-
 
 var fireworksSpecial : GameObject[];
 
@@ -28,7 +34,7 @@ var glitterAmount : int = 10;
 
 
 
-var tm:TutorialLevelManager;
+private var tm:TutorialLevelManager;
 private var pm:ProfileManager;
 
 var orangeExplosionPool:Explosion[];
@@ -66,7 +72,7 @@ enum ExplosionType
 function Awake()
 {
 	//if ( Wizards.Utils.DEBUG ) Debug.LogWarning("NOTE : Need to write cleanup code for the SFW base GO's");
-	tm = GameObject.Find("TutorialLevelManager").GetComponent(TutorialLevelManager) as TutorialLevelManager;
+	tm=TutorialLevelManager.Instance();
 	pm=ProfileManager.Instance();
 	am=AudioManager.Instance();
 	gm=GameManager.Instance();

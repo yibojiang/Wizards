@@ -1,22 +1,24 @@
-var pm:ProfileManager;
+private var pm:ProfileManager;
 var notice:NoticeBox;
 var achievementArray:int[];
 private var am : AudioManager;
 
 function Start()
 {
-	if ( Application.loadedLevelName == "GameOver" )
-	{
-		am = GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
-	}
-	else
-	{
-		// This shouldnt be used - this is the mainmenu achievement manager after all! 
-		if ( GameObject.Find("BgmManager") != null )
-		{
-			am = GameObject.Find("BgmManager").GetComponent(AudioManager) as AudioManager;
-		}
-	}
+	am=AudioManager.Instance();
+	pm=ProfileManager.Instance();
+	// if ( Application.loadedLevelName == "GameOver" )
+	// {
+	// 	am = GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
+	// }
+	// else
+	// {
+	// 	// This shouldnt be used - this is the mainmenu achievement manager after all! 
+	// 	if ( GameObject.Find("BgmManager") != null )
+	// 	{
+	// 		am = GameObject.Find("BgmManager").GetComponent(AudioManager) as AudioManager;
+	// 	}
+	// }
 	
 	
 	//Save temp data

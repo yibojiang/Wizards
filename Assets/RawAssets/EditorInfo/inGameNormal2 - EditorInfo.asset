@@ -18,6 +18,31 @@ MonoBehaviour:
   - rotated: 0
     trim: 1
     atlasInfo: {fileID: 11400000}
+    texture: {fileID: 2800000, guid: 09be53de3167c4369bec04b10c7b56cf, type: 3}
+    coord: 1c0000002c000000
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 40
+    isFontElement: 0
+    srcFontInfo: {fileID: 0}
+    destFontInfo: {fileID: 0}
+    charInfo:
+      id: -1
+      x: -1
+      y: -1
+      width: -1
+      height: -1
+      xoffset: -1
+      yoffset: -1
+      xadvance: -1
+      page: -1
+      uv0: {x: 0, y: 0}
+  - rotated: 0
+    trim: 1
+    atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: 7a8296d0ccf6041239708943379dc4af, type: 3}
     coord: d400000000000000
     trimRect:
@@ -44,7 +69,7 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: 500b5f4dcb0e84067a6a54c3ed39043b, type: 3}
-    coord: 1c0000002c000000
+    coord: 0000000055000000
     trimRect:
       serializedVersion: 2
       x: 0

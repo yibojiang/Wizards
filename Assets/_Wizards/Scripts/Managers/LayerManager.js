@@ -1,5 +1,11 @@
 //*********TODO: FIX POTENTIAL BUGS IN MOVE AND ZOOM*********
-
+private static var instance : LayerManager;
+ 
+public static function Instance() : LayerManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<LayerManager>();
+    return instance;
+}
 
 var initYSpeed : float= 12.0;
 var prefab : LayerImage;
@@ -7,7 +13,7 @@ var layers : Array;
 var layersNum:int;
 var tiltOn:boolean;
 var tiltSpeed:float;
-var travelHeight:float=0;
+// var travelHeight:float=0;
 var heightText:exSpriteFont;
 
 var tiltLayers:Layer[];
@@ -37,6 +43,7 @@ function Start()
 	
 	
 }
+
 
 
 function GenerateLayer(_layerImageInfo:LayerImageInfo)
@@ -268,13 +275,18 @@ function DestroyAllLayers()
 }
 
 
+function GetTravelHeight():float
+{
+	return tiltLayers[LayerType.Castle02].travelHeight;
+	
+}
+
 
 function LateUpdate ()
 {
-	travelHeight=tiltLayers[LayerType.Castle02].travelHeight;
-	if (heightText!=null)
-	{
-		heightText.text=""+Mathf.Ceil(travelHeight)+"M";
+	// travelHeight=tiltLayers[LayerType.Castle02].travelHeight;
+	if (heightText!=null){
+		heightText.text=""+ Mathf.Ceil( GetTravelHeight() )+"M";
 		
 	}
 

@@ -1,3 +1,12 @@
+private static var instance : TutorialLevelManager;
+ 
+public static function Instance() : TutorialLevelManager
+{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<TutorialLevelManager>();
+    return instance;
+}
+
 var o_countdownTimer : countdownTimer;
 o_countdownTimer = GetComponent(countdownTimer);
 o_countdownTimer.setStartTime(10);
@@ -7,7 +16,7 @@ o_countdownTimer.setTimerState(true);
 var fireworkFactory:FireworkFactory;
 var layerManager:LayerManager;
 
-var pm:ProfileManager;
+
 
 var goodCount:int=0;
 var perfectCount:int=0;
@@ -77,8 +86,8 @@ var TextScoreCount:exSpriteFont;
 
 
 var scrollingText:ScrollingText;
-var bgmManager:BgmManager;
-var audioManager:AudioManager;
+private var bgmManager:BgmManager;
+private var audioManager:AudioManager;
 
 /*
 var titleText:TextMesh;
@@ -139,6 +148,8 @@ enum TutorialStage
 }
 
 
+
+
 function Start()
 {
 	Time.timeScale=1.0;
@@ -147,7 +158,7 @@ function Start()
 		inputMan = GameObject.Find("InputManager").GetComponent(InputManager) as InputManager;
 		cameraFade=GameObject.Find("Main Camera").GetComponent(CameraFade);
 		layerManager=GameObject.Find("LayerManager").GetComponent(LayerManager) as LayerManager;
-		pm=GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
+		
 		fireworkFactory=GameObject.Find("FireworkFactory").GetComponent(FireworkFactory) as FireworkFactory;
 
 		gm=GameObject.Find("GameManager").GetComponent(GameManager) as GameManager;
@@ -165,13 +176,13 @@ function Start()
 		sm=GameObject.Find("StageManager").GetComponent(StageManager);
 		//layerSL=GameObject.Find("LayerSaveAndLoad").GetComponent(LayerSaveAndLoad);
 		//background music
-		bgmManager=GameObject.Find("AudioManager").GetComponent(BgmManager) as BgmManager;
+		bgmManager=BgmManager.Instance();
 		
 
 		bgmManager.ChangeBgm(iTween.Hash("source",bgmManager.inGameBGM,"bgm",BGM.STORY));
 		
 		//AudioManager
-		audioManager=GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
+		audioManager=AudioManager.Instance();
 		
 		wizardBroom.SetCharacterState(CharacterState.Broom);
 		wizard.SetCharacterState(CharacterState.Stand);
@@ -1327,7 +1338,7 @@ function Update()
 	{
 		if (stage7_flag==0)
 		{
-			if ( pm.GetVibration() == true )
+			if ( ProfileManager.Instance().GetVibration() == true )
     		{
     			Handheld.Vibrate();
     		}
@@ -1710,7 +1721,7 @@ function timerDone_GotoStage7()
 function timerDone_GotoGame()
 {
 	
-	pm.SetPlayTutorial(false);
+	ProfileManager.Instance().SetPlayTutorial(false);
 	
 	//goto game
 	cameraFade.FadeTo(this.gameObject,"GotoGame");
@@ -1724,7 +1735,7 @@ function timerDone_GotoGame()
 
 function GotoGame()
 {
-	pm.SetNextLevelToLoad("DragonHeadApproach");
+	ProfileManager.Instance().SetNextLevelToLoad("DragonHeadApproach");
 	Application.LoadLevel("LevelLoader");
 }
 

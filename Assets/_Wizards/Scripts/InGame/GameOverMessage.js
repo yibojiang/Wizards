@@ -67,7 +67,7 @@ function Update ()
 			//pm.SetLifeTimeScore(pm.GetLifeTimeScore()+pm.GetGameScore());
 			
 			//pm.SetRecord(Record.GameHeight,layerManager.travelHeight);
-			pm.SetTempRecord(Record.GameHeight,layerManager.travelHeight);
+			pm.SetTempRecord(Record.GameHeight,layerManager.GetTravelHeight());
 			
 			pm.SaveAllRecord();
 			

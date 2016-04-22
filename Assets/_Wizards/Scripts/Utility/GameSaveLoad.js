@@ -80,7 +80,7 @@ var hardLevel : TextAsset;
 // -- ACCESS TO THE GAME LEVELS
 //var levels : leveldata;
 
-var lm : LevelManager;
+private var lm : LevelManager;
 
 //var battleList : BattleList;
 
@@ -114,13 +114,10 @@ function Awake () {
       
      // magic = GameObject.Find("Magic");
      
-     
-   }
-   
-function Start()
-{
-	lm = GameObject.Find("LevelManager").GetComponent(LevelManager) as LevelManager;
+     lm=LevelManager.Instance();
 }
+   
+
 
    
 function LoadLevelDataSelection(_path : String, _oldVersion : boolean, _sourceStart : int, _sourceEnd : int, _destStart : int) : boolean
@@ -637,8 +634,10 @@ function LoadLevelData(_difficulty : EDifficulty, _oldVersion : boolean) : boole
 			_data = hardLevel.text;
 		break;
 	}
-	//if ( Wizards.Utils.DEBUG ) Debug.Log("hash:" + _data.GetHashCode());
+	if ( Wizards.Utils.DEBUG ) Debug.Log("hash:" + _data.GetHashCode());
 	
+	return;
+
     if(_data.ToString() != "")
     {
          // notice how I use a reference to type (UserData) here, you need this

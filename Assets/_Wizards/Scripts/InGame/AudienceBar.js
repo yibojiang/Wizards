@@ -24,7 +24,7 @@ var ab : AudienceBar2;
 
 var theColour : Color;
 
-var pm : ProfileManager;
+private var pm : ProfileManager;
 
 var heartUsed:boolean=false;
 var isAlive:boolean=false;
@@ -35,9 +35,11 @@ var wizard:WizardControl;
 
 var audienceBarSet:GameObject;
 
+
+
 var test:boolean;
 
-var gm:GameManager;
+private var gm:GameManager;
 
 var filling:boolean;
 
@@ -48,9 +50,11 @@ var hardRestorePercent : float = 0.25;
 function Awake()
 {
 	audienceBarSet=GameObject.Find("AudienceBarSet");
-	pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
+	// pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
+	pm=ProfileManager.Instance();
 	wizard=GameObject.Find("Wizard").GetComponent(WizardControl) as WizardControl;
-	gm=GameObject.Find("GameManager").GetComponent(GameManager) as GameManager;
+	// gm=GameObject.Find("GameManager").GetComponent(GameManager) as GameManager;
+	gm=GameManager.Instance();
 }
 
 function Start()

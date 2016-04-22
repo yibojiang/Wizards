@@ -4,11 +4,11 @@ private var pm : ProfileManager;
 
 function Awake()
 {
-	if ( GameObject.Find("ProfileManager") != null )
-	{
-		pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
-	}
-	
+	// if ( GameObject.Find("ProfileManager") != null )
+	// {
+	// 	pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
+	// }
+	pm=ProfileManager.Instance();
 	if ( Application.loadedLevelName == "Game" )
 	{
 		if ( pm.IsUsingTallScreen() )

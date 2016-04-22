@@ -1,3 +1,11 @@
+private static var instance : LevelManager;
+ 
+public static function Instance() : LevelManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<LevelManager>();
+    return instance;
+}
+
 var IsInitComplete : boolean = false;
 
 var launchedFirework : GameObject;
@@ -30,10 +38,19 @@ var newLevel : boolean = true;
 
 var maxLevelCount : int = 100;
 
+// public class LevelData{
+	
+// }
+
+
 var levelList : Level[];
 
+
 var playList : PlayList;
+
+
 var testPlayList : PlayList;
+
 
 var activePlayList : PlayList;
 
@@ -347,19 +364,16 @@ function Awake()
 		
 		if ( Wizards.Utils.DEBUG ) if ( Wizards.Utils.DEBUG ) Debug.Log("Difficulty: " + difficulty);
 		
-		if ( Application.platform == RuntimePlatform.IPhonePlayer )
-		{
-			gSL.LoadLevelData(difficulty, false);
-		}
+		// if ( Application.platform == RuntimePlatform.IPhonePlayer )
+		// {
+			// gSL.LoadLevelData(difficulty, false);
+		// }
 	}
 }
 
 function Start()
 {
-	if ( GameObject.Find("LevelLayersManager") != null )
-	{
-		newLevelLayersManager = GameObject.Find("LevelLayersManager").GetComponent(NewLevelLayersManager) as NewLevelLayersManager;
-	}
+	newLevelLayersManager=NewLevelLayersManager.Instance();
 	
 	ff=GameObject.Find("FireworkFactory").GetComponent(FireworkFactory) as FireworkFactory;
 	if ( levelList.Length > 0 )

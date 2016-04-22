@@ -177,9 +177,10 @@ Transform:
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: .3887766, y: .3887766, z: .3887766}
+  m_LocalScale: {x: 0.3887766, y: 0.3887766, z: 0.3887766}
   m_Children: []
   m_Father: {fileID: 400012}
+  m_RootOrder: 5
 --- !u!1002 &400001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -191,9 +192,10 @@ Transform:
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .3887766, y: .3887766, z: .3887766}
+  m_LocalScale: {x: 0.3887766, y: 0.3887766, z: 0.3887766}
   m_Children: []
   m_Father: {fileID: 400012}
+  m_RootOrder: 4
 --- !u!1002 &400003
 EditorExtensionImpl:
   serializedVersion: 6
@@ -204,10 +206,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -.200000003}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400012}
+  m_RootOrder: 3
 --- !u!1002 &400005
 EditorExtensionImpl:
   serializedVersion: 6
@@ -219,9 +222,10 @@ Transform:
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .3887766, y: .3887766, z: .3887766}
+  m_LocalScale: {x: 0.3887766, y: 0.3887766, z: 0.3887766}
   m_Children: []
   m_Father: {fileID: 400012}
+  m_RootOrder: 2
 --- !u!1002 &400007
 EditorExtensionImpl:
   serializedVersion: 6
@@ -232,10 +236,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -.100000001}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400012}
+  m_RootOrder: 1
 --- !u!1002 &400009
 EditorExtensionImpl:
   serializedVersion: 6
@@ -250,6 +255,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400012}
+  m_RootOrder: 0
 --- !u!1002 &400011
 EditorExtensionImpl:
   serializedVersion: 6
@@ -260,7 +266,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.0944376, y: -8.35872841, z: 8.68996048}
+  m_LocalPosition: {x: 4.0944376, y: -8.358728, z: 8.6899605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400010}
@@ -271,6 +277,7 @@ Transform:
   - {fileID: 400000}
   - {fileID: 400014}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1002 &400013
 EditorExtensionImpl:
   serializedVersion: 6
@@ -285,6 +292,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400012}
+  m_RootOrder: 6
 --- !u!1002 &400015
 EditorExtensionImpl:
   serializedVersion: 6
@@ -312,7 +320,7 @@ ParticleAnimator:
     rgba: 1459617921
   worldRotationAxis: {x: 0, y: 0, z: 0}
   localRotationAxis: {x: 0, y: 0, z: 0}
-  sizeGrow: -.200000003
+  sizeGrow: -0.2
   rndForce: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
   damping: 1
@@ -345,7 +353,7 @@ ParticleAnimator:
     rgba: 176750708
   worldRotationAxis: {x: 0, y: 0, z: 0}
   localRotationAxis: {x: 0, y: 0, z: 0}
-  sizeGrow: .600000024
+  sizeGrow: 0.6
   rndForce: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
   damping: 1
@@ -378,7 +386,7 @@ ParticleAnimator:
     rgba: 184324498
   worldRotationAxis: {x: 0, y: 0, z: 0}
   localRotationAxis: {x: 0, y: 0, z: 0}
-  sizeGrow: -.5
+  sizeGrow: -0.5
   rndForce: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
   damping: 1
@@ -396,8 +404,8 @@ EllipsoidParticleEmitter:
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
-  minSize: .800000012
-  maxSize: .800000012
+  minSize: 0.8
+  maxSize: 0.8
   minEnergy: 3
   maxEnergy: 3
   minEmission: 10
@@ -405,14 +413,14 @@ EllipsoidParticleEmitter:
   worldVelocity: {x: 0, y: 0, z: 0}
   localVelocity: {x: 0, y: 0, z: 0}
   rndVelocity: {x: 1, y: 1, z: 1}
-  emitterVelocityScale: .0500000007
+  emitterVelocityScale: 0.05
   tangentVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
   rndAngularVelocity: 0
   rndRotation: 1
   Simulate in Worldspace?: 1
   m_OneShot: 0
-  m_Ellipsoid: {x: .200000003, y: .200000003, z: .200000003}
+  m_Ellipsoid: {x: 0.2, y: 0.2, z: 0.2}
   m_MinEmitterRange: 0
 --- !u!1002 &1500001
 EditorExtensionImpl:
@@ -426,23 +434,23 @@ EllipsoidParticleEmitter:
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
-  minSize: 1.79999995
+  minSize: 1.8
   maxSize: 2
   minEnergy: 3
   maxEnergy: 3
   minEmission: 15
   maxEmission: 15
   worldVelocity: {x: 0, y: 0, z: 0}
-  localVelocity: {x: 0, y: .00999999978, z: 0}
+  localVelocity: {x: 0, y: 0.01, z: 0}
   rndVelocity: {x: 0, y: 0, z: 0}
-  emitterVelocityScale: .0500000007
+  emitterVelocityScale: 0.05
   tangentVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
   rndAngularVelocity: 0
   rndRotation: 0
   Simulate in Worldspace?: 1
   m_OneShot: 0
-  m_Ellipsoid: {x: .200000003, y: .200000003, z: .200000003}
+  m_Ellipsoid: {x: 0.2, y: 0.2, z: 0.2}
   m_MinEmitterRange: 0
 --- !u!1002 &1500003
 EditorExtensionImpl:
@@ -465,20 +473,20 @@ EllipsoidParticleEmitter:
   worldVelocity: {x: 0, y: 0, z: 0}
   localVelocity: {x: 0, y: 0, z: 0}
   rndVelocity: {x: 0, y: 0, z: 0}
-  emitterVelocityScale: .0500000007
+  emitterVelocityScale: 0.05
   tangentVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
   rndAngularVelocity: 0
   rndRotation: 0
   Simulate in Worldspace?: 1
   m_OneShot: 0
-  m_Ellipsoid: {x: .200000003, y: .200000003, z: .200000003}
+  m_Ellipsoid: {x: 0.2, y: 0.2, z: 0.2}
   m_MinEmitterRange: 0
 --- !u!1002 &1500005
 EditorExtensionImpl:
   serializedVersion: 6
 --- !u!23 &2300000
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -486,23 +494,28 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 98b554b64cec6414dbbb0b766b5097ef, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1002 &2300001
 EditorExtensionImpl:
   serializedVersion: 6
 --- !u!23 &2300002
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -510,23 +523,28 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 4ea53444263a64e2aa8c15cf52f887ac, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1002 &2300003
 EditorExtensionImpl:
   serializedVersion: 6
 --- !u!23 &2300004
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -534,18 +552,23 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 45d384b9bf9c64c798b0e1acc4af0691, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1002 &2300005
 EditorExtensionImpl:
   serializedVersion: 6
@@ -558,24 +581,29 @@ ParticleRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 6a4f68a7f3b24794e8780a40c3a61574, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   serializedVersion: 2
   m_CameraVelocityScale: 0
   m_StretchParticles: 0
   m_LengthScale: 2
   m_VelocityScale: 0
-  m_MaxParticleSize: .25
+  m_MaxParticleSize: 0.25
   UV Animation:
     x Tile: 2
     y Tile: 2
@@ -592,24 +620,29 @@ ParticleRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 3e6230306afc96c4b87ea1f74d56bc49, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   serializedVersion: 2
   m_CameraVelocityScale: 0
   m_StretchParticles: 0
   m_LengthScale: 1
   m_VelocityScale: 0
-  m_MaxParticleSize: .5
+  m_MaxParticleSize: 0.5
   UV Animation:
     x Tile: 5
     y Tile: 5
@@ -626,24 +659,29 @@ ParticleRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 3e6230306afc96c4b87ea1f74d56bc49, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   serializedVersion: 2
   m_CameraVelocityScale: 0
   m_StretchParticles: 0
   m_LengthScale: 2
   m_VelocityScale: 0
-  m_MaxParticleSize: .25
+  m_MaxParticleSize: 0.25
   UV Animation:
     x Tile: 5
     y Tile: 5
@@ -688,13 +726,15 @@ AudioSource:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
+  Spatialize: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
@@ -719,16 +759,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -739,6 +781,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1002 &8200001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -751,21 +805,26 @@ TrailRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: aac87d00acbba40808004001447656aa, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_Time: 1.39999998
-  m_StartWidth: 1.29999995
-  m_EndWidth: .5
+  m_SortingOrder: 0
+  m_Time: 1.4
+  m_StartWidth: 1.3
+  m_EndWidth: 0.5
   m_Colors:
     m_Color[0]:
       serializedVersion: 2
@@ -782,7 +841,7 @@ TrailRenderer:
     m_Color[4]:
       serializedVersion: 2
       rgba: 16777215
-  m_MinVertexDistance: .300000012
+  m_MinVertexDistance: 0.3
   m_Autodestruct: 0
 --- !u!1002 &9600001
 EditorExtensionImpl:
@@ -858,7 +917,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  scale_: {x: .0677200928, y: .0677200928}
+  scale_: {x: 0.06772009, y: 0.06772009}
   shear_: {x: 0, y: 0}
   textureGUID: 92203cb96c8485b4f855793b95a99951
   trimTexture: 0
@@ -899,7 +958,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  scale_: {x: .0700000003, y: .0700000003}
+  scale_: {x: 0.07, y: 0.07}
   shear_: {x: 0, y: 0}
   textureGUID: 1f265d2a651181e4da8f942f2ea696b1
   trimTexture: 1
@@ -935,7 +994,7 @@ MonoBehaviour:
   startPos: {x: 0, y: 0, z: 0}
   endPos: {x: 0, y: 0, z: 0}
   velocity: {x: 0, y: 0, z: 0}
-  gravity: 9.80000019
+  gravity: 9.8
   tailLength: 0
   loopPauseAngle: 80
   loopUnPauseAngle: 220
@@ -958,9 +1017,9 @@ MonoBehaviour:
   loopRadius: 1
   loopDelta: 0
   loopDirection: 0
-  loopMinSpeed: .5
+  loopMinSpeed: 0.5
   loopMaxSpeed: 2
-  loopMinRadius: .5
+  loopMinRadius: 0.5
   loopMaxRadius: 1
   oneLoopTimeStart: 2
   oneLoopHasLooped: 0
@@ -1004,7 +1063,7 @@ MonoBehaviour:
   hitcount: 0
   hitsToKill: 6
   multiHitScaleMultiplier: 1
-  multiHitIncreaseSizeRate: .800000012
+  multiHitIncreaseSizeRate: 0.8
   doMissAnimation: 0
   rainBowTrail: {fileID: 9600000}
   visual: 5
@@ -1042,7 +1101,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  scale_: {x: .0799999982, y: .0799999982}
+  scale_: {x: 0.08, y: 0.08}
   shear_: {x: 0, y: 0}
   fontInfo_: {fileID: 11400000, guid: 2522682539acd4c1d9a68d23d1dfa4d5, type: 2}
   text_: 0
@@ -1052,9 +1111,9 @@ MonoBehaviour:
   tracking_: 0
   lineSpacing_: 0
   topColor_: {r: 1, g: 0, b: 0, a: 0}
-  botColor_: {r: 1, g: .429578245, b: 0, a: 0}
+  botColor_: {r: 1, g: 0.42957824, b: 0, a: 0}
   useOutline_: 1
-  outlineWidth_: .0900000036
+  outlineWidth_: 0.09
   outlineColor_: {r: 1, g: 1, b: 1, a: 0}
   useShadow_: 0
   shadowBias_: {x: 1, y: -1}
@@ -1083,12 +1142,27 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100012}
   m_IsPrefabParent: 1
-  m_IsExploded: 1
 --- !u!1002 &100100001
 EditorExtensionImpl:
   serializedVersion: 6

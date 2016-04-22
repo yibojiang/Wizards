@@ -122,8 +122,8 @@ class LevelEditor extends EditorWindow
     		gSL = GameObject.Find("GameSaveLoad").GetComponent(GameSaveLoad) as GameSaveLoad;
     	}
     	
-    	// pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
-    	var pm:ProfileManager=ProfileManager.Inatance();
+    	pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
+    	// var pm:ProfileManager=ProfileManager.Inatance();
     	
     	LoadLevelDifficulty();
     	if ( Wizards.Utils.DEBUG ) Debug.Log("CURR DIFF: " + currentLevelDifficulty);

@@ -55,29 +55,30 @@ enum Face
 
 function Start()
 {
-	if ( GameObject.Find("TutorialLevelManager") != null )
-	{
-		tutMan = GameObject.Find("TutorialLevelManager").GetComponent(TutorialLevelManager) as TutorialLevelManager;
-	}
+	// if ( GameObject.Find("TutorialLevelManager") != null )
+	// {
+	// 	tutMan = GameObject.Find("TutorialLevelManager").GetComponent(TutorialLevelManager) as TutorialLevelManager;
+	// }
+	tutMan=TutorialLevelManager.Instance();
+	// if ( GameObject.Find("AudioManager") != null )
+	// {
+	// 	am = GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
+	// }
+	am=AudioManager.Instance();
 	
-	if ( GameObject.Find("AudioManager") != null )
-	{
-		am = GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
-	}
-	
-	if ( am == null )
-	{
-		if ( GameObject.Find("BgmManager") != null )
-		{
-			am = GameObject.Find("BgmManager").GetComponent(AudioManager) as AudioManager;
-		}
-	}
+	// if ( am == null )
+	// {
+	// 	if ( GameObject.Find("BgmManager") != null )
+	// 	{
+	// 		am = GameObject.Find("BgmManager").GetComponent(AudioManager) as AudioManager;
+	// 	}
+	// }
 		
 	displayText="";
 	spriteText.Text =displayText;
-	speechBubble=GameObject.Find("SpeechBubble") as GameObject;  
+	// speechBubble=GameObject.Find("SpeechBubble") as GameObject;  
 
-	speechBubble.SetActiveRecursively(false);
+	speechBubble.SetActive(false);
 	
 	//continueArrow.color.a=0;
 	continueArrow.GetComponent.<Renderer>().enabled=false;
@@ -87,14 +88,14 @@ function SetDialog(_dialog:Dialog[],_beginIndex:int,_endIndex:int)
 {
     if ( Wizards.Utils.DEBUG ) Debug.Log("SetDialog(NO DELAY) : start : " + _beginIndex);
 	noHide = false;
-	speechBubble.SetActiveRecursively(true);
+	speechBubble.SetActive(true);
 	
 	//displayText.enabled=true;
 	
-	toto.gameObject.SetActiveRecursively(false); 
-	javi.gameObject.SetActiveRecursively(false);
-	broom.gameObject.SetActiveRecursively(false);
-	master.gameObject.SetActiveRecursively(false);
+	toto.gameObject.SetActive(false); 
+	javi.gameObject.SetActive(false);
+	broom.gameObject.SetActive(false);
+	master.gameObject.SetActive(false);
 	for (var i:int=_beginIndex;i<=_endIndex;i++)
 	{
 		dialog[i-_beginIndex].character=_dialog[i].character;	
@@ -114,14 +115,14 @@ function SetDialog(_dialog:Dialog[],_beginIndex:int,_endIndex:int)
 function SetDialog(_dialog:Dialog[],_beginIndex:int,_endIndex:int, _noHide : boolean)
 {
 	noHide = _noHide;
-	speechBubble.SetActiveRecursively(true);
+	speechBubble.SetActive(true);
 	
 	//displayText.enabled=true;
 	
-	toto.gameObject.SetActiveRecursively(false); 
-	javi.gameObject.SetActiveRecursively(false);
-	broom.gameObject.SetActiveRecursively(false);
-	master.gameObject.SetActiveRecursively(false);
+	toto.gameObject.SetActive(false); 
+	javi.gameObject.SetActive(false);
+	broom.gameObject.SetActive(false);
+	master.gameObject.SetActive(false);
 	for (var i:int=_beginIndex;i<=_endIndex;i++)
 	{
 		dialog[i-_beginIndex].character=_dialog[i].character;	
@@ -148,14 +149,14 @@ function SetDialog(_dialog:Dialog[],_beginIndex:int,_endIndex:int,_delay:float)
 	
     if ( Wizards.Utils.DEBUG ) Debug.Log("SetDialog(delay) SHOW NOW");
 	
-	speechBubble.SetActiveRecursively(true);
+	speechBubble.SetActive(true);
 	
 	//displayText.enabled=true;
 	
-	toto.gameObject.SetActiveRecursively(false); 
-	javi.gameObject.SetActiveRecursively(false);
-	broom.gameObject.SetActiveRecursively(false);
-	master.gameObject.SetActiveRecursively(false);
+	toto.gameObject.SetActive(false); 
+	javi.gameObject.SetActive(false);
+	broom.gameObject.SetActive(false);
+	master.gameObject.SetActive(false);
 	for (var i:int=_beginIndex;i<=_endIndex;i++)
 	{
 		dialog[i-_beginIndex].character=_dialog[i].character;	
@@ -200,38 +201,38 @@ function SetText(_character:Character,_text:String,_face:Face)
 	switch(_character)
 	{
 	case Character.Toto:   
-		toto.gameObject.SetActiveRecursively(true); 
-		javi.gameObject.SetActiveRecursively(false);
-		broom.gameObject.SetActiveRecursively(false);
-		master.gameObject.SetActiveRecursively(false);
+		toto.gameObject.SetActive(true); 
+		javi.gameObject.SetActive(false);
+		broom.gameObject.SetActive(false);
+		master.gameObject.SetActive(false);
 		SetFace(toto,_face);
 		break;
 	case Character.Javi:  
-		toto.gameObject.SetActiveRecursively(false); 
-		javi.gameObject.SetActiveRecursively(true);
-		broom.gameObject.SetActiveRecursively(false);
-		master.gameObject.SetActiveRecursively(false);
+		toto.gameObject.SetActive(false); 
+		javi.gameObject.SetActive(true);
+		broom.gameObject.SetActive(false);
+		master.gameObject.SetActive(false);
 		SetFace(javi,_face);
 		break;
 	case Character.Broom: 
-		toto.gameObject.SetActiveRecursively(false); 
-		javi.gameObject.SetActiveRecursively(false);
-		broom.gameObject.SetActiveRecursively(true);
-		master.gameObject.SetActiveRecursively(false);
+		toto.gameObject.SetActive(false); 
+		javi.gameObject.SetActive(false);
+		broom.gameObject.SetActive(true);
+		master.gameObject.SetActive(false);
 		SetFace(broom,_face);
 		break;
 	case Character.Master:
-		toto.gameObject.SetActiveRecursively(false); 
-		javi.gameObject.SetActiveRecursively(false);
-		broom.gameObject.SetActiveRecursively(false);
-		master.gameObject.SetActiveRecursively(true);
+		toto.gameObject.SetActive(false); 
+		javi.gameObject.SetActive(false);
+		broom.gameObject.SetActive(false);
+		master.gameObject.SetActive(true);
 		SetFace(master,_face);
 		break;
 	case Character.Narratage:
-		toto.gameObject.SetActiveRecursively(false); 
-		javi.gameObject.SetActiveRecursively(false);
-		broom.gameObject.SetActiveRecursively(false);
-		master.gameObject.SetActiveRecursively(false);
+		toto.gameObject.SetActive(false); 
+		javi.gameObject.SetActive(false);
+		broom.gameObject.SetActive(false);
+		master.gameObject.SetActive(false);
 		break;
 	}
 	GamePause();
@@ -272,8 +273,8 @@ function SetFace(_spriteAnimation:exSpriteAnimation,_face:Face)
 
 function HideText()
 {
-	speechBubble.SetActiveRecursively(false);
-	//this.gameObject.SetActiveRecursively(false);
+	speechBubble.SetActive(false);
+	//this.gameObject.SetActive(false);
 	//displayText.text="";
 	displayText="";
 	spriteText.Text =displayText;

@@ -1,4 +1,10 @@
-
+private static var instance : AchievementManager;
+ 
+public static function Instance() : AchievementManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<AchievementManager>();
+    return instance;
+}
 var notice:NoticeBox;
 var panelController:PanelController;
 // private var timerController:TimerController;

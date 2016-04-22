@@ -1,3 +1,11 @@
+private static var instance : BgmManager;
+ 
+public static function Instance() : BgmManager{
+    if (instance == null)
+        instance =GameObject.FindObjectOfType.<BgmManager>();
+    return instance;
+}
+
 var bgm:AudioClip[];
 private var nextBgm:AudioClip;
 private var fadeIn:boolean=false;

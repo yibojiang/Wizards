@@ -92,7 +92,7 @@ enum HitRanking
 	Perfect
 }
 
-var tm:TutorialLevelManager;
+private var tm:TutorialLevelManager;
 
 private var missModifier : float;
 private var poorModifier : float;
@@ -128,23 +128,18 @@ function Start()
 	
 	ff = GameObject.Find("FireworkFactory").GetComponent(FireworkFactory) as FireworkFactory;
 	im = GameObject.Find("InputManager").GetComponent(InputManager) as InputManager;
- 	pm = GameObject.Find("ProfileManager").GetComponent(ProfileManager) as ProfileManager;
- 	tm = GameObject.Find("TutorialLevelManager").GetComponent(TutorialLevelManager) as TutorialLevelManager;
+ 	pm = ProfileManager.Instance();
+ 	tm = TutorialLevelManager.Instance();
  	
- 	lm = GameObject.Find("LevelManager").GetComponent(LevelManager) as LevelManager;
+ 	lm = LevelManager.Instance();
  	
- 	am=GameObject.Find("AudioManager").GetComponent(AudioManager) as AudioManager;
+ 	am= AudioManager.Instance();
+ 	em=EventManager.Instance();
  	
- 	if ( GameObject.Find("EventManager") != null)
- 	{
- 		em = GameObject.Find("EventManager").GetComponent(EventManager) as EventManager;
- 	}
  	wizard=GameObject.Find("Wizard").GetComponent(WizardControl) as WizardControl;
  	
- 	if ( GameObject.Find("LevelLayersManager") != null )
- 	{
- 		llm=GameObject.Find("LevelLayersManager").GetComponent(NewLevelLayersManager) as NewLevelLayersManager;
- 	}
+ 	llm=NewLevelLayersManager.Instance();
+ 	
  	
  	CalculateComboDuration();
  	
@@ -349,9 +344,10 @@ function Update ()
 
 function DoGameFinished()
 {
-	var layerManager:LayerManager=GameObject.Find("LayerManager").GetComponent(LayerManager) as LayerManager;
+	// var layerManager:LayerManager=GameObject.Find("LayerManager").GetComponent(LayerManager) as LayerManager;
+	var layerManager:LayerManager=LayerManager.Instance();
 	//pm.SetRecord(Record.GameHeight,layerManager.travelHeight);
-	pm.SetTempRecord(Record.GameHeight,layerManager.travelHeight);
+	pm.SetTempRecord(Record.GameHeight,layerManager.GetTravelHeight());
 	
 	// var newEvent : CountlyEvent = new CountlyEvent();
 	// newEvent.Key = "TravelHeightReached";
