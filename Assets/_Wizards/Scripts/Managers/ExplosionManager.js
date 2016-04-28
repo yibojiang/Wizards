@@ -129,7 +129,8 @@ function BuildGoodExpPool()
 	fireworksGoodInUse=0;
 	goodExplodePool=new Array();
 
-	if (tm.gameState==GameState.InGame)
+
+	if (gm.gameState==GameState.InGame)	
 	{
 		for (var i=0;i<fireworksGood.length;i++)
 		{	
@@ -159,7 +160,7 @@ function BuildGoodExpPool()
 		
 		}
 	}
-	else if (tm.gameState==GameState.Tutorial)
+	else if (gm.gameState==GameState.Tutorial)
 	{
 		AddExplosion(FireworkExplosion.FWsBurst02,maxGoodExplosion,false);
 	}

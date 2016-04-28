@@ -159,6 +159,8 @@ var timeLeft : float;
 var tutorialMode : boolean = false;
 var tutMessage : FireworkTutorialMessage;
 
+var lines:LineRenderer;
+
 enum flightPath
 {
 	Bow, // 1 (Parabola)
@@ -193,6 +195,7 @@ enum flightPath
 	MAX
 }
 
+private var circleVertexCount:int=31;
 function Awake()
 {
 	am = GameObject.Find("AudioManager").GetComponent("AudioManager") as AudioManager;
@@ -203,7 +206,8 @@ function Awake()
 	ab = GameObject.Find("AudienceBar").GetComponent("AudienceBar") as AudienceBar;
 	if ( Application.loadedLevelName != "Tutorial" )
 	{
-		lm = GameObject.Find("LevelManager").GetComponent("LevelManager") as LevelManager;
+		// lm = GameObject.Find("LevelManager").GetComponent("LevelManager") as LevelManager;
+		lm=LevelManager.Instance();
 	}
 	
 	audioSource=GetComponent(AudioSource);
@@ -213,11 +217,43 @@ function Awake()
 	pulseStartScale = head.transform.localScale.x;
 	
 	myTransform=this.transform;
+
+	lines=gameObject.AddComponent.<LineRenderer>();
+	lines.SetVertexCount(circleVertexCount);
+	lines.useWorldSpace=false;
+	lines.SetWidth(0.2,0.2);
+	UpdateCircle(0);
+	lines.material=Resources.Load.<Material>("Material/FireworkCircle");
+
 }
+
+function UpdateCircle( radius:float){
+	var rad:float;
+	var pos:Vector3;
+	for (var i:int=0;i<circleVertexCount;i++){
+		rad=2*Mathf.PI*i/(circleVertexCount-1);
+		
+		pos.x=radius*Mathf.Cos(rad);
+		pos.y=radius*Mathf.Sin(rad);
+		pos.z=0;
+		lines.SetPosition(i, pos );
+	}
+
+	// rad=2*Mathf.PI
+
+}
+
+// function DoUpdateCircle(){
+
+// 	while(){
+// 		yield WaitForEndOfFrame()
+// 	}
+
+// }
 
 function Start()
 {
-	
+
 }
 
 function ActivateTutorialMode()
@@ -580,6 +616,15 @@ function Update ()
 	// If the firework HAS NOT been tapped/triggered to explode...
 	if ( isWaitingToExplode == false )
 	{
+		var circleRadius=(1.0-timeAlive/lifeTime)*10;
+		var circleCol:Color=Color.white;
+		circleCol=Color.Lerp(Color.red,Color.green, timeAlive/lifeTime );
+		circleCol.a=timeAlive/lifeTime ;
+		
+		UpdateCircle(circleRadius);
+
+		lines.SetColors(circleCol,circleCol);
+		
 		timeAlive += Time.deltaTime;
 		
 		
@@ -616,6 +661,7 @@ function Update ()
 	}
 	else // The firework has been triggered to explode (isWaitingToExplode == true ) (usually from player tapping it)
 	{
+		
 		DoPulse(); // Scale the size of the star head up and down.
 		
 		// CHAIN STRAIGHT, CHASER, BUILDER
@@ -1347,6 +1393,8 @@ function ProcessTailLength()
 	// Reduce length of fuse tail
 	tailLength = lifeTime - timeAlive - 0.5+0.25;
 
+	
+
 	if (tailLength<=0)
 	{
 		tail.ClearParticles();
@@ -1447,6 +1495,7 @@ function IsWaitingToExplode() : boolean
 
 function Explode()
 {
+	lines.enabled=false;
 	if ( multiHitOn	)
 	{
 		if (headAnimation!=null)
@@ -1760,6 +1809,7 @@ function GetParticleCount() : int
 
 function ProcessPath()
 {
+	// Debug.Log(timeAlive);
 	// currentVelocity used to update angle of head object to face in the direction it
 	// is moving. This variable is accessed from another script.
 	currentVelocity = myTransform.position - prevPosition;
@@ -1772,6 +1822,7 @@ function ProcessPath()
 		break;
 		
 		case flightPath.Bow:
+
 			myTransform.position.x = startPos.x + (velocity.x * timeAlive);
 			myTransform.position.y = startPos.y + velocity.y * timeAlive - ( 0.5 * gravity * timeAlive * timeAlive );
 		break;

@@ -81,7 +81,8 @@ function Awake()
 
 function Start()
 {
-	lm = GameObject.Find("LevelManager").GetComponent(LevelManager) as LevelManager;
+	// lm = GameObject.Find("LevelManager").GetComponent(LevelManager) as LevelManager;
+	lm=LevelManager.Instance();
 
 	gm.ShowChainCount();
 	
@@ -763,34 +764,12 @@ function PauseFireworks()
 
 function PauseFireworksNoDelay()
 {
-	//em.PauseGameTimer();
 	if ( Wizards.Utils.DEBUG ) Debug.LogWarning("PAUSE FIREWORKS callED!");
 	
-	/*
-	while ( canPauseFireWorks == false )
-	{
-		//if ( Wizards.Utils.DEBUG ) Debug.Log("Waiting for can pause fireworks");
-		yield;
-	}
-	*/
-	
+
 	if ( Wizards.Utils.DEBUG ) Debug.LogWarning("Pausing Fireworks NO DELAY!!!");
 	lm.PauseFireworks();
-	
-	/*
-	while ( lm.NumFireWorksOnScreen() > 0 )
-	{
-		//if ( Wizards.Utils.DEBUG ) Debug.Log("NUM FW ON SCREEN: " + lm.NumFireWorksOnScreen());
-		//if ( Wizards.Utils.DEBUG ) Debug.Log("Waiting for no fireworks on screen");
-		yield;
-	}
-	*/
-		
-	//em.ResumeGameTimer();
-	
-	 
-	//if ( Wizards.Utils.DEBUG ) Debug.Log("can show catboard = true");
-	//canShowCatBoard = true;
+
 }
 
 

@@ -34,7 +34,9 @@ enum EGameEvent
 	EndOfStage,
 	ShowDragonBoss,
 	PauseFireworksNoDelay,
-	NewEvent
+	LoadLevelData,
+	NewEvent,
+
 }
 
 enum ETriggerType
@@ -86,8 +88,11 @@ function Awake()
 	lastRealTime = Time.realtimeSinceStartup;
 	
 	nl = GameObject.Find("LevelLayersManager").GetComponent(NewLevelLayersManager) as NewLevelLayersManager;
-	lm = GameObject.Find("LevelManager").GetComponent(LevelManager) as LevelManager;
-	gm = GameObject.Find("GameManager").GetComponent(GameManager) as GameManager;
+	// lm = GameObject.Find("LevelManager").GetComponent(LevelManager) as LevelManager;
+	lm=LevelManager.Instance();
+	// gm = GameObject.Find("GameManager").GetComponent(GameManager) as GameManager;
+	gm=GameManager.Instance();
+	
 	bgm = GameObject.Find("AudioManager").GetComponent(BgmManager) as BgmManager;
 	
 	functionNameHash = new Hashtable();
@@ -452,7 +457,17 @@ function TriggerEvent(_event : GameEvent)
 		case EGameEvent.PauseFireworksNoDelay:
 			PauseFireworksNoDelay();
 		break;
+		
+		case EGameEvent.LoadLevelData:
+			LoadLevelData(_event);
+		break;
+		
 		}
+}
+
+function LoadLevelData(eventData:GameEvent){
+	lm.LoadLevelData(eventData.levelName);
+	
 }
 
 function PauseFireworks()

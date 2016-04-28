@@ -257,6 +257,7 @@ function GetFirework(_flightPath : flightPath, _visual : VisualEffect, _startPos
 		
 		var velocity : Vector3 = _endPosition - _startPosition;
 		velocity.Normalize();
+		
 		velocity *= (Vector3.Distance(_startPosition, _endPosition) / _lifeSpan);		
 		script.SetLifeTime(_lifeSpan);
 		

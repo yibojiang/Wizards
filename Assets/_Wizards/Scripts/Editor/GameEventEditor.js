@@ -293,6 +293,7 @@ class GameEventEditor extends EditorWindow
 		EditorGUILayout.BeginHorizontal();
 		EditorGUILayout.BeginVertical();
 		
+		
 		//eventsScrollPosition = EditorGUILayout.BeginScrollView(eventsScrollPosition, false, false, GUILayout.Width(eventsScrollWidth));
 		scrollPositions[currentStage] = EditorGUILayout.BeginScrollView(scrollPositions[currentStage], false, false, GUILayout.Width(eventsScrollWidth));
 		//for ( var event : GameEvent in em.events )
@@ -532,6 +533,13 @@ function DisplayEvent(event : GameEvent)
 			event.startFirework = EditorGUILayout.IntField("Firework No.", event.startFirework, GUILayout.Width(eventGUIWidth));
 		break;
 	}
+
+	// EditorGUILayout.TextFied("LevelName",GUILayout.Width(eventGUIWidth) );
+	if (event.targetFunction==EGameEvent.LoadLevelData){
+		// event.levelName=GetString(event.levelName, "LevelName");
+		event.levelName=EditorGUILayout.TextField("LevelName", event.levelName, GUILayout.Width(eventGUIWidth));
+	}
+	
 	//var style : GUIStyle = new GUIStyle();
 	//style.alignment = TextAnchor.MiddleRight;
 	

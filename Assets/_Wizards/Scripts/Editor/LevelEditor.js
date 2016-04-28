@@ -1,3 +1,5 @@
+import System.Collections.Generic;
+import Newtonsoft.Json;
 class LevelEditor extends EditorWindow
 {
     var myString : String;
@@ -72,7 +74,7 @@ class LevelEditor extends EditorWindow
 	// SAVING SECTIONS
 	var saveStartLevel : int = 0;
 	var saveEndLevel : int = 0;
-	
+	var stages:List.<String>;
     @MenuItem ("Wizards/LevelEditor")
     
     static function ShowWindow ()
@@ -170,6 +172,16 @@ class LevelEditor extends EditorWindow
     	if ( !init || lm == null)
 	    {
 	      	Init();
+	      	stages=new List.<String>();
+	      	// stages.Clear();
+        	for(var i:int=0;i<100;i++){
+        		var stageName=Application.dataPath+"/Resources/SerializedData/LevelData/Stage"+i.ToString()+".txt";
+        		// Debug.Log(stageName);
+        		if (GameSaveLoad.FileExists(stageName) ){
+        			if ( Wizards.Utils.DEBUG ) Debug.Log("LOAD STAGE: " + i);
+        			stages.Add(stageName);
+        		}
+        	}
 	       	init = true;
 	    }
 	    
@@ -201,32 +213,54 @@ class LevelEditor extends EditorWindow
 	        
 	         //EditorGUILayout.BeginHorizontal();
 	         
-	         EditorGUILayout.BeginVertical(GUILayout.Width(defaultGUIWidth));
-	         GUILayout.Label("Now Editing: " + currentLevelDifficulty, EditorStyles.boldLabel);
-	         EditorGUILayout.EndVertical();
+	         // EditorGUILayout.BeginVertical(GUILayout.Width(defaultGUIWidth));
+	         // GUILayout.Label("Now Editing: " + currentLevelDifficulty, EditorStyles.boldLabel);
+	         // EditorGUILayout.EndVertical();
 	         
 	         EditorGUILayout.BeginHorizontal(GUILayout.Width(defaultGUIWidth));
-	         switchToDifficulty = EditorGUILayout.EnumPopup("SWITCH TO: ", switchToDifficulty);
-	         if ( switchToDifficulty == currentLevelDifficulty )
-	         {
-	         	GUI.enabled = false;
-	         }
-	         if ( GUILayout.Button("SWITCH" ) )
-	         {
+	         // switchToDifficulty = EditorGUILayout.EnumPopup("SWITCH TO: ", switchToDifficulty);
+	         // if ( switchToDifficulty == currentLevelDifficulty )
+	         // {
+	         // 	GUI.enabled = false;
+	         // }
+	         // if ( GUILayout.Button("SWITCH" ) )
+	         // {
 
-	         	var saveTo : String = pm.GetDifficultyPathAndFileName(currentLevelDifficulty);
-	         	if ( Wizards.Utils.DEBUG ) Debug.Log("SAVETO: " + saveTo);
-	         	gSL.SaveLevelData(saveTo);
+	         // 	var saveTo : String = pm.GetDifficultyPathAndFileName(currentLevelDifficulty);
+	         // 	if ( Wizards.Utils.DEBUG ) Debug.Log("SAVETO: " + saveTo);
+	         // 	gSL.SaveLevelData(saveTo);
 	         	
-	         	var loadFrom : String = pm.GetDifficultyPathAndFileName(switchToDifficulty);
-	         	if ( Wizards.Utils.DEBUG ) Debug.Log("LOADFROM: " + loadFrom);
-	         	gSL.LoadLevelData(loadFrom, false);
-	         	currentLevelDifficulty = switchToDifficulty;
-	         	lm.difficulty = currentLevelDifficulty;
-	         	pm.SetDifficultyLevel(currentLevelDifficulty);
-	         }
-	         GUI.enabled = true;
+	         // 	var loadFrom : String = pm.GetDifficultyPathAndFileName(switchToDifficulty);
+	         // 	if ( Wizards.Utils.DEBUG ) Debug.Log("LOADFROM: " + loadFrom);
+	         // 	gSL.LoadLevelData(loadFrom, false);
+	         // 	currentLevelDifficulty = switchToDifficulty;
+	         // 	lm.difficulty = currentLevelDifficulty;
+	         // 	pm.SetDifficultyLevel(currentLevelDifficulty);
+	         // }
+	         // GUI.enabled = true;
+
+	         // EditorGUILayout.BeginVertical(GUILayout.Width(defaultGUIWidth));
+	      //   if (GUILayout.Button("Load Stages") ){
+	        	
+	     	// }
+
+	     	EditorGUILayout.BeginHorizontal(GUILayout.Width(defaultGUIWidth));
+	     	for (i=0;i<stages.Count;i++){
+	     		if (GUILayout.Button("Stage "+i) ){
+	     			
+	     			var dataString:String=GameSaveLoad.LoadXMLFile(stages[i]);
+	     			var rawLevelData:LevelData=JsonConvert.DeserializeObject(dataString,typeof(LevelData) );
+	     			// Debug.Log("count: "+ rawLevelData.levels.Count);
+
+	     			lm.levelList=rawLevelData.levels;
+	     		}
+	     	}
+	     	EditorGUILayout.EndHorizontal();
+
+	     	// EditorGUILayout.EndVertical();
+
 	         EditorGUILayout.EndHorizontal();
+	     	
 	         
 	         
 			
@@ -310,7 +344,7 @@ class LevelEditor extends EditorWindow
 		         	
 		         	//EditorGUILayout.LabelField("Random List Count: ",  "" + numRandomFireWorks);
 		         	
-		         	for ( var i : int = 0; i < lm.GetNumRandomFireworks(currentLevelToEdit, 0); i += 1 )
+		         	for ( i = 0; i < lm.GetNumRandomFireworks(currentLevelToEdit, 0); i += 1 )
 		         	{
 		         		lm.SetRandomFWType(currentLevelToEdit, 0, i, EditorGUILayout.EnumPopup("FW Type: ", lm.GetRandomFWType(currentLevelToEdit, 0, i), GUILayout.Width(defaultGUIWidth)));
 		         	}
@@ -727,6 +761,53 @@ class LevelEditor extends EditorWindow
 		     EditorGUILayout.BeginVertical(GUILayout.Width(defaultGUIWidth));
 	         GUILayout.Label("SAVE / LOAD Current Data", EditorStyles.boldLabel);
 
+	         if ( GUILayout.Button("Seralize Level Data") ){
+
+	         	
+	         	var savepath = EditorUtility.SaveFilePanel("Save Level File", Application.persistentDataPath, Application.dataPath, "");
+	         	
+	         	if ( savepath != "" )
+	         	{    
+
+	         		// gSL.SaveLevelData(savepath);
+	         		var levelData:LevelData=new LevelData();
+		         	levelData.levels=new List.<Level>();
+		         	var stageCount:int=0;
+		         	for (i=0;i<lm.levelList.Length;i++){
+		         		levelData.levels.Add(lm.levelList[i]);
+
+		         		for (var j:int=0;j<lm.levelList[i].fireworks.Length;j++){
+		         			if (lm.levelList[i].fireworks[j].levelEndFireWork){
+		         				dataString = JsonConvert.SerializeObject(levelData);
+		         				Debug.Log(dataString);
+		         				// GameData gameDataFromJson= (GameData)JsonConvert.DeserializeObject(dataString,typeof(GameData));
+		         				GameSaveLoad.CreateFile(dataString,savepath+stageCount+".txt");
+		         				//Export the levels
+		         				levelData.levels.Clear();
+		         				Debug.Log("stage idx: "+stageCount);
+		         				stageCount++;
+		         			}
+		         		}
+		         		// if (lm.levels[i].){
+
+		         		// }
+		         	}
+	         		// if ( Wizards.Utils.DEBUG ) Debug.Log("Data Saved: " + savepath);
+	         	}
+	         	else
+	         	{
+	         	if ( Wizards.Utils.DEBUG ) Debug.Log("Data NOT Saved");
+	         	}
+
+	         	
+	         	// var seralizeSavePath:String=Application.dataPath;
+	         	// Debug.Log("Save to: " +Application.dataPath);
+	     	}
+
+	     	if ( GUILayout.Button("Deseralize Level Data") ){
+	     		// var seralizeLoadPath:String=Application.dataPath;
+	         	// Debug.Log("Save to: " +Application.dataPath);
+	     	}	
 	        
 	         if ( GUILayout.Button("Load ALL Data : OLD VERSIONS") )
 	         {
@@ -767,7 +848,7 @@ class LevelEditor extends EditorWindow
 	         if ( GUILayout.Button("Save ALL Data") )
 	         {
 	         	suggestedPath = pm.GetDifficultyPathAndFileName(currentLevelDifficulty);
-	         	var savepath = EditorUtility.SaveFilePanel("Save Level File", Application.persistentDataPath, suggestedPath, "");
+	         	savepath = EditorUtility.SaveFilePanel("Save Level File", Application.persistentDataPath, suggestedPath, "");
 	         	
 	         	if ( savepath != "" )
 	         	{         	

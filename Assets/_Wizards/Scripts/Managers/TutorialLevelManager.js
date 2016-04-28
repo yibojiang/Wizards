@@ -62,7 +62,7 @@ var SFWCount:int=0;
 //stage7
 var stage7_flag:int=0;
 
-var gameState:GameState;
+// var gameState:GameState;
 var tutorialStage:TutorialStage;
 var gm:GameManager;
 
@@ -152,8 +152,12 @@ enum TutorialStage
 
 function Start()
 {
+	gm=GameManager.Instance();
+	//AudioManager
+	audioManager=AudioManager.Instance();
+
 	Time.timeScale=1.0;
-	if (gameState==GameState.Tutorial)
+	if (gm.gameState==GameState.Tutorial)
 	{
 		inputMan = GameObject.Find("InputManager").GetComponent(InputManager) as InputManager;
 		cameraFade=GameObject.Find("Main Camera").GetComponent(CameraFade);
@@ -161,7 +165,7 @@ function Start()
 		
 		fireworkFactory=GameObject.Find("FireworkFactory").GetComponent(FireworkFactory) as FireworkFactory;
 
-		gm=GameObject.Find("GameManager").GetComponent(GameManager) as GameManager;
+		
 		wizard=GameObject.Find("Wizard").GetComponent(WizardControl) as WizardControl;
 		wizardBroom=GameObject.Find("WizardBroom").GetComponent(WizardControl) as WizardControl;
 		arrivalatCastle=GameObject.Find("ArrivalatCastle").GetComponent(exSprite) as exSprite; 
@@ -181,8 +185,7 @@ function Start()
 
 		bgmManager.ChangeBgm(iTween.Hash("source",bgmManager.inGameBGM,"bgm",BGM.STORY));
 		
-		//AudioManager
-		audioManager=AudioManager.Instance();
+		
 		
 		wizardBroom.SetCharacterState(CharacterState.Broom);
 		wizard.SetCharacterState(CharacterState.Stand);
@@ -206,7 +209,7 @@ function Start()
 		LoadStage(0);
 				
 	}
-	else if(gameState==GameState.InGame)
+	else if(gm.gameState==GameState.InGame)
 	{
 		
 	} 
@@ -1739,10 +1742,10 @@ function GotoGame()
 	Application.LoadLevel("LevelLoader");
 }
 
-function SetState(_gameState:GameState)
-{
-	gameState=_gameState;
-}
+// function SetState(_gameState:GameState)
+// {
+// 	gameState=_gameState;
+// }
 
 function GamePause()
 {

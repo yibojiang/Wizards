@@ -154,8 +154,11 @@ function Start()
  	gameFinished=false;
  	//modified:change gamestate in unity editor
 
-	im.SetState(gameState);
-	tm.SetState(gameState);
+	// im.SetState(gameState);
+	// if (tm!=null){
+	// 	tm.SetState(gameState);	
+	// }
+	
 	wizard.SetState(gameState);
 	
 	if (gameState==GameState.Tutorial)
@@ -168,7 +171,10 @@ function Start()
 	else if(gameState==GameState.InGame)
 	{
 		lm.gameObject.active=true;
-		tm.gameObject.active = false;
+		if (tm!=null){
+			tm.gameObject.active = false;	
+		}
+		
 
 		gameOverMessage.gameObject.SetActiveRecursively(false);
 		
@@ -381,7 +387,7 @@ function DoGameFinished()
 	
 	gameState = GameState.PlayingGameOver;
 	GamePause();
-	im.SetState(gameState); // Doesn't seem to affect anything directly in Input Manager.
+	// im.SetState(gameState); // Doesn't seem to affect anything directly in Input Manager.
 	
 	if (!gameFinished)
 	{
@@ -981,18 +987,19 @@ function showComboAward()
 	 
 	if ( currentComboCount >= 3 && currentComboCount <= 5 )
 	{
-		if (tm.tutorialStage==TutorialStage.Stage4 && tm.comboCount==3 && tm.stage4_flag==0 )
-		{
-			tm.stage4_flag=1;
-			
-			Instantiate(starCoin, Vector3(-5, ySpawn, 0), Quaternion.identity);
+		if (gameState==GameState.Tutorial){
+			if (tm.tutorialStage==TutorialStage.Stage4 && tm.comboCount==3 && tm.stage4_flag==0 )
+			{
+				tm.stage4_flag=1;
+				
+				Instantiate(starCoin, Vector3(-5, ySpawn, 0), Quaternion.identity);
+			}
+			else
+			{
+				ShowStarCoins(1);
+			}	
 		}
-		else
-		{
-			ShowStarCoins(1);
-		}
-		
-		if (gameState==GameState.InGame)
+		else if (gameState==GameState.InGame)
 		{
 			am.PlayOneShotAudio(am.javiVoice[Random.Range(4,22)],am.voiceVol);
 			random=Random.Range(0,2);

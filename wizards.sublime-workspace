@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"Deser",
+				"DeserializeObject"
+			],
+			[
+				"Json",
+				"JsonConvert"
+			],
+			[
+				"firew",
+				"fireworks"
+			],
+			[
+				"Leve",
+				"LevelManager"
+			],
+			[
+				"Save",
+				"Saved"
+			],
+			[
 				"playerCamera",
 				"PlayerCameraStopState"
 			],
@@ -494,31 +514,133 @@
 			[
 				"databa",
 				"DatabaseLogic"
-			],
-			[
-				"build",
-				"buildingMaterial"
-			],
-			[
-				"_quse",
-				"_questType"
-			],
-			[
-				"wea",
-				"weaponType"
-			],
-			[
-				"Ve",
-				"Vector3	x, y, z"
-			],
-			[
-				"total",
-				"totalSpeed"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "Assets/_Wizards/Scripts/Managers/LevelManager.js",
+			"settings":
+			{
+				"buffer_size": 48383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Editor/LevelEditor.js",
+			"settings":
+			{
+				"buffer_size": 41793,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Managers/TutorialLevelManager.js",
+			"settings":
+			{
+				"buffer_size": 62546,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Utility/GameSaveLoad.js",
+			"settings":
+			{
+				"buffer_size": 35150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Editor/GameEventEditor.js",
+			"settings":
+			{
+				"buffer_size": 16096,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Managers/EventManager.js",
+			"settings":
+			{
+				"buffer_size": 15549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/GameEvent.js",
+			"settings":
+			{
+				"buffer_size": 3418,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/scripts/CatBoard.js",
+			"settings":
+			{
+				"buffer_size": 3257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Managers/LayerManager.js",
+			"settings":
+			{
+				"buffer_size": 11227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Managers/AudioManager.js",
+			"settings":
+			{
+				"buffer_size": 6978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Managers/ProfileManager.js",
+			"settings":
+			{
+				"buffer_size": 34332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/scripts/ScrollingText.js",
+			"settings":
+			{
+				"buffer_size": 8654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Managers/NewLevelLayersManager.js",
+			"settings":
+			{
+				"buffer_size": 35150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/_Wizards/Scripts/Managers/FireworkFactory.js",
+			"settings":
+			{
+				"buffer_size": 6217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 1042 files for \"GameEvent\"\n\n/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Editor/GameEventEditor.js:\n    6  }\n    7  \n    8: class GameEventEditor extends EditorWindow\n    9  {\n   10  	\n   ..\n   29  	var switchToStage : EStage;\n   30  	\n   31: 	var newEvent : GameEvent;\n   32  	\n   33  	var enableEventRemoval : boolean = false;\n   ..\n   39  	var showStageHeaders : boolean = false;\n   40  	\n   41: 	@MenuItem (\"Wizards/GameEventEditor\")\n   42  	static function ShowWindow ()\n   43      {\n   44:         var gameEventEditor = EditorWindow.GetWindow(GameEventEditor);\n   45:         gameEventEditor.autoRepaintOnSceneChange = false;\n   46:         gameEventEditor.Init();\n   47      }\n   48      \n   ..\n   51      	if ( newEvent == null )\n   52  		{\n   53: 			newEvent = new GameEvent();\n   54  		}\n   55  		if ( scrollPositions == null )\n   ..\n  182     	function TimeSort()\n  183      {\n  184:      	System.Array.Sort(em.events, new GameEventTimeSorter());\n  185      }\n  186  	\n  187  	function StageSort()\n  188      {\n  189:      	System.Array.Sort(em.events, new GameEventStageSorter());\n  190      }    \n  191      \n  192      	\n  193:     function CompareTimes(_one : GameEvent, _two : GameEvent)\n  194      {\n  195      	return ( _one.startTime.CompareTo(_two.startTime) );\n  ...\n  296  		//eventsScrollPosition = EditorGUILayout.BeginScrollView(eventsScrollPosition, false, false, GUILayout.Width(eventsScrollWidth));\n  297  		scrollPositions[currentStage] = EditorGUILayout.BeginScrollView(scrollPositions[currentStage], false, false, GUILayout.Width(eventsScrollWidth));\n  298: 		//for ( var event : GameEvent in em.events )\n  299  		for ( var i : int = 0; i < em.events.length; ++i)\n  300  		{\n  301: 			var event : GameEvent = em.events[i];\n  302: 			//var event : GameEvent = em.events[sortedEvents[i]];\n  303  			\n  304  			if ( event.stage == currentStage )\n  ...\n  429  }\n  430  \n  431: function DisplayEvent(event : GameEvent)\n  432  {\n  433  	if ( showStageHeaders )\n  ...\n  445  	switch ( event.targetFunction )\n  446  	{\n  447: 		case EGameEvent.PauseFireworks:\n  448  			PauseFireworks();\n  449  		break;\n  450  	\n  451: 		case EGameEvent.ResumeFireworks:\n  452  			ResumeFireworks();\n  453  		break;\n  454  \n  455: 		case EGameEvent.Scroll:\n  456  			Scroll(event);\n  457  		break;\n  458  \n  459: 		case EGameEvent.Scale:\n  460  			Scale(event);\n  461  		break;\n  462  	\n  463: 		case EGameEvent.SetScale:\n  464  			SetScale(event);\n  465  		break;\n  466  	\n  467: 		case EGameEvent.ScaleResume:\n  468  			ScaleResume(event);\n  469  		break;\n  470  		\n  471: 		case EGameEvent.ShowCatBoard:\n  472  			ShowCatBoard();\n  473  		break;\n  474  \n  475: 		case EGameEvent.ShowCatBoardOnly:\n  476  			ShowCatBoardOnly();\n  477  		break;\n  478  \n  479: 		case EGameEvent.ShowTitle:\n  480  			ShowTitle();\n  481  		break;\n  482  \n  483: 		case EGameEvent.ShowTitleWithName:\n  484  			ShowTitleWithName(event);\n  485  		break;\n  486  \n  487: 		case EGameEvent.PlayAudio:\n  488  			PlayAudio(event);\n  489  		break;\n  490  \n  491: 		case EGameEvent.PlayInGameBGM:\n  492  			PlayInGameBGM();\n  493  		break;\n  494  \n  495: 		case EGameEvent.ChangeBGM:\n  496  			ChangeBGM(event);\n  497  		break;\n  498  \n  499: 		case EGameEvent.WizardOnTheGround:\n  500  			WizardOnTheGround();\n  501  		break;\n  502  		\n  503: 		case EGameEvent.WizardFly:\n  504  			WizardFly();\n  505  		break;\n  506  				\n  507: 		case EGameEvent.WizardToBackGround:\n  508  			WizardToBackGround();\n  509  		break;\n  510  				\n  511: 		case EGameEvent.WizardBackToLayer:\n  512  			WizardBackToLayer();\n  513  		break;\n  514  				\n  515: 		case EGameEvent.GameFinished:\n  516  			GameFinished();\n  517  		break;\n  518  				\n  519: 		case EGameEvent.SetFireworkZpos:\n  520  			SetFireworkZpos(event);\n  521  		break;\n  ...\n  535  \n  536  	// EditorGUILayout.TextFied(\"LevelName\",GUILayout.Width(eventGUIWidth) );\n  537: 	if (event.targetFunction==EGameEvent.LoadLevelData){\n  538  		event.levelName==GetString(event.levelName, \"LevelName\");\n  539  	}\n  ...\n  598  }\n  599  \n  600: function Scroll(_event : GameEvent)\n  601  {\n  602  	_event.scrollSpeed = EditorGUILayout.FloatField(\"Scroll Speed\", _event.scrollSpeed, GUILayout.Width(eventGUIWidth));	\n  603  }\n  604  \n  605: function Scale(_event : GameEvent)\n  606  {\n  607  	_event.scaleAmount = GetFloat(_event.scaleAmount, \"Scale Amount\");\n  ...\n  609  }\n  610  \n  611: function SetScale(_event : GameEvent)\n  612  {\n  613  	_event.scaleAmount = GetFloat(_event.scaleAmount, \"Scale Amount\");\n  ...\n  615  }\n  616  	\n  617: function ScaleResume(_event : GameEvent)\n  618  {\n  619  	_event.scaleTime = GetFloat(_event.scaleTime, \"Scale Time\");\n  ...\n  635  }\n  636  \n  637: function ShowTitleWithName(_event : GameEvent)\n  638  {\n  639  	_event.title = GetString(_event.title, \"Title\");\n  ...\n  641  }\n  642  \n  643: function PlayAudio(_event : GameEvent)\n  644  {\n  645  	_event.audioEffect = GetAudioEfectType(_event.audioEffect, \"AudioType\");\n  ...\n  652  }\n  653  \n  654: function ChangeBGM(_event : GameEvent)\n  655  {\n  656  	_event.bgMusic = GetBGM(_event.bgMusic, \"BG Music\");\n  ...\n  682  }\n  683  				\n  684: function SetFireworkZpos(_event : GameEvent)\n  685  {\n  686  	_event.zPos = GetFloat(_event.zPos, \"Firework ZPos\");\n\n/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/GameEvent.js:\n   17  }\n   18  \n   19: class GameEventTimeSorter implements IComparer\n   20  {\n   21  	function Compare(a : System.Object, b : System.Object) : int\n   22  	{\n   23: 		if ( !(a instanceof GameEvent) || !(b instanceof GameEvent))\n   24  		{\n   25  			return;\n   26  		}\n   27  		\n   28: 		var eOne : GameEvent = a;\n   29: 		var eTwo : GameEvent = b;\n   30  		\n   31  		return ( eOne.startTime - eTwo.startTime );\n   ..\n   33  }\n   34  \n   35: class GameEventStageSorter implements IComparer\n   36  {\n   37  	function Compare(a : System.Object, b : System.Object) : int\n   38  	{\n   39: 		if ( !(a instanceof GameEvent) || !(b instanceof GameEvent))\n   40  		{\n   41  			return;\n   42  		}\n   43  		\n   44: 		var eOne : GameEvent = a;\n   45: 		var eTwo : GameEvent = b;\n   46  		\n   47  		if ( eOne.stage == eTwo.stage )\n   ..\n   63  }\n   64  \n   65: class GameEvent\n   66  {\n   67  	var eventName : String;\n   68  	var stage : EStage;\n   69: 	var targetFunction : EGameEvent;\n   70  	var triggerType : ETriggerType;\n   71  	\n   ..\n  115  	}\n  116  	\n  117: 	function GetTargetFunction() : EGameEvent\n  118  	{\n  119  		return ( targetFunction );\n  120  	}\n  121  	\n  122: 	function SetTargetFunction(_targetFunction : EGameEvent )\n  123  	{\n  124  		targetFunction = _targetFunction;\n\n/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Managers/EventManager.js:\n   10  }\n   11  \n   12: enum EGameEvent\n   13  {\n   14  	PauseFireworks,\n   ..\n   51  var targets : String[];\n   52  \n   53: var events : GameEvent[];\n   54  var eventCount : int = 0;\n   55  \n   ..\n   95  	functionNameHash = new Hashtable();\n   96  	\n   97: 	functionNameHash.Add(\"PauseFireworks\", EGameEvent.PauseFireworks);\n   98: 	functionNameHash.Add(\"ResumeFireworks\", EGameEvent.ResumeFireworks);\n   99: 	functionNameHash.Add(\"Scroll\", EGameEvent.Scroll);\n  100: 	functionNameHash.Add(\"Scale\", EGameEvent.Scale);\n  101: 	functionNameHash.Add(\"SetScale\", EGameEvent.SetScale);\n  102: 	functionNameHash.Add(\"ScaleResume\", EGameEvent.ScaleResume);\n  103: 	functionNameHash.Add(\"ShowCatBoard\", EGameEvent.ShowCatBoard);\n  104: 	functionNameHash.Add(\"ShowCatBoardOnly\", EGameEvent.ShowCatBoardOnly);\n  105: 	functionNameHash.Add(\"ShowTitle\", EGameEvent.ShowTitle);\n  106: 	functionNameHash.Add(\"ShowTitleWithName\", EGameEvent.ShowTitleWithName);\n  107: 	functionNameHash.Add(\"PlayAudio\", EGameEvent.PlayAudio);\n  108: 	functionNameHash.Add(\"PlayInGameBGM\", EGameEvent.PlayInGameBGM);\n  109: 	functionNameHash.Add(\"ChangeBGM\", EGameEvent.ChangeBGM);\n  110: 	functionNameHash.Add(\"WizardOnTheGround\", EGameEvent.WizardOnTheGround);\n  111: 	functionNameHash.Add(\"WizardFly\", EGameEvent.WizardFly);\n  112: 	functionNameHash.Add(\"WizardBackToLayer\", EGameEvent.WizardBackToLayer);\n  113: 	functionNameHash.Add(\"WizardToBackGround\", EGameEvent.WizardToBackGround);\n  114: 	functionNameHash.Add(\"GameFinished\", EGameEvent.GameFinished);\n  115: 	functionNameHash.Add(\"SetFireworkZpos\", EGameEvent.SetFireworkZpos);\n  116: 	functionNameHash.Add(\"EndOfStage\", EGameEvent.EndOfStage);\n  117: 	functionNameHash.Add(\"StartStage\", EGameEvent.StartStage);\n  118: 	functionNameHash.Add(\"ShowDragonBoss\", EGameEvent.ShowDragonBoss);\n  119: 	functionNameHash.Add(\"PauseFireworksNoDelay\", EGameEvent.PauseFireworksNoDelay);\n  120  	\n  121  	\n  ...\n  167  {\n  168  	if ( Wizards.Utils.DEBUG ) Debug.Log(\"Sorting Stage\");\n  169: 	System.Array.Sort(events, new GameEventStageSorter());\n  170  }\n  171  \n  ...\n  306  			\n  307  			//yield;\n  308: 			//var event : GameEvent = events[i];\n  309  			//eventsChecked++;\n  310  			// early out\n  ...\n  359  }\n  360  \n  361: function TriggerEvent(_event : GameEvent)\n  362  {\n  363  	//if ( Wizards.Utils.DEBUG ) Debug.LogWarning(\"EVENTMANAGER: Event Triggered = \" + _event.stage + \":\" + _event.targetFunction + \" @ \" + gameTime + \" seconds\");\n  364  	switch ( _event.targetFunction )\n  365  	{\n  366: 		case EGameEvent.PauseFireworks:\n  367  			PauseFireworks();\n  368  		break;\n  369  	\n  370: 		case EGameEvent.ResumeFireworks:\n  371  			ResumeFireworks();\n  372  		break;\n  373  \n  374: 		case EGameEvent.Scroll:\n  375  			Scroll(_event);\n  376  		break;\n  377  \n  378: 		case EGameEvent.Scale:\n  379  			Scale(_event);\n  380  		break;\n  381  	\n  382: 		case EGameEvent.SetScale:\n  383  			SetScale(_event);\n  384  		break;\n  385  	\n  386: 		case EGameEvent.ScaleResume:\n  387  			ScaleResume(_event);\n  388  		break;\n  389  		\n  390: 		case EGameEvent.ShowCatBoard:\n  391  			ShowCatBoard();\n  392  		break;\n  393  \n  394: 		case EGameEvent.ShowCatBoardOnly:\n  395  			ShowCatBoardOnly();\n  396  		break;\n  397  \n  398: 		case EGameEvent.ShowTitle:\n  399  			ShowTitle();\n  400  		break;\n  401  \n  402: 		case EGameEvent.ShowTitleWithName:\n  403  			ShowTitleWithName(_event);\n  404  		break;\n  405  \n  406: 		case EGameEvent.PlayAudio:\n  407  			PlayAudio(_event);\n  408  		break;\n  409  \n  410: 		case EGameEvent.PlayInGameBGM:\n  411  			PlayInGameBGM();\n  412  		break;\n  413  \n  414: 		case EGameEvent.ChangeBGM:\n  415  			ChangeBGM(_event);\n  416  		break;\n  417  \n  418: 		case EGameEvent.WizardOnTheGround:\n  419  			WizardOnTheGround();\n  420  		break;\n  421  		\n  422: 		case EGameEvent.WizardFly:\n  423  			WizardFly();\n  424  		break;\n  425  				\n  426: 		case EGameEvent.WizardToBackGround:\n  427  			WizardToBackGround();\n  428  		break;\n  429  				\n  430: 		case EGameEvent.WizardBackToLayer:\n  431  			WizardBackToLayer();\n  432  		break;\n  433  				\n  434: 		case EGameEvent.GameFinished:\n  435  			GameFinished();\n  436  		break;\n  437  				\n  438: 		case EGameEvent.SetFireworkZpos:\n  439  			SetFireworkZpos(_event);\n  440  		break;\n  441  		\n  442: 		case EGameEvent.EndOfStage:\n  443  			EndOfStage();\n  444  		break;\n  445  \n  446: 		case EGameEvent.StartStage:\n  447  			StartStage();\n  448  		break;\n  449  		\n  450: 		case EGameEvent.ShowDragonBoss:\n  451  			ShowDragonBoss();\n  452  		break;\n  453  		\n  454: 		case EGameEvent.PauseFireworksNoDelay:\n  455  			PauseFireworksNoDelay();\n  456: 		case EGameEvent.LoadLevelData:\n  457  			LoadLevelData(_event);\n  458  		break;\n  ...\n  460  }\n  461  \n  462: function LoadLevelData(eventData:GameEvent){\n  463  	lm.LoadLevelData(eventData.levelName);\n  464  }\n  ...\n  480  }\n  481  \n  482: function Scroll(_event : GameEvent)\n  483  {\n  484  	nl.Scroll(_event.scrollSpeed);\n  485  }\n  486  \n  487: function Scale(_event : GameEvent)\n  488  {\n  489  	nl.Scale(_event.scaleAmount, _event.scaleTime);\n  490  }\n  491  \n  492: function SetScale(_event : GameEvent)\n  493  {\n  494  	nl.SetScale(_event.scaleAmount, _event.scaleTime);\n  495  }\n  496  	\n  497: function ScaleResume(_event : GameEvent)\n  498  {\n  499  	nl.ScaleResume( _event.scaleTime);\n  ...\n  517  }\n  518  \n  519: function ShowTitleWithName(_event : GameEvent)\n  520  {\n  521  	nl.ShowTitleWithName(_event.title, _event.subTitle);\n  522  }\n  523  \n  524: function PlayAudio(_event : GameEvent)\n  525  {\n  526  	nl.PlayAudio(_event.audioEffect, _event.volume );\n  ...\n  532  }\n  533  \n  534: function ChangeBGM(_event : GameEvent)\n  535  {\n  536  	nl.ChangeBGM(_event.bgMusic);\n  ...\n  562  }\n  563  				\n  564: function SetFireworkZpos(_event : GameEvent)\n  565  {\n  566  	nl.SetFireworkZpos(_event.zPos);\n  ...\n  592  	//if ( Wizards.Utils.DEBUG ) Debug.LogError(\"Don't call me right now, eventCount not valid useage\");\n  593  	//return;\n  594: 	var eventType : EGameEvent = GetEventTypeByName(_completeFunction);\n  595  	\n  596: 	var event : GameEvent = AddEvent(currentLoadingStage);\n  597  	\n  598  	event.stage = currentLoadingStage;\n  ...\n  604  	switch ( eventType )\n  605  	{\n  606: 		case EGameEvent.Scroll:\n  607  			event.scrollSpeed = _params[\"speed\"];\n  608  		break;\n  609  \n  610: 		case EGameEvent.Scale:\n  611  			event.scaleAmount = _params[\"amount\"];\n  612  			event.scaleTime = _params[\"time\"];\n  613  		break;\n  614  	\n  615: 		case EGameEvent.SetScale:\n  616  			event.scaleAmount = _params[\"amount\"];\n  617  			event.scaleTime = _params[\"time\"];\n  618  		break;\n  619  	\n  620: 		case EGameEvent.ScaleResume:\n  621  			event.scaleTime = _params[\"time\"];\n  622  		break;\n  623  \n  624: 		case EGameEvent.ShowTitleWithName:\n  625  			event.subTitle = _params[\"subTitle\"];\n  626  			event.title = _params[\"title\"];\n  627  		break;\n  628  \n  629: 		case EGameEvent.PlayAudio:\n  630  			event.audioEffect = AudioEffect.CrowdIO;\n  631  			event.volume = _params[\"volume\"];\n  ...\n  633  		break;\n  634  \n  635: 		case EGameEvent.ChangeBGM:\n  636  			event.bgMusic = _params[\"bgm\"];\n  637  		break;\n  638  				\n  639: 		case EGameEvent.SetFireworkZpos:\n  640  			event.zPos = _params[\"Zpos\"];\n  641  		break;\n  ...\n  644  }\n  645  \n  646: function GetEventTypeByName(_completeFunction : String) : EGameEvent\n  647  {\n  648  	return ( functionNameHash[_completeFunction] );\n  ...\n  660  	}\n  661  	\n  662: 	events = new GameEvent[1000];\n  663  	\n  664  	for ( var i : int = 0; i < _numEvents; ++i)\n  665  	{\n  666: 		events[i] = new GameEvent();\n  667  	}\n  668  	\n  ...\n  671  }\n  672  \n  673: function AddEvent(_stage : EStage) : GameEvent\n  674  {\n  675  	var eventAdded : boolean = false;\n  676: 	var newEvent : GameEvent;\n  677  	\n  678  	for ( var event in events )\n  ...\n  681  		{\n  682  			event.stage = _stage;\n  683: 			event.targetFunction = EGameEvent.NewEvent;\n  684  			eventAdded = true;\n  685  			newEvent = event;\n  ...\n  698  }\n  699  \n  700: function AddEvent(_newEvent : GameEvent )\n  701  {\n  702  	//if ( eventCount >= events.Length )\n  ...\n  725  }\n  726  \n  727: function CopyEvent(_from : GameEvent, _to : GameEvent)\n  728  {\n  729  	if ( _from.eventName == \"\" )\n\n/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Utility/EventsSaveLoad.js:\n  158  	for ( var i : int = 0; i < em.events.length; i += 1 )		\n  159  	{\n  160: 		var event : GameEvent = em.events[i];\n  161  \n  162  		AddData(\"\" + event.eventName);\n\n139 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 15390,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -572,10 +694,28 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards4_2/Assets"
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets"
 	],
 	"file_history":
 	[
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/_FireworkMovement/fw_main.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/scripts/LayerSaveAndLoad.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Managers/NewLevelLayersManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Managers/FireworkFactory.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Utility/GameSaveLoad.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/JsonDotNet/Source/Serialization/JsonSerializerInternalBase.cs",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/JsonDotNet/Examples/Tests/JsonTestScript.cs",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/Plugins/Sprite Scripts/Support/EZAnimator.cs",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Editor/LevelEditor.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/InGame/LevelEditorDebugger.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/Plugins/EZ/GUI/Management/UIManager.cs",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Managers/GameManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Managers/InputManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/InGame/AudienceBar2.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/InGame/AudienceBar.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/wizards.sublime-project",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards/Scripts/Managers/LevelManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/Standard Assets/_Wizards/Scripts/Utils.cs",
 		"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards4_2/wizards.sublime-project",
 		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/Data/CoreDataStruct.cs",
 		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/NewMenu/TownPanel.cs",
@@ -685,25 +825,7 @@
 		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BattleItem/BombItem.cs",
 		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BattleItem/InvincibleItem.cs",
 		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BattleItem/IceItem.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BattleItem/HealFishRainItem.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BattleItem/FlashItem.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BattleItem/BlackHoleItem.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BattleItem/WitchBallItem.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/Weapon/Bomb.cs",
-		"/Users/yibojiang/Documents/Programming/Web/SuperStardust/index.html",
-		"/Users/yibojiang/Documents/GameDevelop/OgreSDK/CMakeScripts/ReRunCMake.make",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Editor/CrewEditor.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/WeaponSkills/ScatterSkillController.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/Skill/WeaponSkill.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Editor/SpineAnimatorEditor.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/CatState/FireSkillState.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/Weapon/LauncherController.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/WeaponSkills/LauncherScatterSkillController.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/WeaponSkills/SuperHealFishSkillController.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/Weapon/ShooterController.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BulletEffect/PoisonEffect.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/Weapon/HealFish.cs",
-		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/Weapon/ThrowObject.cs"
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets/Scripts/BattleItem/HealFishRainItem.cs"
 	],
 	"find":
 	{
@@ -714,6 +836,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/yibojiang/Documents/GameDevelop/WizardsProject/Wizards/Assets/_Wizards",
 			"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2b/Assets",
 			"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties/Assets",
 			"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties",
@@ -726,6 +849,67 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"canPauseFireWorks",
+			"CanPauseFireWorks",
+			"canPauseFireWorks",
+			"newLevelLayersManager",
+			"useDifficultyLevels",
+			"Launch",
+			"_lifeSpan",
+			"repeatCount",
+			"IsMoreFireWorks",
+			"GetCurrentLevel",
+			"activePlayList",
+			"GetNextFirework",
+			"autonumber",
+			"PlayList",
+			"activePlayList",
+			"GetNextFirework",
+			"GetFireWork",
+			"GameEvent",
+			"LoadLevelData",
+			"application.",
+			"newLevelLayersManager",
+			"Formation",
+			"PlayList",
+			"levelList",
+			"UserData",
+			"myData",
+			"SerializeObject",
+			"SetCurrentPlayItem",
+			"mediumLevel",
+			"SaveString",
+			"_FileLocation",
+			"FileExists",
+			"fileFound",
+			"GetString",
+			"EGameEvent",
+			"ShowCatBoardOnly",
+			"newevent",
+			"ETriggerType",
+			"state",
+			"gameState",
+			"audienceBar",
+			"RandomColor",
+			"exControl",
+			"fireWorksPaused",
+			"canPauseFireWorks",
+			"ShowCatBoard",
+			"catboard",
+			"GetTravelHeight()",
+			"catboard",
+			"travelHeight",
+			"layerManager",
+			"lm.",
+			"_fullnameandpath",
+			"_FileLocation",
+			"String",
+			"Delete",
+			"CreateText",
+			"String",
+			"LoadLevelData",
+			"iPad Aspect Ratio",
+			"Wizards.Utils.DEBUG",
 			"GetQuestLimit",
 			"getplayer",
 			"LoadLevel",
@@ -792,68 +976,7 @@
 			"crewlevelupqeu",
 			"GetCrewLevelupQuestLimit",
 			"GetLevelupQuestCount",
-			"stone",
-			"Resources",
-			"resource",
-			"CrewLevelupQuest",
-			"questGroup",
-			"GetAvailableQuestCount",
-			"GetQuestCount",
-			"RefreshPanel",
-			"GotoAddQuest",
-			"getquestcount",
-			"questdata",
-			"UpdateTeam",
-			"AddToQuestList",
-			"QuestType",
-			"battleItemLevelups",
-			"SetQuestGroup",
-			"还没选任务",
-			"DoUpdateCatStateButton",
-			"txtTitle",
-			"imgSprite",
-			"init()",
-			"setvalue",
-			"hpbar.setvalue",
-			"setvalue",
-			"generatecat",
-			"intensity",
-			"battleTeam.Sort",
-			"battleTeam",
-			"sort",
-			"CompareCatByOrder",
-			"CompareCatByStartOrder",
-			"sort",
-			"CompareByStartOrder",
-			"CompareCatByStartOrder",
-			"gamestart",
-			"walkToFlag",
-			"battleteam",
-			"CompareByStartOrder",
-			"gamestart",
-			"animLength",
-			"ExitAttackRange",
-			"gamestart",
-			"notInterrupt",
-			"TransitionToTask",
-			"switch",
-			"attackOff",
-			"StandTask",
-			"taskList",
-			"curTask",
-			"taskList",
-			"IsInCameraScreen",
-			"walkFollow",
-			"PopTask",
-			"StopAttack",
-			"anim.SetBool(\"Attacking\",false);",
-			"showEnergyBar",
-			"SetTarget",
-			"offset",
-			"height",
-			"weight",
-			"Collect()",
-			"hpbar.gameObject"
+			"stone"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -896,8 +1019,1137 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Assets/_Wizards/Scripts/Managers/LevelManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								659,
+								659
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/_Wizards/Scripts/Editor/LevelEditor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6324,
+								6324
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3387.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/_Wizards/Scripts/Managers/TutorialLevelManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2583,
+								2583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1975.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/_Wizards/Scripts/Utility/GameSaveLoad.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10157,
+								10157
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5778.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/_Wizards/Scripts/Editor/GameEventEditor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6745,
+								6745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/_Wizards/Scripts/Managers/EventManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1621,
+								1621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3904.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Assets/_Wizards/Scripts/GameEvent.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1672,
+								1672
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 978.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Assets/_Wizards/Scripts/scripts/CatBoard.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Assets/_Wizards/Scripts/Managers/LayerManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10817,
+								10817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 5.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Assets/_Wizards/Scripts/Managers/AudioManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3528,
+								3528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 2320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Assets/_Wizards/Scripts/Managers/ProfileManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30529,
+								30529
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Assets/_Wizards/Scripts/scripts/ScrollingText.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7507,
+								7507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4678.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/_Wizards/Scripts/Managers/LevelManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44099,
+								44099
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 25566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Assets/_Wizards/Scripts/Managers/NewLevelLayersManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2456,
+								2456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Assets/_Wizards/Scripts/Managers/FireworkFactory.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5127,
+								5127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/_Wizards/Scripts/Editor/LevelEditor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41039,
+								41069
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 28.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/_Wizards/Scripts/Editor/GameEventEditor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12103,
+								12103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 35.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/_Wizards/Scripts/Managers/EventManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9785,
+								9785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15390,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										181,
+										190
+									],
+									[
+										310,
+										319
+									],
+									[
+										471,
+										480
+									],
+									[
+										559,
+										568
+									],
+									[
+										600,
+										609
+									],
+									[
+										633,
+										642
+									],
+									[
+										698,
+										707
+									],
+									[
+										825,
+										834
+									],
+									[
+										985,
+										994
+									],
+									[
+										1119,
+										1128
+									],
+									[
+										1226,
+										1235
+									],
+									[
+										1244,
+										1253
+									],
+									[
+										1662,
+										1671
+									],
+									[
+										1779,
+										1788
+									],
+									[
+										1829,
+										1838
+									],
+									[
+										1985,
+										1994
+									],
+									[
+										2108,
+										2117
+									],
+									[
+										2202,
+										2211
+									],
+									[
+										2297,
+										2306
+									],
+									[
+										2379,
+										2388
+									],
+									[
+										2460,
+										2469
+									],
+									[
+										2547,
+										2556
+									],
+									[
+										2641,
+										2650
+									],
+									[
+										2730,
+										2739
+									],
+									[
+										2827,
+										2836
+									],
+									[
+										2910,
+										2919
+									],
+									[
+										3014,
+										3023
+									],
+									[
+										3102,
+										3111
+									],
+									[
+										3193,
+										3202
+									],
+									[
+										3281,
+										3290
+									],
+									[
+										3382,
+										3391
+									],
+									[
+										3469,
+										3478
+									],
+									[
+										3574,
+										3583
+									],
+									[
+										3677,
+										3686
+									],
+									[
+										3770,
+										3779
+									],
+									[
+										3978,
+										3987
+									],
+									[
+										4136,
+										4145
+									],
+									[
+										4330,
+										4339
+									],
+									[
+										4482,
+										4491
+									],
+									[
+										4638,
+										4647
+									],
+									[
+										4793,
+										4802
+									],
+									[
+										4928,
+										4937
+									],
+									[
+										5087,
+										5096
+									],
+									[
+										5236,
+										5245
+									],
+									[
+										5449,
+										5458
+									],
+									[
+										5607,
+										5616
+									],
+									[
+										5636,
+										5645
+									],
+									[
+										5718,
+										5727
+									],
+									[
+										5753,
+										5762
+									],
+									[
+										5867,
+										5876
+									],
+									[
+										6026,
+										6035
+									],
+									[
+										6055,
+										6064
+									],
+									[
+										6137,
+										6146
+									],
+									[
+										6172,
+										6181
+									],
+									[
+										6274,
+										6283
+									],
+									[
+										6383,
+										6392
+									],
+									[
+										6508,
+										6517
+									],
+									[
+										6637,
+										6646
+									],
+									[
+										6845,
+										6854
+									],
+									[
+										6953,
+										6962
+									],
+									[
+										7114,
+										7123
+									],
+									[
+										7190,
+										7199
+									],
+									[
+										7258,
+										7267
+									],
+									[
+										7316,
+										7325
+									],
+									[
+										7376,
+										7385
+									],
+									[
+										7442,
+										7451
+									],
+									[
+										7512,
+										7521
+									],
+									[
+										7587,
+										7596
+									],
+									[
+										7659,
+										7668
+									],
+									[
+										7732,
+										7741
+									],
+									[
+										7805,
+										7814
+									],
+									[
+										7874,
+										7883
+									],
+									[
+										7943,
+										7952
+									],
+									[
+										8016,
+										8025
+									],
+									[
+										8089,
+										8098
+									],
+									[
+										8162,
+										8171
+									],
+									[
+										8244,
+										8253
+									],
+									[
+										8321,
+										8330
+									],
+									[
+										8395,
+										8404
+									],
+									[
+										8467,
+										8476
+									],
+									[
+										8534,
+										8543
+									],
+									[
+										8605,
+										8614
+									],
+									[
+										8687,
+										8696
+									],
+									[
+										8855,
+										8864
+									],
+									[
+										8957,
+										8966
+									],
+									[
+										9093,
+										9102
+									],
+									[
+										9347,
+										9356
+									],
+									[
+										9441,
+										9450
+									],
+									[
+										9536,
+										9545
+									],
+									[
+										9619,
+										9628
+									],
+									[
+										9701,
+										9710
+									],
+									[
+										9789,
+										9798
+									],
+									[
+										9884,
+										9893
+									],
+									[
+										9973,
+										9982
+									],
+									[
+										10070,
+										10079
+									],
+									[
+										10153,
+										10162
+									],
+									[
+										10258,
+										10267
+									],
+									[
+										10347,
+										10356
+									],
+									[
+										10438,
+										10447
+									],
+									[
+										10527,
+										10536
+									],
+									[
+										10628,
+										10637
+									],
+									[
+										10715,
+										10724
+									],
+									[
+										10820,
+										10829
+									],
+									[
+										10923,
+										10932
+									],
+									[
+										11016,
+										11025
+									],
+									[
+										11119,
+										11128
+									],
+									[
+										11204,
+										11213
+									],
+									[
+										11291,
+										11300
+									],
+									[
+										11386,
+										11395
+									],
+									[
+										11469,
+										11478
+									],
+									[
+										11606,
+										11615
+									],
+									[
+										11729,
+										11738
+									],
+									[
+										11836,
+										11845
+									],
+									[
+										11963,
+										11972
+									],
+									[
+										12097,
+										12106
+									],
+									[
+										12226,
+										12235
+									],
+									[
+										12359,
+										12368
+									],
+									[
+										12495,
+										12504
+									],
+									[
+										12621,
+										12630
+									],
+									[
+										12840,
+										12849
+									],
+									[
+										12920,
+										12929
+									],
+									[
+										13075,
+										13084
+									],
+									[
+										13180,
+										13189
+									],
+									[
+										13331,
+										13340
+									],
+									[
+										13485,
+										13494
+									],
+									[
+										13592,
+										13601
+									],
+									[
+										13750,
+										13759
+									],
+									[
+										13911,
+										13920
+									],
+									[
+										14017,
+										14026
+									],
+									[
+										14189,
+										14198
+									],
+									[
+										14310,
+										14319
+									],
+									[
+										14423,
+										14432
+									],
+									[
+										14522,
+										14531
+									],
+									[
+										14606,
+										14615
+									],
+									[
+										14745,
+										14754
+									],
+									[
+										14882,
+										14891
+									],
+									[
+										15005,
+										15014
+									],
+									[
+										15022,
+										15031
+									],
+									[
+										15288,
+										15297
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								6276,
+								6276
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3085.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -918,11 +2170,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -954,6 +2213,134 @@
 		"selected_items":
 		[
 			[
+				"eventma",
+				"_Wizards/Scripts/Managers/EventManager.js"
+			],
+			[
+				"fw_main",
+				"_Wizards/Scripts/_FireworkMovement/fw_main.js"
+			],
+			[
+				"levelma",
+				"_Wizards/Scripts/Managers/LevelManager.js"
+			],
+			[
+				"evented",
+				"_Wizards/Scripts/Editor/GameEventEditor.js"
+			],
+			[
+				"",
+				"_Wizards/Scripts/Managers/EventManager.js"
+			],
+			[
+				"firework",
+				"_Wizards/Scripts/Managers/FireworkFactory.js"
+			],
+			[
+				"leveled",
+				"_Wizards/Scripts/Editor/LevelEditor.js"
+			],
+			[
+				"level",
+				"_Wizards/Scripts/Managers/LevelManager.js"
+			],
+			[
+				"gameevened",
+				"_Wizards/Scripts/Editor/GameEventEditor.js"
+			],
+			[
+				"gamesav",
+				"_Wizards/Scripts/Utility/GameSaveLoad.js"
+			],
+			[
+				"jsondotnet",
+				"JsonDotNet/Source/Serialization/JsonSerializerInternalBase.cs"
+			],
+			[
+				"jsondonet",
+				"JsonDotNet/Examples/Tests/JsonTestScript.cs"
+			],
+			[
+				"levelman",
+				"_Wizards/Scripts/Managers/LevelManager.js"
+			],
+			[
+				"gamesave",
+				"_Wizards/Scripts/Utility/GameSaveLoad.js"
+			],
+			[
+				"leveed",
+				"_Wizards/Scripts/InGame/LevelEditorDebugger.js"
+			],
+			[
+				"gameeve",
+				"_Wizards/Scripts/GameEvent.js"
+			],
+			[
+				"gameeven",
+				"_Wizards/Scripts/Editor/GameEventEditor.js"
+			],
+			[
+				"uimana",
+				"Plugins/EZ/GUI/Management/UIManager.cs"
+			],
+			[
+				"inputma",
+				"_Wizards/Scripts/Managers/InputManager.js"
+			],
+			[
+				"tutorialmanager",
+				"_Wizards/Scripts/Managers/TutorialLevelManager.js"
+			],
+			[
+				"tutoriallel",
+				"_Wizards/Scripts/Managers/TutorialLevelManager.js"
+			],
+			[
+				"gameevented",
+				"_Wizards/Scripts/Editor/GameEventEditor.js"
+			],
+			[
+				"lele",
+				"_Wizards/Scripts/Editor/LevelEditor.js"
+			],
+			[
+				"fireworkfa",
+				"_Wizards/Scripts/Managers/FireworkFactory.js"
+			],
+			[
+				"audienceba",
+				"_Wizards/Scripts/InGame/AudienceBar.js"
+			],
+			[
+				"audiencebar",
+				"_Wizards/Scripts/InGame/AudienceBar2.js"
+			],
+			[
+				"newlevell",
+				"_Wizards/Scripts/Managers/NewLevelLayersManager.js"
+			],
+			[
+				"catboar",
+				"_Wizards/Scripts/scripts/CatBoard.js"
+			],
+			[
+				"layermanager",
+				"_Wizards/Scripts/Managers/LayerManager.js"
+			],
+			[
+				"gamema",
+				"_Wizards/Scripts/Managers/GameManager.js"
+			],
+			[
+				"scrollin",
+				"_Wizards/Scripts/scripts/ScrollingText.js"
+			],
+			[
+				"audio",
+				"_Wizards/Scripts/Managers/AudioManager.js"
+			],
+			[
 				"coredata",
 				"Assets/Scripts/Data/CoreDataStruct.cs"
 			],
@@ -980,10 +2367,6 @@
 			[
 				"databaseed",
 				"Assets/Editor/DatabaseEditor.cs"
-			],
-			[
-				"gamema",
-				"Assets/Scripts/Manager/GameManager.cs"
 			],
 			[
 				"coreda",
@@ -1340,130 +2723,6 @@
 			[
 				"catc",
 				"Assets/SpineTest/Script/CatController.cs"
-			],
-			[
-				"levell",
-				"Assets/Scripts/LevelManager/LevelLoader.cs"
-			],
-			[
-				"camerac",
-				"Assets/Scripts/Manager/CameraController.cs"
-			],
-			[
-				"camerafa",
-				"Assets/Scripts/UI/CameraFade.cs"
-			],
-			[
-				"camerafadee",
-				"Assets/Scripts/UI/CameraFadeEffect.cs"
-			],
-			[
-				"throwhealf",
-				"Assets/Scripts/Weapon/ThrowHealFishController.cs"
-			],
-			[
-				"catlead",
-				"Assets/Scripts/Mob/CatLeader.cs"
-			],
-			[
-				"basepla",
-				"Assets/Scripts/Manager/BasePlayer.cs"
-			],
-			[
-				"attackread",
-				"Assets/Scripts/Animation/AttackReadyBehaviour.cs"
-			],
-			[
-				"leveled",
-				"Assets/Editor/LevelEditor.cs"
-			],
-			[
-				"catlea",
-				"Assets/Scripts/Mob/CatLeader.cs"
-			],
-			[
-				"fishbo",
-				"Assets/Scripts/BattleItem/FishBox.cs"
-			],
-			[
-				"leader",
-				"Assets/Scripts/Weapon/LeaderWeaponController.cs"
-			],
-			[
-				"fish",
-				"Assets/Scripts/BattleItem/FishBox.cs"
-			],
-			[
-				"healfishcon",
-				"Assets/Scripts/BattleItem/HealFishControlItem.cs"
-			],
-			[
-				"fishbox",
-				"Assets/Scripts/BattleItem/FishBox.cs"
-			],
-			[
-				"superbu",
-				"Assets/Scripts/WeaponSkills/SuperBubbleShieldSkillController.cs"
-			],
-			[
-				"throwfishc",
-				"Assets/Scripts/Weapon/ThrowHealFishController.cs"
-			],
-			[
-				"camerastop",
-				"Assets/Scripts/Trigger/CameraStop.cs"
-			],
-			[
-				"gamelevel",
-				"Assets/Scripts/DataHelper/GameLevel.cs"
-			],
-			[
-				"gameman",
-				"Assets/Scripts/Manager/GameManager.cs"
-			],
-			[
-				"uiel",
-				"Assets/Scripts/UI/UIElement.cs"
-			],
-			[
-				"uiele",
-				"Assets/Scripts/UI/UIElement.cs"
-			],
-			[
-				"catcn",
-				"Assets/SpineTest/Script/CatController.cs"
-			],
-			[
-				"specialattackbe",
-				"Assets/Scripts/Animation/SpecialAttackBehaviour.cs"
-			],
-			[
-				"specialattackrea",
-				"Assets/Scripts/Animation/SpecialAttackReadyBehaviour.cs"
-			],
-			[
-				"mmob",
-				"Assets/Scripts/Mob/Mob.cs"
-			],
-			[
-				"gameover",
-				"Assets/Scripts/UI/Panel/GameOverPanel.cs"
-			],
-			[
-				"energy",
-				"Assets/Scripts/UI/EnergyBar.cs"
-			],
-			[
-				"camerafade",
-				"Assets/Scripts/UI/CameraFadeEffect.cs"
-			],
-			[
-				"lead",
-				"Assets/Scripts/Mob/CatLeader.cs"
-			],
-			[
-				"sepcialatta",
-				"Assets/Scripts/Animation/SpecialAttackReadyBehaviour.cs"
 			]
 		],
 		"width": 0.0
@@ -1491,14 +2750,14 @@
 	},
 	"select_symbol":
 	{
-		"height": 392.0,
+		"height": 67.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 584.0
+		"width": 392.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

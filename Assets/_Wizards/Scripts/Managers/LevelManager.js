@@ -1,3 +1,5 @@
+import System.Collections.Generic;
+import Newtonsoft.Json;
 private static var instance : LevelManager;
  
 public static function Instance() : LevelManager{
@@ -12,7 +14,7 @@ var launchedFirework : GameObject;
 
 private var ff : FireworkFactory;
 
-var currentFirework : FireWork;
+private var currentFirework : FireWork;
 
 var levelIntervalTimer : float = 0.0;
 var nextLevelTime : float = 0.0;
@@ -24,7 +26,7 @@ var allLaunched : boolean = false;
 var masterTimer : float = 0.0;
 
 var levelBeingEdited : int = 0;
-var actualLevels : int = 3;
+// var actualLevels : int = 3;
 
 var testFireWorkLevel : boolean = false;
 
@@ -36,14 +38,14 @@ var newLevel : boolean = true;
 //var LevelOne : Level;
 
 
-var maxLevelCount : int = 100;
+// var maxLevelCount : int = 100;
 
 // public class LevelData{
 	
 // }
 
 
-var levelList : Level[];
+var levelList : List.<Level>;
 
 
 var playList : PlayList;
@@ -54,7 +56,7 @@ var testPlayList : PlayList;
 
 var activePlayList : PlayList;
 
-var audienceBar : AudienceBar;
+// var audienceBar : AudienceBar;
 
 var fireWorksPaused : boolean = false;
 
@@ -73,11 +75,18 @@ var forcedDifficultyLevel : EDifficulty;
 
 
 
-var gSL : GameSaveLoad;
+// var gSL : GameSaveLoad;
 
 var tutorialMode : boolean = true;
 
 var levelEndFireWorksFound : int = 0;
+
+
+
+//Container for seralization
+class LevelData{
+	var levels:List.<Level>;
+}
 
 class Level
 {
@@ -320,7 +329,6 @@ class Formation
 	function GetNextLevel() : int
 	{
 		currentLevel += 1;
-		
 		return ( GetLevel(currentLevel) );
 	}
 	
@@ -333,17 +341,22 @@ class Formation
 	{
 		if ( _level >= levelSequence.length )
 		{
-			//if ( Wizards.Utils.DEBUG ) Debug.LogWarning("Error: Not that many levels in this sequence");
+			if ( Wizards.Utils.DEBUG ) Debug.LogWarning("Error: Not that many levels in this sequence");
 			return ( -1 );
 		}
 		
 		if ( _level < 0 )
 		{
-			//if ( Wizards.Utils.DEBUG ) Debug.LogWarning("Error: Level index must be >= 0");
+			if ( Wizards.Utils.DEBUG ) Debug.LogWarning("Error: Level index must be >= 0");
 			return ( -1 );
 		}
 		
+
 		return ( levelSequence[_level] );
+	}
+
+	function ResetLevel(){
+		currentLevel=0;
 	}
 }
 
@@ -376,7 +389,7 @@ function Start()
 	newLevelLayersManager=NewLevelLayersManager.Instance();
 	
 	ff=GameObject.Find("FireworkFactory").GetComponent(FireworkFactory) as FireworkFactory;
-	if ( levelList.Length > 0 )
+	if ( levelList.Count > 0 )
 	{
 		levelsCreated = true;
 		levelsInitialised = true;
@@ -411,7 +424,7 @@ function ValidateLevelEndFireWorks()
 {
 	var levelEndFireWorkCount : int = 0;
 	
-	for ( var i : int = 0; i < levelList.Length; ++i )
+	for ( var i : int = 0; i < levelList.Count; ++i )
 	{
 		if ( levelList[i].fireworks[0].levelEndFireWork	== true )
 		{
@@ -520,7 +533,7 @@ function Update ()
 		
 		if ( levelsCreated == false )
 		{
-			if ( levelList.Length > 0 )
+			if ( levelList.Count > 0 )
 			{
 				levelsCreated = true;
 			}
@@ -551,20 +564,25 @@ function Update ()
 		{
 			if ( IsThereMoreFireworks() == true && currentFirework != null && allLaunched == false )
 			{		
+
 				fireworkIntervalTimer += Time.deltaTime;
 			
 				if ( fireworkIntervalTimer > nextLaunchTime )
 				{
+					// Debug.Log("Launch Firework");
 					Launch(currentFirework);
 					
-					currentFirework = GetNextFirework();
-					if (levelCount!=null)
-						levelCount.text=""+activePlayList.GetCurrentLevel();
-						if (levelName!=null)
-						levelName.text=""+levelList[activePlayList.GetCurrentLevel()].levelName;
-						
-					//if ( Wizards.Utils.DEBUG ) Debug.Log( activePlayList.GetCurrentLevel());
 					
+					currentFirework = GetNextFirework();
+					if (levelCount!=null){
+						levelCount.text=""+activePlayList.GetCurrentLevel();
+					}
+						
+					if (levelName!=null){
+						levelName.text=""+levelList[activePlayList.GetCurrentLevel()].levelName;	
+					}
+												
+					//if ( Wizards.Utils.DEBUG ) Debug.Log( activePlayList.GetCurrentLevel());
 					
 					fireworkIntervalTimer = 0.0;
 					
@@ -588,6 +606,8 @@ function IsThereMoreFireworks() : boolean
 	}
 	else
 	{
+
+
 		if ( Wizards.Utils.DEBUG ) Debug.Log("playlistIstheremoreLevels Returned FALSE");
 		if ( Wizards.Utils.DEBUG ) Debug.Log("About to call levellist.IsMoreFireWorks");
 		
@@ -600,15 +620,16 @@ function IsThereMoreFireworks() : boolean
 		
 		if (levelList[activePlayList.GetCurrentLevel()].IsMoreFireWorks() == true )
 		{
+			// if ( Wizards.Utils.DEBUG ) Debug.Log("true 1");
 			return ( true );
 		}
-		else if ( repeatCount < levelList[activePlayList.GetCurrentLevel()].repeatCount)
-		{
+		else if ( repeatCount < levelList[activePlayList.GetCurrentLevel()].repeatCount){
+		// 	if ( Wizards.Utils.DEBUG ) Debug.Log("repeatCount :"+repeatCount+"/"+ levelList[activePlayList.GetCurrentLevel()].repeatCount );
 			return ( true );
 		}		
 		else
 		{
-			//if ( Wizards.Utils.DEBUG ) Debug.Log("playlistIstheremorefireworks Returned FALSE");
+			// if ( Wizards.Utils.DEBUG ) Debug.Log("playlistIstheremorefireworks Returned FALSE");
 			allLaunched = true;
 			return ( false );
 		}
@@ -676,26 +697,46 @@ function SetCurrentLevelBeingEdited(_level : int)
 
 function GetNumLevels() : int
 {
-	return ( levelList.Length );
+	return ( levelList.Count );
 }
 
 function SetNumLevels(_num : int)
 {
-    if ( Wizards.Utils.DEBUG ) Debug.Log("Setting levels to : " + maxLevelCount);
-	levelList = new Level[maxLevelCount];
+    // if ( Wizards.Utils.DEBUG ) Debug.Log("Setting levels to : " + maxLevelCount);
+	// levelList = new Level[maxLevelCount];
 	
-	for ( var i : int = 0; i < maxLevelCount; i += 1)
+	for ( var i : int = 0; i < _num; i += 1)
 	{
-		levelList[i] = new Level();
+		var lv:Level = new Level();
 		levelList[i].levelName = "" + (i + 1);
 		levelList[i].fireworks = new FireWork[1];
 		levelList[i].fireworks[0] = new FireWork();
 		levelList[i].fireworks[0].fireworkName = "FireWork 1";
 		levelList[i].fireworks[0].randomPaths = new flightPath[flightPath.MAX];
+		levelList.Add(lv);
 	}
 	
-	actualLevels = _num;
+	// actualLevels = _num;
 	levelsCreated = true;
+}
+
+function LoadLevelData(stageName:String){
+
+	var ta:TextAsset=Resources.Load("SerializedData/LevelData/"+stageName);
+
+	var dataString:String=ta.text;
+	var rawLevelData:LevelData=JsonConvert.DeserializeObject(dataString,typeof(LevelData) );	
+	levelList=rawLevelData.levels;
+
+
+	playList.playItems[0].levelSequence=new int[levelList.Count];
+	for ( var i : int = 0; i < levelList.Count; i++ )
+	{
+		playList.playItems[0].levelSequence[i] = i;
+		playList.playItems[0].ResetLevel();
+		activePlayList=playList;
+	}
+	currentFirework=GetNextFirework();
 }
 
 function GetLevelName(_levelNum : int) : String
@@ -735,9 +776,9 @@ function ValidateLevel(_level : int) : boolean
 {
 	//if ( Wizards.Utils.DEBUG ) Debug.Log("VL : " + _level);
 	
-		if ( levelList.Length > 0 &&
+		if ( levelList.Count > 0 &&
 		 _level >= 0 &&
-		 _level < levelList.Length )
+		 _level < levelList.Count )
 	 {
 		if ( levelList[_level].fireworks.Length == 0 )
 	 	{
@@ -1221,7 +1262,7 @@ function ValidSpeedY(_y : int) : int
 
 function GetMaxLevelNumber() : int
 {
-	return ( levelList.Length - 1 );
+	return ( levelList.Count - 1 );
 }
 
 function GetVisualType(_level : int, _fwNum : int ) : VisualEffect
@@ -1683,7 +1724,7 @@ function GetAllLaunched() : boolean
 function CreateLevels()
 {
 	if ( Wizards.Utils.DEBUG ) Debug.Log("Create Levels Called");
-	levelList = new Level[maxLevelCount];
+	levelList = new List.<Level>();
 	levelsCreated = true;
 }
 
@@ -1691,7 +1732,7 @@ function InitLevels()
 {
 	if ( Wizards.Utils.DEBUG ) Debug.Log("lm:InitLevels Called");
 	
-	for ( var i : int = 0; i < maxLevelCount ; i += 1)
+	for ( var i : int = 0; i < 100 ; i += 1)
 	{
 		if ( Wizards.Utils.DEBUG ) Debug.Log("level" + i);
 		levelList[i].levelName = "Level_" + i;
@@ -1743,7 +1784,7 @@ function InitLevels()
 
 function DoInit()
 {
-	if ( levelList.length == 0 )
+	if ( levelList.Count == 0 )
 	{
 		//InitLevels();
 		// Or Load Levels
@@ -1771,6 +1812,7 @@ function DoInit()
 			activePlayList.playItems[i].formationName = "Formation_" + i;
 		}
 		*/
+
 	}
 	
 	if ( Application.platform == RuntimePlatform.IPhonePlayer ||
@@ -1791,7 +1833,7 @@ function DoInit()
 	
 	masterTimer = 0.0;
 	
-	//audienceBar.SetApproval(50);
+	
 
 	allLaunched = !allLaunched;
 }
@@ -1897,7 +1939,7 @@ function Launch(_firework : FireWork)
 	var lifeSpan : float;
 	
 	lifeSpan = Random.Range(_firework.lifeSpanMin, _firework.lifeSpanMax);
-	
+	// Debug.Log(lifeSpan+": "+_firework.lifeSpanMin+"/"+_firework.lifeSpanMax);
 	if ( _firework.randomStartPos == false )
 	{
 		//if ( Wizards.Utils.DEBUG ) Debug.Log(_firework.StartPos);
@@ -1985,7 +2027,7 @@ function Launch(_firework : FireWork)
 
 function InsertLevel(_currentLevel : int)
 {
-	for ( var i : int = levelList.length - 2; i >= _currentLevel; --i )
+	for ( var i : int = levelList.Count - 2; i >= _currentLevel; --i )
 	{
 		CopyLevel(i + 1, i);
 	}
@@ -1994,7 +2036,7 @@ function InsertLevel(_currentLevel : int)
 
 function InsertBlank(_levelNum : int)
 {
-	for ( var i : int = levelList.length - 2; i >= _levelNum; --i )
+	for ( var i : int = levelList.Count - 2; i >= _levelNum; --i )
 	{
 		CopyLevel(i + 1, i);
 	}
@@ -2002,7 +2044,7 @@ function InsertBlank(_levelNum : int)
 
 function DeleteLevel(_currentLevel : int)
 {
-	for ( var i : int = _currentLevel; i < levelList.length - 1; ++i )
+	for ( var i : int = _currentLevel; i < levelList.Count - 1; ++i )
 	{
 		CopyLevel(i, i + 1);
 	}

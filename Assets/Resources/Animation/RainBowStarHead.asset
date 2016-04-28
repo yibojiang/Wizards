@@ -13,27 +13,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wrapMode: 1
   stopAction: 0
-  length: .833333373
+  length: 0.8333334
   sampleRate_: 60
   frameInfos:
   - textureGUID: 92203cb96c8485b4f855793b95a99951
-    length: .166666672
+    length: 0.16666667
     atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
     index: 33
   - textureGUID: 4c6f4da00317ce44685078f884ff52be
-    length: .166666672
+    length: 0.16666667
     atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
     index: 34
   - textureGUID: 79e442c84319c5e4d89eddd45a31c52d
-    length: .166666672
+    length: 0.16666667
     atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
     index: 35
   - textureGUID: 53dd72bd8a0d7014d99e4067af32f795
-    length: .166666672
+    length: 0.16666667
     atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
     index: 36
   - textureGUID: b90357e57bc0982439a1379a2662f075
-    length: .166666672
+    length: 0.16666667
     atlas: {fileID: 11400000, guid: cf6a4d6b6b4cd478aa624d0c8a2ad82d, type: 2}
     index: 37
   eventInfos: []

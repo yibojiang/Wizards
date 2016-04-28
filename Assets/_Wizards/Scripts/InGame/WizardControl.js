@@ -594,7 +594,9 @@ function Update ()
 	{
 		case CharacterState.Broom:
 			//iTween.MoveBy(this.gameObject,iTween.Hash("time",0.8,"y",0.5,"easetype",iTween.EaseType.easeInQuad,"looptype",iTween.LoopType.pingPong) );
-			if (tm.stage4_flag==2 && tm.scrollingText.dialogOver && Mathf.Abs(myTransform.position.x)>0.1)
+
+			if (tm!=null){
+				if (tm.stage4_flag==2 && tm.scrollingText.dialogOver && Mathf.Abs(myTransform.position.x)>0.1)
 			{
 				//fly
 				
@@ -604,41 +606,43 @@ function Update ()
 					tm.stage4_flag=3;
 					tm.canTilt=true;
 				}
+				}
+				else if (tm.canTilt && gameState==GameState.Tutorial || gameState==GameState.InGame )
+				{
+					if (tm.stage4_flag==4 && Mathf.Abs(myTransform.position.x-myTransform.parent.position.x)>5)
+					{
+						tm.stage4_flag=5;
+					}
+					
+					if ( tm.stage4_flag == 4 )
+					{
+						tm.stage4_flag=5;
+					}
+					
+					#if UNITY_EDITOR
+					if (tm.stage4_flag==4 )
+					{
+						tm.stage4_flag=5;
+					}
+					#endif
+					
+					myTransform.rotation = Quaternion.Slerp(myTransform.rotation, Quaternion.Euler (0, 0, 0), 3*Time.deltaTime);
+					if (actualAccel.x < -0.05 && myTransform.position.x >= -8.0 )
+					{
+						rotateAmount=-actualAccel.x*150*Time.deltaTime;				
+						myTransform.Rotate(0,0,rotateAmount);
+						myTransform.position.x += Time.deltaTime * actualAccel.x * moveSpeed;
+					}
+					
+					if ( actualAccel.x > 0.05 && myTransform.position.x <= 8.0 )
+					{
+						rotateAmount=-actualAccel.x*150*Time.deltaTime;				
+						myTransform.Rotate(0,0,rotateAmount);
+						myTransform.position.x += Time.deltaTime * actualAccel.x * moveSpeed;
+					}
+				}
 			}
-			else if (tm.canTilt && gameState==GameState.Tutorial || gameState==GameState.InGame )
-			{
-				if (tm.stage4_flag==4 && Mathf.Abs(myTransform.position.x-myTransform.parent.position.x)>5)
-				{
-					tm.stage4_flag=5;
-				}
-				
-				if ( tm.stage4_flag == 4 )
-				{
-					tm.stage4_flag=5;
-				}
-				
-				#if UNITY_EDITOR
-				if (tm.stage4_flag==4 )
-				{
-					tm.stage4_flag=5;
-				}
-				#endif
-				
-				myTransform.rotation = Quaternion.Slerp(myTransform.rotation, Quaternion.Euler (0, 0, 0), 3*Time.deltaTime);
-				if (actualAccel.x < -0.05 && myTransform.position.x >= -8.0 )
-				{
-					rotateAmount=-actualAccel.x*150*Time.deltaTime;				
-					myTransform.Rotate(0,0,rotateAmount);
-					myTransform.position.x += Time.deltaTime * actualAccel.x * moveSpeed;
-				}
-				
-				if ( actualAccel.x > 0.05 && myTransform.position.x <= 8.0 )
-				{
-					rotateAmount=-actualAccel.x*150*Time.deltaTime;				
-					myTransform.Rotate(0,0,rotateAmount);
-					myTransform.position.x += Time.deltaTime * actualAccel.x * moveSpeed;
-				}
-			}
+			
 			break;
 		
 		

@@ -98,6 +98,9 @@ class GameEvent
 	
 	// Helper variable - no need to save and load
 	var confirmRemove : boolean = false;
+
+	// Load Level Data Name.
+	var levelName:String;
 	
 
 		

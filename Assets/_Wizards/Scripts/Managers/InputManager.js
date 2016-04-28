@@ -16,7 +16,7 @@ var wizard : WizardControl;
 
 // private var gm : GameManager;
 
-var state : GameState;
+// var state : GameState;
 
 
 private var pm:ProfileManager;
@@ -73,6 +73,7 @@ function Start()
 {
 	//InitSwords();
 	pm=ProfileManager.Instance();
+	var gm:GameManager=GameManager.Instance();
 	touched=false;
 
 	var wandCode:int=pm.GetWandBitmask();
@@ -114,7 +115,7 @@ function Start()
 		quickExplode = true;
 	}
 	
-	if (state==GameState.Tutorial)
+	if (gm.gameState==GameState.Tutorial)
 	{
 		quickExplode=false;
 		inputMode=InputMode.TapMode;
@@ -384,8 +385,8 @@ function ExplodeAllFireworks()
 	
 }
 
-function SetState(_state : GameState)
-{
-	state = _state;
-}
+// function SetState(_state : GameState)
+// {
+// 	state = _state;
+// }
 
